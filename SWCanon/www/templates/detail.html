@@ -1,0 +1,19 @@
+<ion-header-bar class="bar-dark">
+	<h2 class="title">Details</h2>
+</ion-header-bar>
+
+<ion-view>
+	<ion-content>
+		<!-- list for capability of showing details of multiple items -->
+		<ion-list class="list-inset">
+			<ion-item class="item-text-wrap"
+			ng-repeat="item in artists | filter: {shortname: whichartist}">
+			      <img ng-src="img/{{item.shortname}}.jpg"
+			        alt="{{ item.name }} Photo">
+			      <h2>{{item.name}}</h2>
+			      <h3>{{item.reknown}}</h3>
+			      <p>{{item.bio}}</p>
+			</ion-item>
+		</ion-list>
+	</ion-content>
+</ion-view>
