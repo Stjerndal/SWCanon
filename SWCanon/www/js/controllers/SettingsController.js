@@ -1,6 +1,6 @@
 angular.module('starter.controllers')
 
-.controller('ListController', ['$scope', '$http', '$state',
+.controller('SettingsController', ['$scope', '$http', '$state',
     function($scope, $http, $state) {
     $http.get('js/data/datahc.json').success(function(data) {
       $scope.items = data.heroes;
