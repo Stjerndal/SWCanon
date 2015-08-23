@@ -1,0 +1,40 @@
+<ion-view view-title="Item List">
+
+  <!-- Search bar   -->
+  <div class="bar bar-subheader 
+    item-input-inset bar-light bar-custom">
+    <label class="item-input-wrapper">
+      <i class="icon ion-search placeholder-icon"></i>
+      <input type="search" ng-model="query" placeholder="Search">
+    </label>
+  </div>
+
+  <ion-content 
+    class="has-subheader">
+
+    <ion-list>
+      <ion-item ng-repeat='item in items | filter: query'
+      ng-class="{'star':item.star}"
+      class="item-thumbnail-left item-icon-right
+        item-text-wrap" href="#/tab/list/{{item.shortname}}">
+        <img ng-src="img/{{item.shortname}}.jpg"
+          alt="{{ item.name }} Photo">
+        <h2>{{item.name}}</h2>
+        <h3>{{item.reknown}}</h3>
+        <p>{{item.bio | limitTo: 100}}
+        {{item.bio.length > 100 ? '&hellip;' : ''}}</p> <!-- show trailing '...' -->
+
+        <!-- show star in item if starred -->
+        <button class="button button-clear icon ion-star button-assertive"
+             ng-click="toggleStar(item)" ng-show="item.star"> 
+        </button>
+
+        <!-- slide right to show star button --> 
+        <ion-option-button class="button-dark" ng-click="toggleStar(item)">
+          <i class="icon ion-star"></i>
+        </ion-option-button>
+
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
