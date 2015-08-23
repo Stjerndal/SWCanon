@@ -7,7 +7,7 @@
 		<!-- list for capability of showing details of multiple items -->
 		<ion-list class="list-inset">
 			<ion-item class="item-text-wrap"
-			ng-repeat="item in artists | filter: {shortname: whichartist}">
+			ng-repeat="item in items | filter: {shortname: whichitem}">
 			      <img ng-src="img/{{item.shortname}}.jpg"
 			        alt="{{ item.name }} Photo">
 			      <h2>{{item.name}}</h2>
