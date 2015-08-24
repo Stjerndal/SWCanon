@@ -1,85 +1,85 @@
 {
   "media": [
     {
-      "type": "book",
-      "id": "dark-disciple",
+      "type": "Book",
+      "id": "dark_disciple",
       "title": "Dark Disciple",
-      "release-date": "07-07-2015",
-      "canon-date-begin": -22,
-      "canon-date-end": -19,
+      "release_date": "07-07-2015",
+      "canon_date_begin": -22,
+      "canon_date_end": -19,
       "img": "http://img3.wikia.nocookie.net/__cb20141209194455/starwars/images/thumb/9/90/Dark_Disciple_Cover.png/400px-Dark_Disciple_Cover.png",
       "characters": [
-          "asajj-ventress",
-          "quinlan-vos"
+          "asajj_ventress",
+          "quinlan_vos"
       ],
-      "synopsis-short": "The only way to bring down the dark side's most dangerous warrior may be for Jedi and Sith to join forces.",
-      "synopsis-long": "The only way to bring down the dark side's most dangerous warrior may be for Jedi and Sith to join forces.\n\nIn the war for control of the galaxy between the armies of the dark side and the Republic, former Jedi Master turned ruthless Sith Lord Count Dooku has grown ever more brutal in his tactics. Despite the powers of the Jedi and the military prowess of their clone army, the sheer number of fatalities is taking a terrible toll. And when Dooku orders the massacre of a flotilla of helpless refugees, the Jedi Council feels it has no choice but to take drastic action: targeting the man responsible for so many war atrocities, Count Dooku himself.\n\nBut the ever-elusive Dooku is dangerous prey for even the most skilled hunter. So the Council makes the bold decision to bring both sides of the Force's power to bear—pairing brash Jedi Knight Quinlan Vos with infamous one-time Sith acolyte Asajj Ventress. Though Jedi distrust for the cunning killer who once served at Dooku's side still runs deep, Ventress's hatred for her former master runs deeper. She's more than willing to lend her copious talents as a bounty hunter—and assassin—to Vos's quest.\n\nTogether, Ventress and Vos are the best hope for eliminating Dooku—as long as the emerging feelings between them don't compromise their mission. But Ventress is determined to have her retribution and at last let go of her dark Sith past. Balancing the complicated emotions she feels for Vos with the fury of her warrior's spirit, she resolves to claim victory on all fronts—a vow that will be mercilessly tested by her deadly enemy . . . and her own doubt.",
-      "author": "christie-golden",
+      "synopsis_short": "The only way to bring down the dark side's most dangerous warrior may be for Jedi and Sith to join forces.",
+      "synopsislong": "The only way to bring down the dark side's most dangerous warrior may be for Jedi and Sith to join forces.\n\nIn the war for control of the galaxy between the armies of the dark side and the Republic, former Jedi Master turned ruthless Sith Lord Count Dooku has grown ever more brutal in his tactics. Despite the powers of the Jedi and the military prowess of their clone army, the sheer number of fatalities is taking a terrible toll. And when Dooku orders the massacre of a flotilla of helpless refugees, the Jedi Council feels it has no choice but to take drastic action: targeting the man responsible for so many war atrocities, Count Dooku himself.\n\nBut the ever-elusive Dooku is dangerous prey for even the most skilled hunter. So the Council makes the bold decision to bring both sides of the Force's power to bear—pairing brash Jedi Knight Quinlan Vos with infamous one-time Sith acolyte Asajj Ventress. Though Jedi distrust for the cunning killer who once served at Dooku's side still runs deep, Ventress's hatred for her former master runs deeper. She's more than willing to lend her copious talents as a bounty hunter—and assassin—to Vos's quest.\n\nTogether, Ventress and Vos are the best hope for eliminating Dooku—as long as the emerging feelings between them don't compromise their mission. But Ventress is determined to have her retribution and at last let go of her dark Sith past. Balancing the complicated emotions she feels for Vos with the fury of her warrior's spirit, she resolves to claim victory on all fronts—a vow that will be mercilessly tested by her deadly enemy . . . and her own doubt.",
+      "author": "christie_golden",
       "director": null,
       "writers": null,
-      "music-by": null
+      "music_by": null
     },
     {
-      "type": "movie",
-      "id": "the-empire-strikes-back",
+      "type": "Movie",
+      "id": "the_empire_strikes_back",
       "title": "Episode V - The Empire Strikes Back",
-      "release-date": "21-05-1980",
-      "canon-date-begin": 3,
-      "canon-date-end": null,
+      "release_date": "21-05-1980",
+      "canon_date_begin": 3,
+      "canon_date_end": null,
       "img": "http://img4.wikia.nocookie.net/__cb20061201083417/starwars/images/thumb/e/e4/Empire_strikes_back_old.jpg/500px-Empire_strikes_back_old.jpg",
       "characters": [
-          "luke-skywalker",
-          "leia-organa",
-          "han-solo",
-          "obi-wan-kenobi",
-          "anakin-skywalker",
-          "r2-d2",
-          "c-3po"
+          "luke_skywalker",
+          "leia_organa",
+          "han_solo",
+          "obi_wan_kenobi",
+          "anakin_skywalker",
+          "r2_d2",
+          "c_3po"
       ],
-      "synopsis-short": "After the rebels have been brutally overpowered by the Empire on their newly established base, Luke Skywalker takes advanced Jedi training with Master Yoda, while his friends are pursued by Darth Vader as part of his plan to capture Luke.",
-      "synopsis-long": "After the rebels have been brutally overpowered by the Empire on their newly established base, Luke Skywalker takes advanced Jedi training with Master Yoda, while his friends are pursued by Darth Vader as part of his plan to capture Luke.",
+      "synopsis_short": "After the rebels have been brutally overpowered by the Empire on their newly established base, Luke Skywalker takes advanced Jedi training with Master Yoda, while his friends are pursued by Darth Vader as part of his plan to capture Luke.",
+      "synopsis_long": "After the rebels have been brutally overpowered by the Empire on their newly established base, Luke Skywalker takes advanced Jedi training with Master Yoda, while his friends are pursued by Darth Vader as part of his plan to capture Luke.",
       "author": null,
-      "director": "irvin-kershner",
+      "director": "irvin_kershner",
       "writers": [
-        "george-lucas",
-        "lawrence-kasdan",
-        "leigh-brackett"
+        "george_lucas",
+        "lawrence_kasdan",
+        "leigh_brackett"
       ],
-      "music-by": "john-williams"
+      "music_by": "john_williams"
     }
   ],
   "characters": [
     {
-      "id": "luke-skywalker",
+      "id": "luke_skywalker",
       "name": "Luke Skywalker",
       "img": "http://img3.wikia.nocookie.net/__cb20091030151422/starwars/images/d/d9/Luke-rotjpromo.jpg",
       "media": [
-        "a-new-hope",
-        "the-empire-strikes-back",
-        "return-of-the-jedi",
-        "the-force-awakens"
+        "a_new_hope",
+        "the_empire_strikes_back",
+        "return_of_the_jedi",
+        "the_force_awakens"
       ]
     },
     {
-      "id": "han-solo",
+      "id": "han_solo",
       "name": "Han Solo",
       "img": "http://img1.wikia.nocookie.net/__cb20100129155042/starwars/images/0/01/Hansoloprofile.jpg",
       "media": [
-        "a-new-hope",
-        "the-empire-strikes-back",
-        "return-of-the-jedi",
-        "the-force-awakens"
+        "a_new_hope",
+        "the_empire_strikes_back",
+        "return_of_the_jedi",
+        "the_force_awakens"
       ]
     },
     {
-      "id": "leia-organa",
+      "id": "leia_organa",
       "name": "Leia Organa",
       "img": "http://img2.wikia.nocookie.net/__cb20080506155343/starwars/images/thumb/8/89/Leia_endorpromo02.jpg/650px-Leia_endorpromo02.jpg",
       "media": [
-        "a-new-hope",
-        "the-empire-strikes-back",
-        "return-of-the-jedi",
-        "the-force-awakens"
+        "a_new_hope",
+        "the_empire_strikes_back",
+        "return_of_the_jedi",
+        "the_force_awakens"
       ]
     },
     {
@@ -87,67 +87,67 @@
       "name": "Chewbacca",
       "img": "http://img3.wikia.nocookie.net/__cb20141102165812/starwars/images/3/30/Chewbacca-DisneyWebsite.png",
       "media": [
-        "revenge-of-the-sith",
-        "a-new-hope",
-        "the-empire-strikes-back",
-        "return-of-the-jedi",
-        "the-force-awakens"
+        "revenge_of_the_sith",
+        "a_new_hope",
+        "the_empire_strikes_back",
+        "return_of_the_jedi",
+        "the_force_awakens"
       ]
     },
     {
-      "id": "anakin-skywalker",
+      "id": "anakin_skywalker",
       "name": "Anakin Skywalker",
       "img": "http://img2.wikia.nocookie.net/__cb20130621175844/starwars/images/thumb/6/6f/Anakin_Skywalker_RotS.png/400px-Anakin_Skywalker_RotS.png",
       "media": [
-        "the-phantom-menace",
-        "attack-of-the-clones",
-        "revenge-of-the-sith",
-        "a-new-hope",
-        "the-empire-strikes-back",
-        "return-of-the-jedi",
-        "the-force-awakens"
+        "the_phantom_menace",
+        "attack_of_the_clones",
+        "revenge_of_the_sith",
+        "a_new_hope",
+        "the_empire_strikes_back",
+        "return_of_the_jedi",
+        "the_force_awakens"
       ]
     },
     {
-      "id": "c-3po",
-      "name": "C-3PO",
+      "id": "c_3po",
+      "name": "C_3PO",
       "img": "http://img2.wikia.nocookie.net/__cb20131005124036/starwars/images/thumb/5/51/C-3PO_EP3.png/400px-C-3PO_EP3.png",
       "media": [
-        "the-phantom-menace",
-        "attack-of-the-clones",
-        "revenge-of-the-sith",
-        "a-new-hope",
-        "the-empire-strikes-back",
-        "return-of-the-jedi",
-        "the-force-awakens"
+        "the_phantom_menace",
+        "attack_of_the_clones",
+        "revenge_of_the_sith",
+        "a_new_hope",
+        "the_empire_strikes_back",
+        "return_of_the_jedi",
+        "the_force_awakens"
       ]
     },
     {
-      "id": "r2-d2",
-      "name": "R2-D2",
+      "id": "r2_d2",
+      "name": "R2_D2",
       "img": "http://img3.wikia.nocookie.net/__cb20150530203224/starwars/images/c/c0/R2D2SWE.png",
       "media": [
-        "the-phantom-menace",
-        "attack-of-the-clones",
-        "revenge-of-the-sith",
-        "a-new-hope",
-        "the-empire-strikes-back",
-        "return-of-the-jedi",
-        "the-force-awakens"
+        "the_phantom_menace",
+        "attack_of_the_clones",
+        "revenge_of_the_sith",
+        "a_new_hope",
+        "the_empire_strikes_back",
+        "return_of_the_jedi",
+        "the_force_awakens"
       ]
     },
     {
-      "id": "r2-d2",
-      "name": "R2-D2",
+      "id": "r2_d2",
+      "name": "R2_D2",
       "img": "http://img3.wikia.nocookie.net/__cb20150530203224/starwars/images/c/c0/R2D2SWE.png",
       "media": [
-        "the-phantom-menace",
-        "attack-of-the-clones",
-        "revenge-of-the-sith",
-        "a-new-hope",
-        "the-empire-strikes-back",
-        "return-of-the-jedi",
-        "the-force-awakens"
+        "the_phantom_menace",
+        "attack_of_the_clones",
+        "revenge_of_the_sith",
+        "a_new_hope",
+        "the_empire_strikes_back",
+        "return_of_the_jedi",
+        "the_force_awakens"
       ]
     },
     {
