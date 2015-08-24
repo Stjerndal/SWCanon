@@ -14,7 +14,7 @@
       ],
       "synopsis-short": "The only way to bring down the dark side's most dangerous warrior may be for Jedi and Sith to join forces.",
       "synopsis-long": "The only way to bring down the dark side's most dangerous warrior may be for Jedi and Sith to join forces.\n\nIn the war for control of the galaxy between the armies of the dark side and the Republic, former Jedi Master turned ruthless Sith Lord Count Dooku has grown ever more brutal in his tactics. Despite the powers of the Jedi and the military prowess of their clone army, the sheer number of fatalities is taking a terrible toll. And when Dooku orders the massacre of a flotilla of helpless refugees, the Jedi Council feels it has no choice but to take drastic action: targeting the man responsible for so many war atrocities, Count Dooku himself.\n\nBut the ever-elusive Dooku is dangerous prey for even the most skilled hunter. So the Council makes the bold decision to bring both sides of the Force's power to bear—pairing brash Jedi Knight Quinlan Vos with infamous one-time Sith acolyte Asajj Ventress. Though Jedi distrust for the cunning killer who once served at Dooku's side still runs deep, Ventress's hatred for her former master runs deeper. She's more than willing to lend her copious talents as a bounty hunter—and assassin—to Vos's quest.\n\nTogether, Ventress and Vos are the best hope for eliminating Dooku—as long as the emerging feelings between them don't compromise their mission. But Ventress is determined to have her retribution and at last let go of her dark Sith past. Balancing the complicated emotions she feels for Vos with the fury of her warrior's spirit, she resolves to claim victory on all fronts—a vow that will be mercilessly tested by her deadly enemy . . . and her own doubt.",
-      "author": "Christie Golden",
+      "author": "christie-golden",
       "director": null,
       "writers": null,
       "music-by": null
@@ -28,19 +28,24 @@
       "canon-date-end": null,
       "img": "http://img4.wikia.nocookie.net/__cb20061201083417/starwars/images/thumb/e/e4/Empire_strikes_back_old.jpg/500px-Empire_strikes_back_old.jpg",
       "characters": [
-          "asajj-ventress",
-          "quinlan-vos"
+          "luke-skywalker",
+          "leia-organa",
+          "han-solo",
+          "obi-wan-kenobi",
+          "anakin-skywalker",
+          "r2-d2",
+          "c-3po"
       ],
-      "synopsis-short": "The only way to bring down the dark side's most dangerous warrior may be for Jedi and Sith to join forces.",
-      "synopsis-long": "The only way to bring down the dark side's most dangerous warrior may be for Jedi and Sith to join forces.\n\nIn the war for control of the galaxy between the armies of the dark side and the Republic, former Jedi Master turned ruthless Sith Lord Count Dooku has grown ever more brutal in his tactics. Despite the powers of the Jedi and the military prowess of their clone army, the sheer number of fatalities is taking a terrible toll. And when Dooku orders the massacre of a flotilla of helpless refugees, the Jedi Council feels it has no choice but to take drastic action: targeting the man responsible for so many war atrocities, Count Dooku himself.\n\nBut the ever-elusive Dooku is dangerous prey for even the most skilled hunter. So the Council makes the bold decision to bring both sides of the Force's power to bear—pairing brash Jedi Knight Quinlan Vos with infamous one-time Sith acolyte Asajj Ventress. Though Jedi distrust for the cunning killer who once served at Dooku's side still runs deep, Ventress's hatred for her former master runs deeper. She's more than willing to lend her copious talents as a bounty hunter—and assassin—to Vos's quest.\n\nTogether, Ventress and Vos are the best hope for eliminating Dooku—as long as the emerging feelings between them don't compromise their mission. But Ventress is determined to have her retribution and at last let go of her dark Sith past. Balancing the complicated emotions she feels for Vos with the fury of her warrior's spirit, she resolves to claim victory on all fronts—a vow that will be mercilessly tested by her deadly enemy . . . and her own doubt.",
-      "author": "Christie Golden",
-      "director": null,
+      "synopsis-short": "After the rebels have been brutally overpowered by the Empire on their newly established base, Luke Skywalker takes advanced Jedi training with Master Yoda, while his friends are pursued by Darth Vader as part of his plan to capture Luke.",
+      "synopsis-long": "After the rebels have been brutally overpowered by the Empire on their newly established base, Luke Skywalker takes advanced Jedi training with Master Yoda, while his friends are pursued by Darth Vader as part of his plan to capture Luke.",
+      "author": null,
+      "director": "irvin-kershner",
       "writers": [
         "george-lucas",
-        "leigh-brackett",
-        "lawrence-kasdan"
+        "lawrence-kasdan",
+        "leigh-brackett"
       ],
-      "music-by": null
+      "music-by": "john-williams"
     }
   ],
   "characters": [
@@ -180,9 +185,9 @@
       ]
     },
     {
-      "id": "asajj-ventress",
-      "name": "Asajj Ventress",
-      "img": "http://img1.wikia.nocookie.net/__cb20150724125609/starwars/images/c/c7/Asajj_Ventress_Kindred_Spirits.png",
+      "id": "quinlan-vos",
+      "name": "Quinlan-Vos",
+      "img": "http://img4.wikia.nocookie.net/__cb20150727050605/starwars/images/thumb/f/f9/QuinlanHS.jpg/400px-QuinlanHS.jpg",
       "media": [
         "dark-disciple"
       ]
@@ -191,15 +196,83 @@
   "people": [
     {
       "id": "george-lucas",
-      "name": "George Lucas"
-    },
-    {
-      "id": "leigh-brackett",
-      "name": "Leigh Brackett"
+      "name": "George Lucas",
+      "img": "http://schneeblog.com/wp-content/uploads/2013/08/young-george-lucas1.jpg",
+      "titles": [
+        "Director",
+        "Writer"
+      ],
+      "media": [
+        "the-phantom-menace",
+        "attack-of-the-clones",
+        "revenge-of-the-sith",
+        "a-new-hope",
+        "the-empire-strikes-back",
+        "return-of-the-jedi"
+      ]
     },
     {
       "id": "lawrence-kasdan",
-      "name": "Lawrence Kasdan"
+      "name": "Lawrence Kasdan",
+      "img": "http://ia.media-imdb.com/images/M/MV5BMjM3MTQ1NDg2OF5BMl5BanBnXkFtZTYwNjc0NDEz._V1_UY317_CR5,0,214,317_AL_.jpg",
+      "titles": [
+        "Writer"
+      ],
+      "media": [
+        "the-empire-strikes-back",
+        "return-of-the-jedi",
+        "the-force-awakens"
+      ]
+    },
+    {
+      "id": "leigh-brackett",
+      "name": "Leigh Brackett",
+      "img": "http://www.thrillingdetective.com/images3/leigh_brackett.jpg",
+      "titles": [
+        "Writer"
+      ],
+      "media": [
+        "the-empire-strikes-back"
+      ]
+    },
+    {
+      "id": "john-williams",
+      "name": "john-williams",
+      "img": "http://img4.wikia.nocookie.net/__cb20120402051037/starwars/images/thumb/4/42/John_Williams.jpg/500px-John_Williams.jpg",
+      "titles": [
+        "Composer"
+      ],
+      "media": [
+        "the-phantom-menace",
+        "attack-of-the-clones",
+        "revenge-of-the-sith",
+        "a-new-hope",
+        "the-empire-strikes-back",
+        "return-of-the-jedi",
+        "the-force-awakens"
+      ]
+    },
+    {
+      "id": "irvin-kershner",
+      "name": "Irvin Kershner",
+      "img": "http://ia.media-imdb.com/images/M/MV5BMTMzNjQwNTk1MF5BMl5BanBnXkFtZTcwNjAyNDQxNA@@._V1__SX1217_SY847_.jpg",
+      "titles": [
+        "director"
+      ],
+      "media": [
+        "the-empire-strikes-back"
+      ]
+    },
+    {
+      "id": "christie-golden",
+      "name": "Christie Golden",
+      "img": "http://d.gr-assets.com/authors/1272318520p5/7710.jpg",
+      "titles": [
+        "Author"
+      ],
+      "media": [
+        "dark-disciples"
+      ]
     }
   ]
 }
