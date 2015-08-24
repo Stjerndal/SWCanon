@@ -14,26 +14,8 @@
 
     <ion-list>
       <ion-item ng-repeat='item in media | filter: query'
-      ng-class="{'star':item.star}"
-      class="item-thumbnail-left item-icon-right
-        item-text-wrap" href="#/tab/list/{{item.id}}">
-        <img ng-src="{{item.img}}"
-          alt="{{ item.name }} Photo">
-        <h2>{{item.title}}</h2>
-        <h3>{{item.type}}</h3>
-        <p>{{item.synopsis_short | limitTo: 100}}
-        {{item.synopsis_short.length > 100 ? '&hellip;' : ''}}</p> <!-- show trailing '...' -->
-
-        <!-- show star in item if starred -->
-        <button class="button button-clear icon ion-star button-assertive"
-             ng-click="toggleStar(item)" ng-show="item.star"> 
-        </button>
-
-        <!-- slide right to show star button --> 
-        <ion-option-button class="button-dark" ng-click="toggleStar(item)">
-          <i class="icon ion-star"></i>
-        </ion-option-button>
-
+       href="#/tab/list/{{item.id}}">
+        <media-list-item media-item="item" today="today" yesterday="yesterday"></media-list-item>
       </ion-item>
     </ion-list>
   </ion-content>

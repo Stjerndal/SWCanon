@@ -1,0 +1,13 @@
+<div ng-class="{'unpublished': (today | date) > (mediaItem.release_date | date)}"
+  class="media-list-item item-text-wrap">
+  <div class="row">
+  <img ng-src="{{mediaItem.img}}"
+    alt="{{ mediaItem.name }} Photo"
+    class="thumbnail padding-right">
+  <div class = "pls">
+  <h2>{{mediaItem.title}}</h2>
+  <h3>{{mediaItem.type}}</h3>
+  <p>{{mediaItem.synopsis_short | limitTo: 100}}
+    {{mediaItem.synopsis_short.length > 100 ? '&hellip;' : ''}}</p> <!-- show trailing '...' -->
+    </div>
+</div>

@@ -7,9 +7,7 @@ angular.module('starter.controllers')
       $scope.whatmedia=$state.params.mId;
       $scope.data = {};
     });
-
-    $scope.toggleStar = function(item) {
-      item.star = !item.star;
-    };
-
+  	$scope.today = new Date();
+    $scope.yesterday = new Date();
+    $scope.yesterday.setDate($scope.today.getDate() - 1);
 }]);
