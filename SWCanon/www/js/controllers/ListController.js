@@ -2,9 +2,9 @@ angular.module('starter.controllers')
 
 .controller('ListController', ['$scope', '$http', '$state',
     function($scope, $http, $state) {
-    $http.get('js/data/datahc.json').success(function(data) {
-      $scope.items = data.heroes;
-      $scope.whichitem=$state.params.iId;
+    $http.get('js/data/data.json').success(function(data) {
+      $scope.media = data.media;
+      $scope.whatmedia=$state.params.mId;
       $scope.data = {};
     });
 

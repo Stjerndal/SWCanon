@@ -44,7 +44,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       }
     })
     .state('tab.detail', {
-      url: '/list/:iId',
+      url: '/list/:mId',
       views: {
         'list-tab' : {
           templateUrl: 'templates/detail.html',
