@@ -10,8 +10,8 @@
       "img_poster": "http://img3.wikia.nocookie.net/__cb20141209194455/starwars/images/thumb/9/90/Dark_Disciple_Cover.png/400px-Dark_Disciple_Cover.png",
       "img_cover": "http://a.dilcdn.com/bl/wp-content/uploads/sites/6/2015/07/ventress_header-2400x1200-996929412987.jpeg",
       "characters": [
-          "asajj_ventress",
-          "quinlan_vos"
+        "asajj_ventress",
+        "quinlan_vos"
       ],
       "synopsis_short": "The only way to bring down the dark side's most dangerous warrior may be for Jedi and Sith to join forces.",
       "synopsis_long": "The only way to bring down the dark side's most dangerous warrior may be for Jedi and Sith to join forces.\n In the war for control of the galaxy between the armies of the dark side and the Republic, former Jedi Master turned ruthless Sith Lord Count Dooku has grown ever more brutal in his tactics. Despite the powers of the Jedi and the military prowess of their clone army, the sheer number of fatalities is taking a terrible toll. And when Dooku orders the massacre of a flotilla of helpless refugees, the Jedi Council feels it has no choice but to take drastic action: targeting the man responsible for so many war atrocities, Count Dooku himself.\n\nBut the ever-elusive Dooku is dangerous prey for even the most skilled hunter. So the Council makes the bold decision to bring both sides of the Force's power to bear—pairing brash Jedi Knight Quinlan Vos with infamous one-time Sith acolyte Asajj Ventress. Though Jedi distrust for the cunning killer who once served at Dooku's side still runs deep, Ventress's hatred for her former master runs deeper. She's more than willing to lend her copious talents as a bounty hunter—and assassin—to Vos's quest.\n\nTogether, Ventress and Vos are the best hope for eliminating Dooku—as long as the emerging feelings between them don't compromise their mission. But Ventress is determined to have her retribution and at last let go of her dark Sith past. Balancing the complicated emotions she feels for Vos with the fury of her warrior's spirit, she resolves to claim victory on all fronts—a vow that will be mercilessly tested by her deadly enemy . . . and her own doubt.",
@@ -30,13 +30,13 @@
       "img_poster": "http://img4.wikia.nocookie.net/__cb20061201083417/starwars/images/thumb/e/e4/Empire_strikes_back_old.jpg/500px-Empire_strikes_back_old.jpg",
       "img_cover": "http://media.trb.com/media/photo/2012-05/70217380.jpg",
       "characters": [
-          "luke_skywalker",
-          "leia_organa",
-          "han_solo",
-          "obi_wan_kenobi",
-          "anakin_skywalker",
-          "r2_d2",
-          "c_3po"
+        "luke_skywalker",
+        "leia_organa",
+        "han_solo",
+        "obi_wan_kenobi",
+        "anakin_skywalker",
+        "r2_d2",
+        "c_3po"
       ],
       "synopsis_short": "After the rebels have been brutally overpowered by the Empire on their newly established base, Luke Skywalker takes advanced Jedi training with Master Yoda, while his friends are pursued by Darth Vader as part of his plan to capture Luke.",
       "synopsis_long": "After the rebels have been brutally overpowered by the Empire on their newly established base, Luke Skywalker takes advanced Jedi training with Master Yoda, while his friends are pursued by Darth Vader as part of his plan to capture Luke.",
@@ -46,6 +46,40 @@
         "george_lucas",
         "lawrence_kasdan",
         "leigh_brackett"
+      ],
+      "music_by": "john_williams"
+    },
+    {
+      "type": "Movie",
+      "id": "the_forfce_awakens",
+      "title": "Episode VII - The Force Awakens",
+      "release_date": "18-12-2015",
+      "canon_date_begin": 34,
+      "canon_date_end": null,
+      "img_poster": "http://ia.media-imdb.com/images/M/MV5BNDE5NTMzMzk0OF5BMl5BanBnXkFtZTgwNzcyMTk1NjE@._V1__SX1217_SY847_.jpg",
+      "img_cover": "http://www.themarysue.com/wp-content/uploads/2015/02/o-FORCE-AWAKENS-GIFS-facebook.jpg",
+      "characters": [
+        "rey",
+        "finn",
+        "kylo_ren",
+        "poe_dameron",
+        "general_hux",
+        "captain_phasma",
+        "snoke",
+        "han_solo",
+        "luke_skywalker",
+        "leia_organa",
+        "chewbacca",
+        "r2_d2",
+        "c_3po"
+      ],
+      "synopsis_short": "A continuation of the saga created by George Lucas set thirty years after Star Wars: Episode VI - Return of the Jedi",
+      "synopsis_long": "A continuation of the saga created by George Lucas set thirty years after Star Wars: Episode VI - Return of the Jedi",
+      "author": null,
+      "director": "jj_abrams",
+      "writers": [
+        "jj_abrams",
+        "lawrence_kasdan"
       ],
       "music_by": "john_williams"
     }
@@ -139,20 +173,6 @@
       ]
     },
     {
-      "id": "r2_d2",
-      "name": "R2_D2",
-      "img": "http://img3.wikia.nocookie.net/__cb20150530203224/starwars/images/c/c0/R2D2SWE.png",
-      "media": [
-        "the_phantom_menace",
-        "attack_of_the_clones",
-        "revenge_of_the_sith",
-        "a_new_hope",
-        "the_empire_strikes_back",
-        "return_of_the_jedi",
-        "the_force_awakens"
-      ]
-    },
-    {
       "id": "obi-wan-kenobi",
       "name": "Obi-Wan Kenobi",
       "img": "http://img3.wikia.nocookie.net/__cb20111115052816/starwars/images/4/4e/ObiWanHS-SWE.jpg",
@@ -192,6 +212,62 @@
       "img": "http://img4.wikia.nocookie.net/__cb20150727050605/starwars/images/thumb/f/f9/QuinlanHS.jpg/400px-QuinlanHS.jpg",
       "media": [
         "dark-disciple"
+      ]
+    },
+    {
+      "id": "rey",
+      "name": "Rey",
+      "img": "http://screenrant.com/wp-content/uploads/Daisy-Ridley-as-Rey-in-The-Force-Awakens.jpg",
+      "media": [
+        "the_force_awakens"
+      ]
+    },
+    {
+      "id": "finn",
+      "name": "Finn",
+      "img": "http://cdn.movieweb.com/img.news.tops/NEzGozCTqIMCDG_2_b.jpg",
+      "media": [
+        "the_force_awakens"
+      ]
+    },
+    {
+      "id": "kylo_ren",
+      "name": "Finn",
+      "img": "http://img1.wikia.nocookie.net/__cb20150517175543/starwars/images/c/c4/Kylo_Ren_art.jpg",
+      "media": [
+        "the_force_awakens"
+      ]
+    },
+    {
+      "id": "poe_dameron",
+      "name": "Poe Dameron",
+      "img": "http://cdn.fansided.com/wp-content/blogs.dir/319/files/2015/04/oscar-isaac-as-poe-dameron-850x560.jpg",
+      "media": [
+        "the_force_awakens"
+      ]
+    },
+    {
+      "id": "general_hux",
+      "name": "General Hux",
+      "img": "http://www.telegraph.co.uk/content/dam/film/starwarsforceawakens/forceawakens24-xlarge.jpg",
+      "media": [
+        "the_force_awakens"
+      ]
+    },
+    {
+      "id": "captain_phasma",
+      "name": "Captain Phasma",
+      "img": "http://i.ytimg.com/vi/20YJOkpr1G4/maxresdefault.jpg",
+      "media": [
+        "the_force_awakens"
+      ]
+    },
+    {
+      "id": "snoke",
+      "name": "Supreme Leader Snoke",
+      "img": "http://cdn.movieweb.com/img.news.tops/NEBbiXCO5gRKFD_2_b.jpg",
+      "media": [
+        "the_force_awakens"
       ]
     }
   ],
