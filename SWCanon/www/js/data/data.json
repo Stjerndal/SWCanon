@@ -7,7 +7,8 @@
       "release_date": "2015-08-24T19:02",
       "canon_date_begin": -22,
       "canon_date_end": -19,
-      "img": "http://img3.wikia.nocookie.net/__cb20141209194455/starwars/images/thumb/9/90/Dark_Disciple_Cover.png/400px-Dark_Disciple_Cover.png",
+      "img_poster": "http://img3.wikia.nocookie.net/__cb20141209194455/starwars/images/thumb/9/90/Dark_Disciple_Cover.png/400px-Dark_Disciple_Cover.png",
+      "img_cover": "http://a.dilcdn.com/bl/wp-content/uploads/sites/6/2015/07/ventress_header-2400x1200-996929412987.jpeg",
       "characters": [
           "asajj_ventress",
           "quinlan_vos"
@@ -26,7 +27,8 @@
       "release_date": "21-05-1980",
       "canon_date_begin": 3,
       "canon_date_end": null,
-      "img": "http://img4.wikia.nocookie.net/__cb20061201083417/starwars/images/thumb/e/e4/Empire_strikes_back_old.jpg/500px-Empire_strikes_back_old.jpg",
+      "img_poster": "http://img4.wikia.nocookie.net/__cb20061201083417/starwars/images/thumb/e/e4/Empire_strikes_back_old.jpg/500px-Empire_strikes_back_old.jpg",
+      "img_cover": "http://media.trb.com/media/photo/2012-05/70217380.jpg",
       "characters": [
           "luke_skywalker",
           "leia_organa",

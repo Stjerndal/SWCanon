@@ -1,10 +1,44 @@
-/*mediaListItem*/
-.media-list-item .thumbnail {
-	width: 30%;
-	height: 30%;
-	max-height: 300px;
+.no-padding {
+    padding: 0px !important;
 }
 
-.media-list-item .pls {
+/*items in lists have no side padding now*/
+.item-content{
+	padding-top:0px !important;
+	padding-right:0px !important;
+	padding-bottom:0px !important;
+	padding-left:0px !important;
+}
 
+/*mediaListItem*/
+.media-list-item {
+	padding-right: 0px !important;
+	padding-left: 0px !important;
+	background-position: center;
+}
+
+.outer {
+	border: solid;
+	border-color: #ff0000;
+	height: 200%;
+}
+
+.inner {
+	border: dotted;
+	border-color: #0000ff;
+}
+
+.media-list-item .thumbnail {
+	width: 100%;
+	/*max-height: 300px;*/
+}
+
+.media-list-item .content {
+	background-color:rgba(255,255,255,0.7);
+}
+
+
+.media-list-item .canon-date {
+	background-color:rgba(255,255,0,0.9);
+	text-align: center;
 }
