@@ -1,7 +1,6 @@
 angular.module('starter.controllers')
 
 .controller('SettingsController', function($scope, $ionicDeploy) {
-	console.log('heeeeeeeeeeeerp');
 	$scope.doUpdate = function() {
 	    $ionicDeploy.update().then(function(res) {
 	      console.log('Ionic Deploy: Update Success! ', res);
