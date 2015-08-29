@@ -36,6 +36,7 @@
         "obi_wan_kenobi",
         "anakin_skywalker",
         "r2_d2",
+        "lando_calrissian",
         "c_3po"
       ],
       "synopsis_short": "After the rebels have been brutally overpowered by the Empire on their newly established base, Luke Skywalker takes advanced Jedi training with Master Yoda, while his friends are pursued by Darth Vader as part of his plan to capture Luke.",
@@ -51,7 +52,7 @@
     },
     {
       "type": "Movie",
-      "id": "the_forfce_awakens",
+      "id": "the_force_awakens",
       "title": "Episode VII - The Force Awakens",
       "release_date": "18-12-2015",
       "canon_date_begin": 34,
@@ -82,6 +83,34 @@
         "lawrence_kasdan"
       ],
       "music_by": "john_williams"
+    },
+    {
+      "type": "Comic",
+      "id": "shattered_empire",
+      "title": "Shattered Empire",
+      "release_date": "09-09-2015",
+      "canon_date_begin": 4,
+      "canon_date_end": null,
+      "img_poster": "http://img1.wikia.nocookie.net/__cb20150823103548/starwars/images/b/bc/SWShatteredEmpire1Mayhew.png",
+      "img_cover": "http://img2.wikia.nocookie.net/__cb20150828043502/starwars/images/1/13/Shattered_Empire_1_textless_cover.jpg",
+      "characters": [
+        "luke_skywalker",
+        "leia_organa",
+        "han_solo",
+        "obi_wan_kenobi",
+        "anakin_skywalker",
+        "r2_d2",
+        "lando_calrissian",
+        "c_3po"
+      ],
+      "synopsis_short": "The heroes of the Rebel Alliance will soon discover that a wounded and fractious Empire may be more dangerous than any threat they faced before!",
+      "synopsis_long": "Emperor Palpatine's twenty-year reign of terror came to an abrupt and fiery end in the skies above the forest moon of Endor. A decisive victory for the Rebel Alliance, to be sure, but even with the loss of its leadership, the Empire's Moffs and regional governors retained their hold on important systems from the Core to the Outer Rim, thanks to the might of the Imperial Starfleet. Now, with a power vacuum atop the Empire, those Moffs will jockey for position and control, and the heroes of the Rebel Alliance will soon discover that a wounded and fractious Empire may be more dangerous than any threat they faced before!",
+      "author": null,
+      "director": null,
+      "writers": [
+        "Greg Rucka"
+      ],
+      "music_by": null
     }
   ],
   "characters": [
@@ -196,6 +225,16 @@
         "a-new-hope",
         "the-empire-strikes-back",
         "return-of-the-jedi"
+      ]
+    },
+    {
+      "id": "lando_calrissian",
+      "name": "Lando Calrissian",
+      "img": "http://img1.wikia.nocookie.net/__cb20080715214753/starwars/images/7/7d/Lando_WoSW.jpg",
+      "media": [
+        "the_empire_strikes_back",
+        "return_of_the_jedi",
+        "shattered_empire"
       ]
     },
     {
@@ -350,6 +389,17 @@
       ],
       "media": [
         "dark-disciples"
+      ]
+    },
+    {
+      "id": "jj_abrams",
+      "name": "J.J. Abrams",
+      "img": "http://cdn1.sciencefiction.com/wp-content/uploads/2013/09/JJ-Abrams.jpg",
+      "titles": [
+        "Director"
+      ],
+      "media": [
+        "the_force_awakens"
       ]
     }
   ]
