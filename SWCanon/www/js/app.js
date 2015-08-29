@@ -69,4 +69,6 @@ angular.module('starter', ['ionic','ionic.service.core','ionic.service.deploy', 
 
   $ionicConfigProvider.tabs.position('bottom'); // other values: top
 
+  $ionicConfigProvider.scrolling.jsScrolling(false);
+
 });
