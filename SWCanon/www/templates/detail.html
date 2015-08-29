@@ -1,21 +1,21 @@
 <ion-header-bar class="bar-dark">
 	<h2 class="title">Details</h2>
 </ion-header-bar>
-
 <ion-view>
 	<ion-content>
 		<!-- list for capability of showing details of multiple items -->
-		<ion-list class="list-inset">
+		<ion-list>
 			<ion-item class="item-text-wrap media-detail"
 			ng-repeat="item in media | filter: {id: whatmedia}">
-				<div class="row">
-					<div class="col-50 padding">
+				<div class="row no-padding">
+					<div class="col poster-col no-padding">
 						<img ng-src="{{item.img_poster}}"
 		        		alt="{{ item.title }} Photo" class="poster">
 					</div>
+					
 	        		<div class="col col-center">
-	        			<h1>{{item.title}}</h1>
-				    	<h2>{{item.type}} - {{item.release_date | date}}</h2>
+	        			<h2>{{item.title}}</h2>
+				    	<h3>{{item.type}} - {{item.release_date | date}}</h3>
 				    	<div class="specs">
 					    	<div><b>Timeline: </b>
 				    		{{item.canon_date_begin | abs}}
@@ -30,12 +30,22 @@
         					<div ng-if="item.writers"><b>Writers:</b>
         						<span ng-repeat="writerId in item.writers">
         							<span ng-repeat="person in people | filter: {id: writerId}">
-        								{{person.name}} </span>
+        								{{person.name}}. </span>
         						</span>
     						</div>
         				</div>
 	        		</div>
 				</div>
+				<b>Characters</b>
+				<div class="detail-characters row">
+					<span class="col char-col" ng-repeat="charId in item.characters | limitTo: 6">
+						<span ng-repeat="character in characters | filter: {id: charId}" >
+							<img ng-src="{{character.img}}" class="avatar">
+						</span>
+					</span>
+				</div>
+
+				<b>Story</b>
 				<p>{{item.synopsis_long}}</p>
 			      
 			</ion-item>
