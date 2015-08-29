@@ -24,7 +24,7 @@
       "type": "Movie",
       "id": "the_empire_strikes_back",
       "title": "Episode V - The Empire Strikes Back",
-      "release_date": "21-05-1980",
+      "release_date": "1980-05-21T19:02",
       "canon_date_begin": 3,
       "canon_date_end": null,
       "img_poster": "http://img4.wikia.nocookie.net/__cb20061201083417/starwars/images/thumb/e/e4/Empire_strikes_back_old.jpg/500px-Empire_strikes_back_old.jpg",
@@ -54,7 +54,7 @@
       "type": "Movie",
       "id": "the_force_awakens",
       "title": "Episode VII - The Force Awakens",
-      "release_date": "18-12-2015",
+      "release_date": "2015-12-18T19:02",
       "canon_date_begin": 34,
       "canon_date_end": null,
       "img_poster": "http://ia.media-imdb.com/images/M/MV5BNDE5NTMzMzk0OF5BMl5BanBnXkFtZTgwNzcyMTk1NjE@._V1__SX1217_SY847_.jpg",
@@ -88,7 +88,7 @@
       "type": "Comic",
       "id": "shattered_empire",
       "title": "Shattered Empire",
-      "release_date": "09-09-2015",
+      "release_date": "2015-09-09T19:02",
       "canon_date_begin": 4,
       "canon_date_end": null,
       "img_poster": "http://img1.wikia.nocookie.net/__cb20150823103548/starwars/images/b/bc/SWShatteredEmpire1Mayhew.png",
@@ -175,7 +175,7 @@
     },
     {
       "id": "c_3po",
-      "name": "C_3PO",
+      "name": "C-3PO",
       "img": "http://img2.wikia.nocookie.net/__cb20131005124036/starwars/images/thumb/5/51/C-3PO_EP3.png/400px-C-3PO_EP3.png",
       "media": [
         "the_phantom_menace",
@@ -189,7 +189,7 @@
     },
     {
       "id": "r2_d2",
-      "name": "R2_D2",
+      "name": "R2-D2",
       "img": "http://img3.wikia.nocookie.net/__cb20150530203224/starwars/images/c/c0/R2D2SWE.png",
       "media": [
         "the_phantom_menace",
