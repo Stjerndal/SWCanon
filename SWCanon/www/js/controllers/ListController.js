@@ -1,7 +1,6 @@
 angular.module('starter.controllers')
 
-.controller('ListController', ['$scope', '$http', '$state',
-    function($scope, $http, $state) {
+.controller('ListController', function($scope, $http, $state) {
     $http.get('js/data/data.json').success(function(data) {
       $scope.media = data.media;
       $scope.whatmedia=$state.params.mId;
@@ -10,4 +9,4 @@ angular.module('starter.controllers')
   	$scope.today = new Date();
     $scope.yesterday = new Date();
     $scope.yesterday.setDate($scope.today.getDate() - 1);
-}]);
+});
