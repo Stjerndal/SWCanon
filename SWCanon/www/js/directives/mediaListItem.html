@@ -9,6 +9,11 @@
     <div class = "content col-50 padding item-text-wrap">
         <h2>{{mediaItem.title}}</h2>
         <h3>{{mediaItem.type}}</h3>
+        <i class="media-type-icon bottom-right icon"
+        ng-class="{'ion-film-marker': mediaItem.type == 'Movie',
+                  'ion-social-windows': mediaItem.type == 'Comic',
+                  'ion-ios-book': mediaItem.type == 'Book',
+                  'ion-ios-monitor': mediaItem.type == 'TV'}"></i>
     </div>
     <div class = "canon-date-col padding-left col-20">
       <div class="canon-date">
