@@ -3,6 +3,8 @@ angular.module('starter.controllers')
 .controller('ListController', function($scope, $http, $state) {
     $http.get('js/data/data.json').success(function(data) {
       $scope.media = data.media;
+      $scope.people = data.people;
+      $scope.characters = data.characters;
       $scope.whatmedia=$state.params.mId;
       $scope.data = {};
     });
