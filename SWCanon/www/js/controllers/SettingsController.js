@@ -1,15 +1,25 @@
 angular.module('starter.controllers')
 
-.controller('SettingsController', ['$scope', '$http', '$state',
-    function($scope, $http, $state) {
-    $http.get('js/data/data.json').success(function(data) {
-      $scope.media = data.media;
-      $scope.whatmedia = $state.params.mId;
-      $scope.data = {};
-    });
+.controller('SettingsController', function($scope, $ionicDeploy) {
+	console.log('heeeeeeeeeeeerp');
+	$scope.doUpdate = function() {
+	    $ionicDeploy.update().then(function(res) {
+	      console.log('Ionic Deploy: Update Success! ', res);
+	    }, function(err) {
+	      console.log('Ionic Deploy: Update error! ', err);
+	    }, function(prog) {
+	      console.log('Ionic Deploy: Progress... ', prog);
+	    });
+	};
 
-    $scope.toggleStar = function(item) {
-      item.star = !item.star;
-    };
-
-}]);
+	// Check Ionic Deploy for new code
+	$scope.checkForUpdates = function() {
+		console.log('Ionic Deploy: Checking for updates');
+	    $ionicDeploy.check().then(function(hasUpdate) {
+	    	console.log('Ionic Deploy: Update available: ' + hasUpdate);
+	    	$scope.hasUpdate = hasUpdate;
+	    }, function(err) {
+	    	console.error('Ionic Deploy: Unable to check for updates', err);
+	    });
+	}
+});
