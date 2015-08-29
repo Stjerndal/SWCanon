@@ -11,15 +11,11 @@
 
   <ion-content 
     class="has-subheader">
-
-    <ion-list>
-      <ion-item ng-repeat='item in media | filter: query'
-      ng-class="{'star':item.star}"
-      class="item-thumbnail-left item-icon-right
-        item-text-wrap" href="#/tab/list/{{item.shortname}}">
-   
-
-      </ion-item>
-    </ion-list>
+      <button class="button button-primary button-block " >
+        Check for updates
+      </button>
+      <button class="button button-balanced button-block button-pulse" ng-if="hasUpdate" ng-click="doUpdate()">
+        Update!
+      </button>
   </ion-content>
 </ion-view>
