@@ -11,11 +11,13 @@
 
   <ion-content 
     class="has-subheader">
+    <div class="padding">
       <button class="button button-primary button-block " >
         Check for updates
       </button>
       <button class="button button-balanced button-block button-pulse" ng-if="hasUpdate" ng-click="doUpdate()">
         Update!
       </button>
+    </div>
   </ion-content>
 </ion-view>
