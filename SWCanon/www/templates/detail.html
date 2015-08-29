@@ -6,13 +6,22 @@
 	<ion-content>
 		<!-- list for capability of showing details of multiple items -->
 		<ion-list class="list-inset">
-			<ion-item class="item-text-wrap"
+			<ion-item class="item-text-wrap media-detail"
 			ng-repeat="item in media | filter: {id: whatmedia}">
-			      <img ng-src="{{item.img_poster}}"
-			        alt="{{ item.title }} Photo">
-			      <h2>{{item.title}}</h2>
-			      <h3>{{item.type}}</h3>
-			      <p>{{item.synopsis_long}}</p>
+				<div class="row">
+					<div class="col-50 padding">
+						<img ng-src="{{item.img_poster}}"
+		        		alt="{{ item.title }} Photo" class="poster">
+					</div>
+	        		<div class="col col-center">
+	        			<h2>{{item.title}}</h2>
+				    	<h3>{{item.type}}</h3>
+	        		</div>
+			        
+				</div>
+				<p>{{item.synopsis_long}}</p>
+			      
+
 			</ion-item>
 		</ion-list>
 	</ion-content>
