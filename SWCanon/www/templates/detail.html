@@ -23,13 +23,13 @@
     						<span ng-if="item.canon_date_begin > 0"> ABY</span>
     						<span ng-if="item.canon_date_begin < 0"> BBY</span>
         					</div>
-        					<div ng-if="item.author" ng-repeat="person in people | filter: {id: item.author}">
+        					<div ng-if="item.author" ng-repeat="person in people | filter: {id: item.author} | limitTo: 1">
         					<b>Author: </b> {{person.name}}</div>
-        					<div ng-if="item.director" ng-repeat="person in people | filter: {id: item.director}">
+        					<div ng-if="item.director" ng-repeat="person in people | filter: {id: item.director} | limitTo: 1">
         					<b>Director: </b> {{person.name}}</div>
         					<div ng-if="item.writers"><b>Writers:</b>
         						<span ng-repeat="writerId in item.writers">
-        							<span ng-repeat="person in people | filter: {id: writerId}">
+        							<span ng-repeat="person in people | filter: {id: writerId} | limitTo: 1">
         								{{person.name}}. </span>
         						</span>
     						</div>
@@ -39,7 +39,7 @@
 				<b>Characters</b>
 				<div class="detail-characters row">
 					<span class="col char-col" ng-repeat="charId in item.characters | limitTo: 6">
-						<span ng-repeat="character in characters | filter: {id: charId}" >
+						<span ng-repeat="character in characters | filter: {id: charId} | limitTo: 1" >
 							<img ng-src="{{character.img}}" class="avatar">
 						</span>
 					</span>
