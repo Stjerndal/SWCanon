@@ -8,6 +8,8 @@
 
     <link href="lib/ionic/css/ionic.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <!-- ionic-toast bower component css -->
+    <link href="lib/ionic-toast/dist/style.css" rel="stylesheet"> 
 
     <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
     <link href="css/ionic.app.css" rel="stylesheet">
@@ -17,6 +19,8 @@
     <script src="lib/ionic/js/ionic.bundle.js"></script>
     <script src="lib/ionic-service-core/ionic-core.js"></script>
     <script src="lib/ionic-service-deploy/ionic-deploy.js"></script>
+    <!-- ionic-toast bower component -->
+    <script src="lib/ionic-toast/dist/ionic-toast.js"></script>
 
     <!-- cordova script (this will be a 404 during development) -->
     <!-- Cordova is bootstrapped by ionic-service-core, uncomment this if you remove ionic-service-core... -->
@@ -34,6 +38,7 @@
     <script src="js/directives/DirectivesModule.js"></script>
     <script src="js/directives/mediaListItem.js"></script>
     <script src="js/directives/backImg.js"></script>
+    <script src="js/directives/goNative.js"></script>
 
     <!-- filters -->
     <script src="js/filters/FiltersModule.js"></script>
@@ -46,7 +51,7 @@
       The nav bar that will be updated as we navigate between views.
     -->
     <ion-nav-bar class="bar-dark">
-      <ion-nav-back-button></ion-nav-back-button>
+      <ion-nav-back-button transitiontype="slide" direction="right" go-native=""></ion-nav-back-button>
     </ion-nav-bar>
 
     <!--
