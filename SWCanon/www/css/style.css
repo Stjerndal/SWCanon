@@ -67,7 +67,7 @@ body{
 
 .media-list-item .thumbnail-col {
 	min-width: 30%;
-	max-width: 300px !important;
+	max-width: 200px !important;
 }
 
 .media-list-item .content {
@@ -98,25 +98,25 @@ body{
 	}
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 667px) {
 	.media-list-item {
 		font-size: 150%;
 		line-height: 120%;
 	}
 
 	.media-list-item .thumbnail-col {
-		min-width: 300px;
-		max-width: 300px;
+		min-width: 200px; /*30% of screen min-width*/
+		max-width: 200px; /*30% of screen min-width*/
 	}
 
 	.media-list-item .content {
-		min-width: 500px;
+		min-width: 400px; /*50% of screen min-width*/
 		max-width: 1200px;
 	}
 
 	.media-list-item .canon-date-col {
 		max-width: 250px;
-		min-width: 200px;
+		min-width: 100px;
 
 	}
 }
