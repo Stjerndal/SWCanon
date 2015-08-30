@@ -13,6 +13,25 @@ body{
     right: 0;
 }
 
+.border {
+	border: solid;
+}
+
+.border-red {
+	border: solid;
+	border-color: #ff0000;
+}
+
+.border-green {
+	border: solid;
+	border-color: #00ff00;
+}
+
+.border-blue {
+	border: dotted;
+	border-color: #0000ff;
+}
+
 
 /*items in lists have no side padding now*/
 .item-content{
@@ -29,39 +48,93 @@ body{
 	background-position: center;
 }
 
-.red-border {
-	border: solid;
-	border-color: #ff0000;
+.media-list-item h2 {
+	font-size: 1em;
 }
 
-.blue-border {
-	border: dotted;
-	border-color: #0000ff;
+.media-list-item h3 {
+	font-size: 0.88em;
 }
 
 .media-list-item .thumbnail {
 	width: 100%;
-	/*max-height: 300px;*/
+
+}
+
+/*.thumbnail-wrapper {
+	max-width: 300px;
+}*/
+
+.media-list-item .thumbnail-col {
+	min-width: 30%;
+	max-width: 300px !important;
 }
 
 .media-list-item .content {
 	background-color:rgba(255,255,255,0.7);
+	min-width: 50%;
+	max-width: 700px !important;
 }
-
 
 .media-list-item .canon-date {
 	background-color:rgba(255,255,0,0.9);
 	text-align: center;
+
+}
+
+.media-list-item .canon-date-col {
+	padding-right: 0px !important;
+	min-width: 20%;
+}
+
+@media screen and (min-width: 545px) {
+	.media-list-item {
+		font-size: 125%;
+		line-height: 120%;
+	}
+
+	.media-list-item .thumbnail {
+		margin-left: 5%
+	}
+}
+
+@media screen and (min-width: 1000px) {
+	.media-list-item {
+		font-size: 150%;
+		line-height: 120%;
+	}
+
+	.media-list-item .thumbnail-col {
+		min-width: 300px;
+		max-width: 300px;
+	}
+
+	.media-list-item .content {
+		min-width: 500px;
+		max-width: 1200px;
+	}
+
+	.media-list-item .canon-date-col {
+		max-width: 250px;
+		min-width: 200px;
+
+	}
+}
+
+@media screen and (min-width: 1300px) {
+	.media-list-item .thumbnail {
+		margin-left: 10%
+	}
 }
 
 .media-list-item .media-type-icon {
 
-	text-align: center;
-	font-size: 200%;
-	width: 15%;
-	height: 35%;
-	margin-bottom: 10px;
-	margin-right: 10px;
+	text-align: right;
+	font-size: 1.6em;
+	/*width: 15%;*/
+	/*height: 35%;*/
+	/*margin-bottom: 10px;*/
+	margin-right: 5%;
 }
 
 
@@ -118,7 +191,6 @@ body{
 
 .detail-character-row {
 	max-width: 900px;
-	text-align:center;
 }
 
 
