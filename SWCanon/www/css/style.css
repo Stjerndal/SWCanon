@@ -255,10 +255,18 @@ body{
 .char-content  h2 {
 	font-size: 2em;
 	font-weight: bold;
+	margin-bottom: 0px !important;
 }
 
 .char-content h3 {
-	font-size: 1.1em;
+	font-size: 0.85em;
+}
+
+.appearances h3 {
+	text-align: center;
+	padding-top: 5px;
+	max-width: 1000px;
+	font-size: 1.5em;
 }
 
 .mini-media-list {
@@ -274,6 +282,12 @@ body{
 	font-size: 1em;
 }
 
+.char-content .name {
+	padding: 0px !important;
+	margin-bottom: 0px !important;
+	max-width: 300px !important;
+}
+
 .char-content .char-detail-row {
 	text-align: center;
 	max-width: 1000px;
@@ -282,7 +296,7 @@ body{
 .avatar-wrapper {
 	width: 50%;
 	max-width: 300px !important;
-
+	margin-bottom: 0px !important;
 }
 
 
