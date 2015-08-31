@@ -88,6 +88,10 @@ body{
 }
 
 @media screen and (min-width: 545px) {
+	.media-list-item .content {
+		background-color:rgba(255,0,0,0.7);
+	}
+
 	.media-list-item {
 		font-size: 125%;
 		line-height: 120%;
@@ -98,15 +102,19 @@ body{
 	}
 }
 
-@media screen and (min-width: 667px) {
+@media screen and (min-width: 667px), screen and (orientation: landscape) {
+	.media-list-item .content {
+		background-color:rgba(0,255,0,0.7);
+	}
+
 	.media-list-item {
 		font-size: 150%;
 		line-height: 120%;
 	}
 
 	.media-list-item .thumbnail-col {
-		min-width: 200px; /*30% of screen min-width*/
-		max-width: 200px; /*30% of screen min-width*/
+		min-width: 120px; /*30% of screen min-width*/
+		max-width: 120px; /*30% of screen min-width*/
 	}
 
 	.media-list-item .content {
@@ -122,6 +130,9 @@ body{
 }
 
 @media screen and (min-width: 1300px) {
+	.media-list-item .content {
+		background-color:rgba(0,0,255,0.7);
+	}
 	.media-list-item .thumbnail {
 		margin-left: 10%
 	}
