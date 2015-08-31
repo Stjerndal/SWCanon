@@ -23,22 +23,14 @@
     						<span ng-if="item.canon_date_begin > 0"> ABY</span>
     						<span ng-if="item.canon_date_begin < 0"> BBY</span>
         					</div>
-        					<div ng-if="item.author" ng-repeat="person in people | filter: {id: item.author} | limitTo: 1">
-        					<b>Author: </b> {{person.name}}</div>
-        					<div ng-if="item.director" ng-repeat="person in people | filter: {id: item.director} | limitTo: 1">
-        					<b>Director: </b> {{person.name}}</div>
+        					<div ng-if="item.author"><b>Author: </b> {{item.author}}</div>
+        					<div ng-if="item.director"><b>Director: </b> {{item.director}}</div>
         					<div ng-if="item.writers"><b>Writers:</b>
-        						<span ng-repeat="writerId in item.writers">
-        							<span ng-repeat="person in people | filter: {id: writerId} | limitTo: 1">
-        								{{person.name}}. </span>
-        						</span>
-    						</div>
+        						<p ng-repeat="writer in item.writers">
+        								 {{writer}}</p></div>
     						<div ng-if="item.creators"><b>Creators:</b>
-        						<span ng-repeat="creatorId in item.creators">
-        							<span ng-repeat="person in people | filter: {id: creatorId} | limitTo: 1">
-        								{{person.name}}. </span>
-        						</span>
-    						</div>
+        						<p ng-repeat="creator in item.creators">
+        								 {{creator}}</p></div>
         				</div>
 	        		</div>
 				</div>
