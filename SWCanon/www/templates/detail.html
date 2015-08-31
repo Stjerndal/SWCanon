@@ -52,8 +52,9 @@
 				</div>
 
 				<b>Story</b>
-				<div class="synopsis">
-					<p>{{item.synopsis_long}}</p>
+				<div class="synopsis" ng-click="synopsis_long = !synopsis_long">
+					<p ng-show="!synopsis_long">{{item.synopsis_short}}<br><b>TAP TO READ MORE!</b></p>
+					<p ng-show="synopsis_long">{{item.synopsis_long}}<br><b> TAP TO MINIMIZE.</b></p>
 		      	</div>
 			</ion-item>
 		</ion-list>
