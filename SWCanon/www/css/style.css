@@ -202,3 +202,8 @@ body{
 .col-padder {
 	width: 30px;
 }
+
+.synopsis p {
+	white-space: pre-line !important;
+	max-width: 900px;
+}
