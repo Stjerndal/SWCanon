@@ -14,13 +14,13 @@ angular.module('starter.controllers')
 	$scope.doUpdate = function() {
 	    $ionicDeploy.update().then(function(res) {
 	      console.log('Ionic Deploy: Update Success! ', res);
-	      showToast('Ionic Deploy: Update Success! ' + res);
+	      showToast('Update Success! ' + res);
 	    }, function(err) {
 	      console.log('Ionic Deploy: Update error! ', err);
-	      showToast('Ionic Deploy: Update error! ' + err);
+	      showToast('Update error! ' + err);
 	    }, function(prog) {
 	      console.log('Ionic Deploy: Progress... ', prog);
-	      showToast('Ionic Deploy: Progress... ' + prog, prog);
+	      showToast('Update in rogress... ' + prog + '%', prog);
 	    });
 	};
 
@@ -29,11 +29,11 @@ angular.module('starter.controllers')
 		console.log('Ionic Deploy: Checking for updates');
 	    $ionicDeploy.check().then(function(hasUpdate) {
 	    	console.log('Ionic Deploy: Update available: ' + hasUpdate);
-	    	showToast('Ionic Deploy: Update available: ' + hasUpdate);
+	    	showToast('Update available: ' + hasUpdate);
 	    	$scope.hasUpdate = hasUpdate;
 	    }, function(err) {
 	    	console.error('Ionic Deploy: Unable to check for updates', err);
-	    	showToast('Ionic Deploy: Unable to check for updates' + err);
+	    	showToast('Unable to check for updates' + err);
 	    });
 	}
 });
