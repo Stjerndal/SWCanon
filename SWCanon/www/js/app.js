@@ -18,14 +18,14 @@ angular.module('starter', ['ionic','ionic.service.core','ionic.service.deploy', 
 
     // "wait for deviceready" before configuring nativetransitions
     // Native transition configuration, override any default you want
-    window.plugins.nativepagetransitions.globalOptions.duration = 500;
-    window.plugins.nativepagetransitions.globalOptions.iosdelay = 350;
-    window.plugins.nativepagetransitions.globalOptions.androiddelay = 350;
-    window.plugins.nativepagetransitions.globalOptions.winphonedelay = 350;
-    window.plugins.nativepagetransitions.globalOptions.slowdownfactor = 4;
+    window.plugins.nativepagetransitions.globalOptions.duration = 500; //500
+    window.plugins.nativepagetransitions.globalOptions.iosdelay = 100; //350
+    window.plugins.nativepagetransitions.globalOptions.androiddelay = 150; //350
+    window.plugins.nativepagetransitions.globalOptions.winphonedelay = 250; //350
+    window.plugins.nativepagetransitions.globalOptions.slowdownfactor = 3; //4
     // these are used for slide left/right only currently
-    window.plugins.nativepagetransitions.globalOptions.fixedPixelsTop = 0;
-    window.plugins.nativepagetransitions.globalOptions.fixedPixelsBottom = 0;
+    window.plugins.nativepagetransitions.globalOptions.fixedPixelsTop = 43; //0
+    window.plugins.nativepagetransitions.globalOptions.fixedPixelsBottom = 49; //0
   });
   
 })

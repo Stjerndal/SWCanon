@@ -20,7 +20,7 @@ angular.module('starter.controllers')
 	      showToast('Update error! ' + err);
 	    }, function(prog) {
 	      console.log('Ionic Deploy: Progress... ', prog);
-	      showToast('Update in rogress... ' + prog + '%', prog);
+	      showToast('Update in progress... ' + prog + '%', prog);
 	    });
 	};
 
