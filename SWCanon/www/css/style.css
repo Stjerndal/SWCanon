@@ -88,9 +88,6 @@ body{
 }
 
 @media screen and (min-width: 545px) {
-	.media-list-item .content {
-		background-color:rgba(255,0,0,0.7);
-	}
 
 	.media-list-item {
 		font-size: 125%;
@@ -103,10 +100,6 @@ body{
 }
 
 @media screen and (min-width: 667px), screen and (orientation: landscape) {
-	.media-list-item .content {
-		background-color:rgba(0,255,0,0.7);
-	}
-
 	.media-list-item {
 		font-size: 150%;
 		line-height: 120%;
@@ -130,9 +123,6 @@ body{
 }
 
 @media screen and (min-width: 1300px) {
-	.media-list-item .content {
-		background-color:rgba(0,0,255,0.7);
-	}
 	.media-list-item .thumbnail {
 		margin-left: 10%
 	}
