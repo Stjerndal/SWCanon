@@ -33,6 +33,12 @@
         								{{person.name}}. </span>
         						</span>
     						</div>
+    						<div ng-if="item.creators"><b>Creators:</b>
+        						<span ng-repeat="creatorId in item.creators">
+        							<span ng-repeat="person in people | filter: {id: creatorId} | limitTo: 1">
+        								{{person.name}}. </span>
+        						</span>
+    						</div>
         				</div>
 	        		</div>
 				</div>
