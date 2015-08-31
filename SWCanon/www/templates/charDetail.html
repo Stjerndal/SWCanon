@@ -1,0 +1,32 @@
+<ion-header-bar class="bar-dark">
+	<h2 class="title">Details</h2>
+</ion-header-bar>
+<ion-view view-title="Details">
+	<ion-content>
+		<!-- list for capability of showing details of multiple items -->
+		<ion-list>
+			<div class="item-text-wrap"
+			ng-repeat="char in characters | filter: {id: whichchar} | limitTo: 1">
+			<div class="char-content padding">
+				<div class="row row-center responsive-sm no-padding char-detail-row">
+					<div class="col avatar-wrapper no-padding">
+						<img ng-src="{{char.img}}"
+		        		alt="{{ char.name }} Photo" class="avatar">
+					</div>
+					
+	        		<div class="col">
+	        			<h2>{{char.name}}</h2>
+	        		</div>
+        		</div>
+			
+
+				<ion-item ng-repeat="item in media | filter: {$: char.id} | orderBy: 'canon_date_begin'"
+					class="item mini-media-list"
+			       href="#/tab/canon/{{item.id}}" transitiontype="slide" direction="left" go-native>
+			        <media-list-item media-item="item" today="today" yesterday="yesterday" mini="true"></media-list-item>
+			    </ion-item>
+		    </div>
+			</div>
+		</ion-list>
+	</ion-content>
+</ion-view>

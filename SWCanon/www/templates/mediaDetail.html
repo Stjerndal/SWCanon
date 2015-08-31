@@ -1,12 +1,13 @@
 <ion-header-bar class="bar-dark">
 	<h2 class="title">Details</h2>
 </ion-header-bar>
-<ion-view>
+<ion-view view-title="Details">
 	<ion-content>
 		<!-- list for capability of showing details of multiple items -->
 		<ion-list>
-			<ion-item class="item-text-wrap media-detail"
-			ng-repeat="item in media | filter: {id: whatmedia}">
+			<ion-item class="item-text-wrap"
+			ng-repeat="item in media | filter: {id: whatmedia} | limitTo: 1">
+			<div class="media-detail">
 				<div class="row no-padding">
 					<div class="col poster-col no-padding">
 						<img ng-src="{{item.img_poster}}"
@@ -48,6 +49,7 @@
 					<p ng-show="!synopsis_long">{{item.synopsis_short}}<br><b>TAP TO READ MORE!</b></p>
 					<p ng-show="synopsis_long">{{item.synopsis_long}}<br><b> TAP TO MINIMIZE.</b></p>
 		      	</div>
+	      	</div>
 			</ion-item>
 		</ion-list>
 	</ion-content>

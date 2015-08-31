@@ -300,7 +300,7 @@
     },
     {
       "id": "kylo_ren",
-      "name": "Finn",
+      "name": "Kylo Ren",
       "img": "http://img1.wikia.nocookie.net/__cb20150517175543/starwars/images/c/c4/Kylo_Ren_art.jpg",
       "media": [
         "the_force_awakens"
@@ -374,7 +374,7 @@
     },
     {
       "id": "zeb_orrelios",
-      "name": "garazeb_orrelios",
+      "name": "Garazeb Orrelios",
       "img": "http://img2.wikia.nocookie.net/__cb20141103040015/starwars/images/6/6a/ZebOrrelios.png",
       "media": [
         "rebels"

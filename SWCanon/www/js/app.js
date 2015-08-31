@@ -50,21 +50,40 @@ angular.module('starter', ['ionic','ionic.service.core','ionic.service.deploy', 
   })
 
   // Each tab has its own nav history stack:
-  .state('tab.list', {
-      url: '/list',
+  .state('tab.canon', {
+      url: '/canon',
       views: {
-        'list-tab' : {
-          templateUrl: 'templates/list.html',
-          controller: 'ListController'
+        'canon-tab' : {
+          templateUrl: 'templates/canon.html',
+          controller: 'CanonController'
         }
       }
     })
-    .state('tab.detail', {
-      url: '/list/:mId',
+    .state('tab.mediaDetail', {
+      url: '/canon/:mId',
       views: {
-        'list-tab' : {
-          templateUrl: 'templates/detail.html',
-          controller: 'ListController'
+        'canon-tab' : {
+          templateUrl: 'templates/mediaDetail.html',
+          controller: 'CanonController'
+        }
+      }
+    })
+
+  .state('tab.charList', {
+      url: '/charList',
+      views: {
+        'charList-tab' : {
+          templateUrl: 'templates/charList.html',
+          controller: 'CharListController'
+        }
+      }
+    })
+    .state('tab.charDetail', {
+      url: '/charList/:cId',
+      views: {
+        'charList-tab' : {
+          templateUrl: 'templates/charDetail.html',
+          controller: 'CharListController'
         }
       }
     })
@@ -80,7 +99,7 @@ angular.module('starter', ['ionic','ionic.service.core','ionic.service.deploy', 
     });
 
   // if none of the above states are matched, use this as the fallback
-  $urlRouterProvider.otherwise('/tab/list');
+  $urlRouterProvider.otherwise('/tab/canon');
 
   $ionicConfigProvider.tabs.position('bottom'); // other values: top
 

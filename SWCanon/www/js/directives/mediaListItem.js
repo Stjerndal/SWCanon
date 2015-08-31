@@ -5,6 +5,7 @@ angular.module('starter.directives')
     restrict: 'E', 
     scope: { 
       mediaItem: '=',
+      mini: '=',
       today: '=',
       yesterday: '='
     }, 

@@ -89,33 +89,42 @@ body{
 
 @media screen and (min-width: 545px) {
 
-	.media-list-item {
+	.big-list .media-list-item {
 		font-size: 125%;
 		line-height: 120%;
 	}
 
-	.media-list-item .thumbnail {
+	.big-list .media-list-item .thumbnail {
 		margin-left: 5%
 	}
 }
 
 @media screen and (min-width: 667px), screen and (orientation: landscape) {
-	.media-list-item {
+/*	.media-list-item .content {
+		background-color:rgba(0,255,0,0.7);
+	}*/
+	.big-list .media-list-item {
 		font-size: 150%;
 		line-height: 120%;
 	}
 
-	.media-list-item .thumbnail-col {
+	.char-content .media-list-item .thumbnail-col {
+		min-width: 120px !important; /*30% of screen min-width*/
+		max-width: 120px !important; /*30% of screen min-width*/
+	}
+
+	.big-list .media-list-item .thumbnail-col {
 		min-width: 120px; /*30% of screen min-width*/
 		max-width: 120px; /*30% of screen min-width*/
 	}
 
-	.media-list-item .content {
+
+	.big-list .media-list-item .content {
 		min-width: 400px; /*50% of screen min-width*/
 		max-width: 1200px;
 	}
 
-	.media-list-item .canon-date-col {
+	.big-list .media-list-item .canon-date-col {
 		max-width: 250px;
 		min-width: 100px;
 
@@ -123,9 +132,24 @@ body{
 }
 
 @media screen and (min-width: 1300px) {
-	.media-list-item .thumbnail {
-		margin-left: 10%
+/*	.media-list-item .content {
+		background-color:rgba(255,0,0,0.7);
+	}*/
+
+	.big-list .media-list-item .thumbnail-col {
+		margin-left: 3%;
 	}
+
+	.media-detail {
+		margin-left: 3%;
+	}
+
+	.char-content {
+		margin-left: 3%;
+		/*max-width: 300px !important;*/
+	}
+
+
 }
 
 .media-list-item .media-type-icon {
@@ -207,3 +231,58 @@ body{
 	white-space: pre-line !important;
 	max-width: 900px;
 }
+
+
+/*CharacterList*/
+.charListRow {
+	/*min-width: 30%;
+	max-width: 20px !important;*/
+	max-height: 100px;
+}
+
+.charList .thumbnail-col {
+	/*min-width: 30%;
+	max-width: 20px !important;*/
+	max-width: 20%;
+}
+
+.charList .avatar {
+	/*min-width: 30%;
+	max-width: 20px !important;*/
+	max-width: 100px;
+}
+
+.char-content  h2 {
+	font-size: 2em;
+	font-weight: bold;
+}
+
+.char-content h3 {
+	font-size: 1.1em;
+}
+
+.mini-media-list {
+	font-size: 100%;
+	max-width: 1000px;
+}
+
+.mini-media-list h2 {
+	font-size: 1.2em;
+}
+
+.char-content p {
+	font-size: 1em;
+}
+
+.char-content .char-detail-row {
+	text-align: center;
+	max-width: 1000px;
+}
+
+.avatar-wrapper {
+	width: 50%;
+	max-width: 300px !important;
+
+}
+
+
