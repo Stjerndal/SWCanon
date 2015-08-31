@@ -68,6 +68,15 @@ angular.module('starter', ['ionic','ionic.service.core','ionic.service.deploy', 
         }
       }
     })
+    .state('tab.mediaCharDetail', {
+      url: '/canon/charList/:cId',
+      views: {
+        'canon-tab' : {
+          templateUrl: 'templates/charDetail.html',
+          controller: 'CharListController'
+        }
+      }
+    })
 
   .state('tab.charList', {
       url: '/charList',
@@ -84,6 +93,15 @@ angular.module('starter', ['ionic','ionic.service.core','ionic.service.deploy', 
         'charList-tab' : {
           templateUrl: 'templates/charDetail.html',
           controller: 'CharListController'
+        }
+      }
+    })
+    .state('tab.charMediaDetail', {
+      url: '/charList/canon/:mId',
+      views: {
+        'charList-tab' : {
+          templateUrl: 'templates/mediaDetail.html',
+          controller: 'CanonController'
         }
       }
     })
