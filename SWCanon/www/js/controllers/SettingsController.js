@@ -2,13 +2,19 @@ angular.module('starter.controllers')
 
 
 
-.controller('SettingsController', function($scope, $ionicDeploy, ionicToast) {
+.controller('SettingsController', function($scope, $ionicDeploy, ionicToast, $ionicHistory) {
 
 	// ionic-toast bower component
 	function showToast(msg){
 		// ionicToast.show(message, position, stick, time);
 		//ionicToast.show('This is a toast at the top.', 'top', true, 2500);
 		ionicToast.show(msg, 'middle', false, 2500);
+	};
+
+	function showToastTop(msg){
+		// ionicToast.show(message, position, stick, time);
+		//ionicToast.show('This is a toast at the top.', 'top', true, 2500);
+		ionicToast.show(msg, 'top', true, 2500);
 	};
 
 	$scope.doUpdate = function() {
@@ -35,5 +41,8 @@ angular.module('starter.controllers')
 	    	console.error('Ionic Deploy: Unable to check for updates', err);
 	    	showToast('Unable to check for updates' + err);
 	    });
+
+	    console.log('Title inc...');
+	    console.log('View title: ' + $ionicHistory.currentTitle());
 	}
 });

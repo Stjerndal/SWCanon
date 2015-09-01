@@ -25,7 +25,9 @@
 
 				<ion-item ng-repeat="item in media | filter: {$: char.id} | orderBy: 'canon_date_begin'"
 					class="item mini-media-list"
-			       href="#/tab/charList/canon/{{item.id}}" transitiontype="slide" direction="left" go-native>
+			       href="#/tab{{routeFix}}/canon/{{item.id}}" transitiontype="slide" direction="left" go-native>
+			        <!-- #/tab/charList/canon/dark_disciple  if in #/tab/charList/{{charId}} -->
+
 			        <media-list-item media-item="item" today="today" yesterday="yesterday" mini="true"></media-list-item>
 			    </ion-item>
 		    </div>
