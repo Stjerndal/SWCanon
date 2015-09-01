@@ -13,7 +13,7 @@
     class="has-subheader">
     <ion-list class="charList">
       <ion-item class="item charListItem"
-      ng-repeat="char in characters | filter: query | orderBy: 'id'"
+      ng-repeat="char in characters | filter: query | orderBy: 'name'"
       href="#/tab/charList/{{char.id}}"
       transitiontype="slide" direction="left" go-native>
         <div class="row row-center charListRow">
@@ -22,7 +22,7 @@
           </div>
         
           <div class="col">
-            <h2>{{char.name}}</h2>
+            <h2>{{char.title}} {{char.name}}</h2>
           </div>
        <!-- <media-list-item media-item="item" today="today" yesterday="yesterday"></media-list-item> -->
         </div>
