@@ -5,7 +5,7 @@
       "id": "dark_disciple",
       "title": "Dark Disciple",
       "release_date": "2015-08-24T19:02",
-      "canon_date_begin": -22,
+      "canon_date_begin": -20,
       "canon_date_end": -19,
       "img_poster": "http://img3.wikia.nocookie.net/__cb20141209194455/starwars/images/thumb/9/90/Dark_Disciple_Cover.png/400px-Dark_Disciple_Cover.png",
       "img_cover": "http://a.dilcdn.com/bl/wp-content/uploads/sites/6/2015/07/ventress_header-2400x1200-996929412987.jpeg",
@@ -33,11 +33,11 @@
         "luke_skywalker",
         "leia_organa",
         "han_solo",
-        "obi_wan_kenobi",
-        "anakin_skywalker",
-        "r2_d2",
+        "darth_vader",
         "lando_calrissian",
-        "c_3po"
+        "r2_d2",
+        "c_3po",
+        "obi_wan_kenobi"
       ],
       "synopsis_short": "After the rebels have been brutally overpowered by the Empire on their newly established base, Luke Skywalker takes advanced Jedi training with Master Yoda, while his friends are pursued by Darth Vader as part of his plan to capture Luke.",
       "synopsis_long": "After the rebels have been brutally overpowered by the Empire on their newly established base, Luke Skywalker takes advanced Jedi training with Master Yoda, while his friends are pursued by Darth Vader as part of his plan to capture Luke.",
@@ -64,8 +64,8 @@
         "finn",
         "kylo_ren",
         "poe_dameron",
-        "general_hux",
-        "captain_phasma",
+        "hux",
+        "phasma",
         "snoke",
         "han_solo",
         "luke_skywalker",
@@ -98,7 +98,7 @@
         "leia_organa",
         "han_solo",
         "obi_wan_kenobi",
-        "anakin_skywalker",
+        "darth_vader",
         "r2_d2",
         "lando_calrissian",
         "c_3po"
@@ -126,7 +126,7 @@
         "kanan_jarrus",
         "hera_syndulla",
         "sabine_wren",
-        "zeb_orrelios",
+        "garazeb_orrelios",
         "kallus"
       ],
       "synopsis_short": "A brave and clever ragtag starship crew stands up against the evil Empire as it tightens its grip on the galaxy and hunts down the last of the Jedi Knights.",
@@ -139,6 +139,150 @@
         "Carrie Beck",
         "Dave Filoni"
       ],
+      "music_by": null
+    },
+    {
+      "type": "Movie",
+      "id": "the_phantom_menace",
+      "title": "Episode I - The Phantom Menace",
+      "release_date": "1999-05-19T19:02",
+      "canon_date_begin": -32,
+      "canon_date_end": null,
+      "img_poster": "http://img1.wikia.nocookie.net/__cb20130822171446/starwars/images/thumb/7/75/EPI_TPM_poster.png/500px-EPI_TPM_poster.png",
+      "img_cover": "http://ibytes.es/images/content/postimages/YosoytuPadreTA/ST9x-L.jpg",
+      "characters": [
+        "qui_gon_jinn",
+        "obi_wan_kenobi",
+        "padme_amidala",
+        "darth_maul",
+        "r2_d2",
+        "yoda",
+        "c_3po",
+        "darth_vader"
+      ],
+      "synopsis_short": "Two Jedi Knights escape a hostile blockade to find allies and come across a young boy who may bring balance to the Force, but the long dormant Sith resurface to reclaim their old glory.",
+      "synopsis_long": "The evil Trade Federation, led by Nute Gunray is planning to take over the peaceful world of Naboo. Jedi Knights Qui-Gon Jinn and Obi-Wan Kenobi are sent to confront the leaders. But not everything goes to plan. The two Jedi escape, and along with their new Gungan friend, Jar Jar Binks head to Naboo to warn Queen Amidala, but droids have already started to capture Naboo and the Queen is not safe there. \n\nEventually, they land on Tatooine, where they become friends with a young boy known as Anakin Skywalker. Qui-Gon is curious about the boy, and sees a bright future for him. The group must now find a way of getting to Coruscant and to finally solve this trade dispute, but there is someone else hiding in the shadows. Are the Sith really extinct? Is the Queen really who she says she is? And what's so special about this young boy?",
+      "author": null,
+      "director": "George Lucas",
+      "writers": [
+        "George Lucas"
+      ],
+      "music_by": "John Williams"
+    },
+    {
+      "type": "Movie",
+      "id": "attack_of_the_clones",
+      "title": "Episode II - Attack of the Clones",
+      "release_date": "2002-05-16T19:02",
+      "canon_date_begin": -22,
+      "canon_date_end": null,
+      "img_poster": "http://img11.deviantart.net/502d/i/2014/244/4/c/star_wars_episode_ii__attack_of_the_clones_by_ihaveanawesomename-d7ximjf.jpg",
+      "img_cover": "https://i.kinja-img.com/gawker-media/image/upload/18dy2l4yafs7pjpg.jpg",
+      "characters": [
+        "obi_wan_kenobi",
+        "darth_vader",
+        "padme_amidala",
+        "count_dooku",
+        "jango_fett",
+        "yoda"
+      ],
+      "synopsis_short": "Ten years after initially meeting, Anakin Skywalker shares a forbidden romance with Padmé, while Obi-Wan investigates an assassination attempt on the Senator and discovers a secret clone army crafted for the Jedi.",
+      "synopsis_long": "Ten years after the 'Phantom Menace' threatened the planet Naboo, Padmé Amidala is now a Senator representing her homeworld. A faction of political separatists, led by Count Dooku, attempts to assassinate her. \n\nThere are not enough Jedi to defend the Republic against the threat, so Chancellor Palpatine enlists the aid of Jango Fett, who promises that his army of clones will handle the situation. Meanwhile, Obi-Wan Kenobi continues to train the young Jedi Anakin Skywalker, who fears that the Jedi code will forbid his growing romance with Amidala.",
+      "author": null,
+      "director": "George Lucas",
+      "writers": [
+        "George Lucas",
+        "Jonathan Hales"
+      ],
+      "music_by": "John Williams"
+    },
+    {
+      "type": "TV",
+      "id": "the_clone_wars",
+      "title": "The Clone Wars",
+      "release_date": "2008-08-15T19:02",
+      "canon_date_begin": -22,
+      "canon_date_end": -20,
+      "img_poster": "http://img05.deviantart.net/c72e/i/2012/159/b/5/clone_wars_4_poster_by_denisogloblin-d52peeo.jpg",
+      "img_cover": "http://www.mattgaser.com/wp-content/uploads/2014/01/StarWars-630x316.jpg",
+      "characters": [
+        "ahsoka_tano",
+        "obi_wan_kenobi",
+        "darth_vader",
+        "count_dooku",
+        "mace_windu",
+        "yoda"
+      ],
+      "synopsis_short": "The Grand Army of the Republic, led by Yoda, Mace Windu, Obi-Wan Kenobi, Anakin Skywalker and other Jedi Knights, fights the New Droid Army of the Separatists.",
+      "synopsis_long": "As the Clone Wars sweep through the galaxy, the heroic Jedi Knights struggle to maintain order and restore peace. More and more systems are falling prey to the forces of the dark side as the Galactic Republic slips further and further under the sway of the Separatists and their never-ending droid army.",
+      "author": null,
+      "director": null,
+      "writers": null,
+      "creators": [
+        "George Lucas"
+      ],
+      "music_by": null
+    },
+    {
+      "type": "Book",
+      "id": "a_new_dawn",
+      "title": "A New Dawn",
+      "release_date": "2014-09-02T19:02",
+      "canon_date_begin": -11,
+      "canon_date_end": null,
+      "img_poster": "https://m2.behance.net/rendition/pm/27815551/max_1200/b5825157f9518e31eab2aef2a79d5aa9.jpg",
+      "img_cover": "http://oyster.ignimgs.com/wordpress/stg.ign.com/2014/08/starwars_082514_1600.jpg",
+      "characters": [
+        "kanan_jarrus",
+        "hera_syndulla"
+      ],
+      "synopsis_short": "The brutal death of a friend at the Empire's hands forces an ex-Jedi to make a choice: bow down to fear, or stand up and fight.",
+      "synopsis_long": "Ever since the Jedi were marked for death and forced to flee Coruscant, Kanan Jarrus has devoted himself to staying alive rather than serving the Force. Wandering the galaxy alone, from one anonymous job to another, he avoids trouble--especially with the Empire--at all costs. So when he discovers a deadly conflict brewing between ruthless Imperial forces and desperate revolutionaries, he's not about to get caught in the crossfire. Then the brutal death of a friend at the Empire's hands forces the ex-Jedi to make a choice: bow down to fear, or stand up and fight. \n\nBut Jarrus won't be fighting alone. Unlikely allies, including a bomb-throwing radical, a former Imperial surveillance agent, a vengeful security officer, and the mysterious Hera Syndulla--an agent provocateur with motives of her own--team up with Jarrus to challenge the Empire. As a crisis of apocalyptic proportions unfolds on the planet Gorse, they must stand together against one of the Emperor's most fearsome enforcers--for the sake of a world and its people",
+      "author": "John Jackson Miller",
+      "director": null,
+      "writers": null,
+      "music_by": null
+    },
+    {
+      "type": "Book",
+      "id": "lords_of_the_sith",
+      "title": "Lords of the Sith",
+      "release_date": "2015-04-28T19:02",
+      "canon_date_begin": -14,
+      "canon_date_end": null,
+      "img_poster": "http://img2.wikia.nocookie.net/__cb20140425200446/starwars/images/thumb/6/6b/Lords_of_the_Sith.jpg/400px-Lords_of_the_Sith.jpg",
+      "img_cover": "http://img1.wikia.nocookie.net/__cb20121005170757/starwars/images/3/35/Syndulla_charge.png",
+      "characters": [
+        "darth_vader",
+        "palpatine",
+        "cham_syndulla"
+      ],
+      "synopsis_short": "When the Emperor and his notorious apprentice, Darth Vader, find themselves stranded in the middle of insurgent action on an inhospitable planet, they must rely on each other, the Force, and their own ruthlessness to prevail.",
+      "synopsis_long": "Anakin Skywalker, Jedi Knight, is just a memory. Darth Vader, newly anointed Sith Lord, is ascendant. The Emperor’s chosen apprentice has swiftly proven his loyalty to the dark side. Still, the history of the Sith Order is one of duplicity, betrayal, and acolytes violently usurping their Masters—and the truest measure of Vader’s allegiance has yet to be taken. Until now.\n\nOn Ryloth, a planet crucial to the growing Empire as a source of slave labor and the narcotic known as “spice,” an aggressive resistance movement has arisen, led by Cham Syndulla, an idealistic freedom fighter, and Isval, a vengeful former slave. But Emperor Palpatine means to control the embattled world and its precious resources—by political power or firepower—and he will be neither intimidated nor denied. Accompanied by his merciless disciple, Darth Vader, he sets out on a rare personal mission to ensure his will is done.",
+      "author": "Paul S. Kemp",
+      "director": null,
+      "writers": null,
+      "music_by": null
+    },
+    {
+      "type": "Book",
+      "id": "tarkin",
+      "title": "Tarkin",
+      "release_date": "2014-11-04T19:02",
+      "canon_date_begin": -14,
+      "canon_date_end": null,
+      "img_poster": "http://img1.wikia.nocookie.net/__cb20140425191637/starwars/images/thumb/d/df/TarkinCover.jpg/500px-TarkinCover.jpg",
+      "img_cover": "http://40.media.tumblr.com/476b06e844e5ad997815b6b5482020ad/tumblr_inline_nlh4r7AER41t92xkt_1280.jpg",
+      "characters": [
+        "tarkin",
+        "darth_vader",
+        "palpatine"
+      ],
+      "synopsis_short": "Governor Wilhuff Tarkin rises through the Imperial ranks, enforcing his authority ever more mercilessly . . . and zealously pursuing his destiny as the architect of absolute dominion.",
+      "synopsis_long": "He’s the scion of an honorable and revered family. A dedicated soldier and distinguished legislator. Loyal proponent of the Republic and trusted ally of the Jedi Order. Groomed by the ruthless politician and Sith Lord who would be Emperor, Governor Wilhuff Tarkin rises through the Imperial ranks, enforcing his authority ever more mercilessly . . . and zealously pursuing his destiny as the architect of absolute dominion. \n\nEscalating guerrilla attacks by resistance forces and newfound evidence of a growing Separatist conspiracy are an immediate danger the Empire must meet with swift and brutal action. And to bring down a band of elusive freedom fighters, the Emperor turns to his most formidable agents: Darth Vader, the fearsome new Sith enforcer as remorseless as he is mysterious; and Tarkin—whose tactical cunning and cold-blooded efficiency will pave the way for the Empire’s supremacy . . . and its enemies’ extinction.",
+      "author": "James Luceno",
+      "director": null,
+      "writers": null,
       "music_by": null
     }
   ],
@@ -168,6 +312,7 @@
     {
       "id": "leia_organa",
       "name": "Leia Organa",
+      "title": "Princess",
       "img": "http://img2.wikia.nocookie.net/__cb20080506155343/starwars/images/thumb/8/89/Leia_endorpromo02.jpg/650px-Leia_endorpromo02.jpg",
       "media": [
         "a_new_hope",
@@ -189,17 +334,19 @@
       ]
     },
     {
-      "id": "anakin_skywalker",
-      "name": "Anakin Skywalker",
-      "img": "http://img2.wikia.nocookie.net/__cb20130621175844/starwars/images/thumb/6/6f/Anakin_Skywalker_RotS.png/400px-Anakin_Skywalker_RotS.png",
+      "id": "darth_vader",
+      "name": "Darth Vader",
+      "img": "http://cdn.bgr.com/2015/08/darth-vader.jpg",
       "media": [
         "the_phantom_menace",
         "attack_of_the_clones",
+        "the_clone_wars",
         "revenge_of_the_sith",
+        "rebels",
+        "lords_of_the_sith",
         "a_new_hope",
         "the_empire_strikes_back",
-        "return_of_the_jedi",
-        "the_force_awakens"
+        "return_of_the_jedi"
       ]
     },
     {
@@ -250,6 +397,7 @@
       "media": [
         "the_phantom_menace",
         "attack_of_the_clones",
+        "the_clone_wars",
         "revenge_of_the_sith",
         "a_new_hope",
         "the_empire_strikes_back",
@@ -261,9 +409,11 @@
       "name": "Lando Calrissian",
       "img": "http://img1.wikia.nocookie.net/__cb20080715214753/starwars/images/7/7d/Lando_WoSW.jpg",
       "media": [
+        "rebels",
         "the_empire_strikes_back",
         "return_of_the_jedi",
-        "shattered_empire"
+        "shattered_empire",
+        "lando_comic"
       ]
     },
     {
@@ -315,16 +465,18 @@
       ]
     },
     {
-      "id": "general_hux",
-      "name": "General Hux",
+      "id": "hux",
+      "name": "Hux",
+      "title": "General",
       "img": "http://www.telegraph.co.uk/content/dam/film/starwarsforceawakens/forceawakens24-xlarge.jpg",
       "media": [
         "the_force_awakens"
       ]
     },
     {
-      "id": "captain_phasma",
-      "name": "Captain Phasma",
+      "id": "phasma",
+      "name": "Phasma",
+      "title": "Captain",
       "img": "http://i.ytimg.com/vi/20YJOkpr1G4/maxresdefault.jpg",
       "media": [
         "the_force_awakens"
@@ -332,7 +484,8 @@
     },
     {
       "id": "snoke",
-      "name": "Supreme Leader Snoke",
+      "name": "Snoke",
+      "title": "Supreme Leader",
       "img": "http://cdn.movieweb.com/img.news.tops/NEBbiXCO5gRKFD_2_b.jpg",
       "media": [
         "the_force_awakens"
@@ -373,8 +526,16 @@
       ]
     },
     {
-      "id": "zeb_orrelios",
+      "id": "garazeb_orrelios",
       "name": "Garazeb Orrelios",
+      "img": "http://img2.wikia.nocookie.net/__cb20100309144123/starwars/images/c/c0/Quigonheadshot.jpg",
+      "media": [
+        "the_phantom_menace"
+      ]
+    },
+    {
+      "id": "qui_gon_jinn",
+      "name": "Qui-Gon Jinn",
       "img": "http://img2.wikia.nocookie.net/__cb20141103040015/starwars/images/6/6a/ZebOrrelios.png",
       "media": [
         "rebels"
@@ -382,10 +543,118 @@
     },
     {
       "id": "kallus",
-      "name": "Agent Kallus",
+      "name": "Kallus",
+      "title": "Agent",
       "img": "http://img3.wikia.nocookie.net/__cb20150415045255/starwars/images/8/87/AgentKallus-SoR.png",
       "media": [
         "rebels"
+      ]
+    },
+    {
+      "id": "padme_amidala",
+      "name": "Padmé Amidala",
+      "title": "Queen",
+      "img": "https://s-media-cache-ak0.pinimg.com/originals/99/26/6c/99266c287187c6eb164551b1d59e0680.jpg",
+      "media": [
+        "the_phantom_menace",
+        "attack_of_the_clones",
+        "the_clone_wars",
+        "revenge_of_the_sith"
+      ]
+    },
+    {
+      "id": "darth_maul",
+      "name": "Darth Maul",
+      "img": "http://img2.wikia.nocookie.net/__cb20140209162228/starwars/images/thumb/5/50/Darth_Maul_profile.png/400px-Darth_Maul_profile.png",
+      "media": [
+        "the_phantom_menace",
+        "the_clone_wars"
+      ]
+    },
+    {
+      "id": "palpatine",
+      "name": "Sheev Palpatine",
+      "title": "Emperor",
+      "img": "http://img1.wikia.nocookie.net/__cb20130620100935/starwars/images/thumb/d/d8/Emperor_Sidious.png/400px-Emperor_Sidious.png",
+      "media": [
+        "the_phantom_menace",
+        "attack_of_the_clones",
+        "the_clone_wars",
+        "revenge_of_the_sith",
+        "lords_of_the_sith",
+        "rebels",
+        "the_empire_strikes_back",
+        "return_of_the_jedi"
+      ]
+    },
+    {
+      "id": "jar_jar_binks",
+      "name": "Jar Jar Binks",
+      "img": "http://img1.wikia.nocookie.net/__cb20111208042120/starwars/images/4/42/JarJarHS-SWE.jpg",
+      "media": [
+        "the_phantom_menace",
+        "attack_of_the_clones",
+        "the_clone_wars",
+        "revenge_of_the_sith"
+      ]
+    },
+    {
+      "id": "mace_windu",
+      "name": "Mace Windu",
+      "img": "http://img1.wikia.nocookie.net/__cb20071230055326/starwars/images/thumb/f/fc/Mace_Windu.jpg/400px-Mace_Windu.jpg",
+      "media": [
+        "the_phantom_menace",
+        "attack_of_the_clones",
+        "the_clone_wars",
+        "revenge_of_the_sith"
+      ]
+    },
+    {
+      "id": "count_dooku",
+      "name": "Dooku",
+      "title": "Count",
+      "img": "http://img4.wikia.nocookie.net/__cb20071218042012/starwars/images/f/f1/Count_Dooku_headshot_gaze.jpg",
+      "media": [
+        "attack_of_the_clones",
+        "the_clone_wars",
+        "revenge_of_the_sith"
+      ]
+    },
+    {
+      "id": "jango_fett",
+      "name": "Jango Fett",
+      "img": "http://img1.wikia.nocookie.net/__cb20111010213136/starwars/images/thumb/8/8f/JangoSansHelmet-SWE.jpg/400px-JangoSansHelmet-SWE.jpg",
+      "media": [
+        "attack_of_the_clones"
+      ]
+    },
+    {
+      "id": "ahsoka_tano",
+      "name": "Ahsoka Tano",
+      "img": "http://img4.wikia.nocookie.net/__cb20150313020047/starwars/images/5/5b/Ahsoka_Tano_Rebels_Profile.png",
+      "media": [
+        "the_clone_wars",
+        "rebels"
+      ]
+    },
+    {
+      "id": "cham_syndulla",
+      "name": "Cham Syndulla",
+      "img": "http://img2.wikia.nocookie.net/__cb20090807213818/es.starwars/images/6/63/Cham_closeup.jpg",
+      "media": [
+        "the_clone_wars",
+        "lords_of_the_sith"
+      ]
+    },
+    {
+      "id": "tarkin",
+      "name": "Wilhuff Tarkin",
+      "title": "Grand Moff",
+      "img": "http://img1.wikia.nocookie.net/__cb20100620213033/starwars/images/thumb/c/c1/Tarkininfobox.jpg/400px-Tarkininfobox.jpg",
+      "media": [
+        "lords_of_the_sith",
+        "rebels",
+        "a_new_hope"
       ]
     }
   ]
