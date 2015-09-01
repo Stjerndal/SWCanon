@@ -528,17 +528,17 @@
     {
       "id": "garazeb_orrelios",
       "name": "Garazeb Orrelios",
-      "img": "http://img2.wikia.nocookie.net/__cb20100309144123/starwars/images/c/c0/Quigonheadshot.jpg",
+      "img": "http://img2.wikia.nocookie.net/__cb20141103040015/starwars/images/6/6a/ZebOrrelios.png",
       "media": [
-        "the_phantom_menace"
+        "rebels"
       ]
     },
     {
       "id": "qui_gon_jinn",
       "name": "Qui-Gon Jinn",
-      "img": "http://img2.wikia.nocookie.net/__cb20141103040015/starwars/images/6/6a/ZebOrrelios.png",
+      "img": "http://img2.wikia.nocookie.net/__cb20100309144123/starwars/images/c/c0/Quigonheadshot.jpg",
       "media": [
-        "rebels"
+        "the_phantom_menace"
       ]
     },
     {
