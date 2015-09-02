@@ -1,12 +1,13 @@
 angular.module('starter.controllers')
 
-.controller('CanonController', function($scope, $http, $state, $ionicHistory, $localstorage) {
+.controller('CanonController', function($scope, $http, $state, $ionicHistory, $localstorage, $ionicDeploy, ionicToast, $ionicPlatform) {
     $http.get('js/data/data.json').success(function(data) {
       $scope.media = data.media;
       $scope.characters = data.characters;
       $scope.whatmedia=$state.params.mId;
       $scope.data = {};
     });
+    
 
     var d = new Date(),
         month = '' + (d.getMonth() + 1),
@@ -15,7 +16,7 @@ angular.module('starter.controllers')
     if (month.length < 2) month = '0' + month;
     if (day.length < 2) day = '0' + day;
 
-  	$scope.today = [year, month, day].join('-');
+    $scope.today = [year, month, day].join('-');
 
 
     // $scope.yesterday = new Date();
@@ -50,8 +51,46 @@ angular.module('starter.controllers')
       } else {
         $scope.routeFix = null;
       }
+       $scope.updateBadge = 2;
     });
 
+    function showToast(msg){
+      // ionicToast.show(message, position, stick, time);
+      //ionicToast.show('This is a toast at the top.', 'top', true, 2500);
+      ionicToast.show(msg, 'middle', false, 2500);
+    };
 
+
+    // Check Ionic Deploy for new code
+    $scope.checkForUpdates = function() {
+
+      console.log('Ionic Deploy: Checking for updates');
+      $ionicDeploy.check().then(function(hasUpdate) {
+        console.log('Ionic Deploy: Update available: ' + hasUpdate);
+        showToast('Update available: ' + hasUpdate);
+          $scope.$parent.updates.hasUpdate = hasUpdate;
+          if($scope.$parent.updates.hasUpdate) {
+            $scope.$parent.updates.num = 1;
+          };
+      }, function(err) {
+        console.error('Ionic Deploy: Unable to check for updates', err);
+        showToast('Unable to check for updates' + err);
+        // var hasUpdate = true;
+        // $scope.$parent.updates.hasUpdate = hasUpdate;
+        //   if($scope.$parent.updates.hasUpdate) {
+        //     $scope.$parent.updates.num = 1;
+        //   };
+        //   console.log('canonhasupdate: ' + $scope.$parent.updates.hasUpdate)
+      });
+     
+    }
+
+    $ionicPlatform.ready(function() {
+      $scope.checkForUpdates();
+    });
+
+    // $scope.$on('$ionicView.loaded', function(){
+       // $scope.checkForUpdates();
+    // });
 
 });

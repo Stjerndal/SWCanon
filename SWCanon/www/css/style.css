@@ -303,3 +303,10 @@ body{
 }
 
 
+.tab-item .badge {
+  opacity: 0.8 !important;
+}
+
+.tab-item-active .badge {
+  opacity: 1 !important;
+}

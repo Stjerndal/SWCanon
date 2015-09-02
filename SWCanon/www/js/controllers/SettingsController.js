@@ -5,9 +5,13 @@ angular.module('starter.controllers')
 .controller('SettingsController', function($scope, $ionicDeploy, ionicToast, $ionicHistory, $localstorage, $ionicPopup) {
 
 	$scope.$on('$ionicView.enter', function(){
+		console.log('hasupdate: ' + $scope.$parent.updates.hasUpdate);
+		console.log('badger: ' + $scope.$parent.updates.num);
     	$scope.sortBy = $localstorage.get('sortBy');
     	$scope.sortByDisplay = $localstorage.get('sortByDisplay');
     	$scope.typeFilters = $localstorage.getObject('typeFilters');
+    	$scope.hasUpdate = $scope.$parent.updates.hasUpdate;
+
   	});
 
 	// ionic-toast bower component
@@ -44,9 +48,19 @@ angular.module('starter.controllers')
 	    	console.log('Ionic Deploy: Update available: ' + hasUpdate);
 	    	showToast('Update available: ' + hasUpdate);
 	    	$scope.hasUpdate = hasUpdate;
+	    	$scope.$parent.updates.hasUpdate = hasUpdate;
+	    	if($scope.hasUpdate) {
+	    		$scope.$parent.updates.num = 1;
+	    	};
 	    }, function(err) {
 	    	console.error('Ionic Deploy: Unable to check for updates', err);
 	    	showToast('Unable to check for updates' + err);
+	    	// var hasUpdate = true;
+	    	// $scope.hasUpdate = hasUpdate;
+	    	// $scope.$parent.updates.hasUpdate = hasUpdate;
+	    	// if($scope.hasUpdate) {
+	    	// 	$scope.$parent.updates.num = 1;
+	    	// };
 	    });
 
 	    console.log('Title inc...');
