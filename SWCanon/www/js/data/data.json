@@ -284,7 +284,51 @@
       "director": null,
       "writers": null,
       "music_by": null
+    },
+    {
+      "type": "Book",
+      "id": "aftermath",
+      "title": "Aftermath",
+      "release_date": "2015-09-04T19:02",
+      "canon_date_begin": 5,
+      "canon_date_end": null,
+      "img_poster": "http://img4.wikia.nocookie.net/__cb20150317200932/starwars/images/thumb/7/7f/Aftermath-Cover.png/400px-Aftermath-Cover.png",
+      "img_cover": "http://cdn.desktopwallpapers4.me/wallpapers/movies/1920x1080/3/29143-star-wars-imperial-star-destroyer-1920x1080-movie-wallpaper.jpg",
+      "characters": [
+        "wedge_antilles",
+        "norra_wexley"
+      ],
+      "synopsis_short": "The second Death Star is destroyed. The Emperor and his powerful enforcer, Darth Vader, are rumored to be dead. The Galactic Empire is in chaos.",
+      "synopsis_long": "As the Empire reels from its critical defeats at the Battle of Endor, the Rebel Alliance—now a fledgling New Republic—presses its advantage by hunting down the enemy's scattered forces before they can regroup and retaliate. But above the remote planet Akiva, an ominous show of the enemy's strength is unfolding. Out on a lone reconnaissance mission, pilot Wedge Antilles watches Imperial Star Destroyers gather like birds of prey circling for a kill, but is taken captive before he can report back to the New Republic leaders.\n\nMeanwhile, on the planet's surface, former Rebel fighter Norra Wexley has returned to her native world—war weary, ready to reunite with her estranged son, and eager to build a new life in some distant place. But when Norra intercepts Wedge Antilles's urgent distress call, she realizes her time as a freedom fighter is not yet over. What she doesn't know is just how close the enemy is—or how decisive and dangerous her new mission will be.",
+      "author": "Chuck Wendig",
+      "director": null,
+      "writers": null,
+      "music_by": null
+    },
+    {
+      "type": "Book",
+      "id": "heir_to_the_jedi",
+      "title": "Heir to the Jedi",
+      "release_date": "2015-03-03T19:02",
+      "canon_date_begin": 1,
+      "canon_date_end": null,
+      "img_poster": "http://img2.wikia.nocookie.net/__cb20140425200555/starwars/images/thumb/c/c2/Heir_to_the_Jedi.jpg/400px-Heir_to_the_Jedi.jpg",
+      "img_cover": "http://1.bp.blogspot.com/-VmC-P-yDIIM/VPMXMZZ4R5I/AAAAAAAA_-Q/lDDYaSBuELw/s1600/luke.jpg",
+      "characters": [
+        "luke_skywalker",
+        "nakari_kelen",
+        "r2_d2",
+        "leia_organa",
+        "ackbar"
+      ],
+      "synopsis_short": "The second Death Star is destroyed. The Emperor and his powerful enforcer, Darth Vader, are rumored to be dead. The Galactic Empire is in chaos.",
+      "synopsis_long": "As the Empire reels from its critical defeats at the Battle of Endor, the Rebel Alliance—now a fledgling New Republic—presses its advantage by hunting down the enemy's scattered forces before they can regroup and retaliate. But above the remote planet Akiva, an ominous show of the enemy's strength is unfolding. Out on a lone reconnaissance mission, pilot Wedge Antilles watches Imperial Star Destroyers gather like birds of prey circling for a kill, but is taken captive before he can report back to the New Republic leaders.\n\nMeanwhile, on the planet's surface, former Rebel fighter Norra Wexley has returned to her native world—war weary, ready to reunite with her estranged son, and eager to build a new life in some distant place. But when Norra intercepts Wedge Antilles's urgent distress call, she realizes her time as a freedom fighter is not yet over. What she doesn't know is just how close the enemy is—or how decisive and dangerous her new mission will be.",
+      "author": "Kevin Hearne",
+      "director": null,
+      "writers": null,
+      "music_by": null
     }
+
   ],
   "characters": [
     {
@@ -293,6 +337,7 @@
       "img": "http://img3.wikia.nocookie.net/__cb20091030151422/starwars/images/d/d9/Luke-rotjpromo.jpg",
       "media": [
         "a_new_hope",
+        "heir_to_the_jedi",
         "the_empire_strikes_back",
         "return_of_the_jedi",
         "the_force_awakens"
@@ -316,7 +361,9 @@
       "img": "http://img2.wikia.nocookie.net/__cb20080506155343/starwars/images/thumb/8/89/Leia_endorpromo02.jpg/650px-Leia_endorpromo02.jpg",
       "media": [
         "a_new_hope",
+        "heir_to_the_jedi",
         "the_empire_strikes_back",
+        "moving_target",
         "return_of_the_jedi",
         "the_force_awakens"
       ]
@@ -372,6 +419,7 @@
         "attack_of_the_clones",
         "revenge_of_the_sith",
         "a_new_hope",
+        "heir_to_the_jedi",
         "the_empire_strikes_back",
         "return_of_the_jedi",
         "the_force_awakens"
@@ -656,6 +704,49 @@
         "rebels",
         "a_new_hope"
       ]
+    },
+    {
+      "id": "wedge_antilles",
+      "name": "Wedge Antilles",
+      "img": "http://img3.wikia.nocookie.net/__cb20111008205416/starwars/images/5/51/Wedge_Antilles.jpg",
+      "media": [
+        "a_new_hope",
+        "princess_leia_comic",
+        "the_weapon_of_a_jedi",
+        "the_empire_strikes_back",
+        "return_of_the_jedi",
+        "aftermath"
+      ]
+    },
+    {
+      "id": "norra_wexley",
+      "name": "Norra Wexley",
+      "img": "http://www.empireonline.com/images/uploaded/star-wars-question-mark.gif",
+      "media": [
+        "aftermath"
+      ]
+    },
+    {
+      "id": "nakari_kelen",
+      "name": "Nakari Kelen",
+      "img": "http://img3.wikia.nocookie.net/__cb20150310221343/starwars/images/6/64/Nakari_Kelen.png",
+      "media": [
+        "heir_to_the_jedi"
+      ]
+    },
+    {
+      "id": "ackbar",
+      "name": "Ackbar",
+      "title": "Admiral",
+      "img": "http://img1.wikia.nocookie.net/__cb20081118162020/starwars/images/f/fb/Ackbar_HS.jpg",
+      "media": [
+        "princess_leia_comic",
+        "heir_to_the_jedi",
+        "moving_target",
+        "return_of_the_jedi",
+        "aftermath"
+      ]
     }
+
   ]
 }
