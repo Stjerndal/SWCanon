@@ -25,12 +25,11 @@
 
 
         		<div class="mini-media-list"
-        		ng-repeat="charMedia in char.media | orderBy: 'canon_date_begin'">
+        		ng-repeat="charMedia in char.media">
         			<ion-item ng-repeat="item in media | filter: {id: charMedia}"
         			href="#/tab{{routeFix}}/canon/{{item.id}}" transitiontype="slide" direction="left" go-native>
         				<media-list-item media-item="item" today="today" yesterday="yesterday" mini="true"></media-list-item>
         			</ion-item>
-
     			</div>
 
 		    </div>

@@ -1,23 +1,56 @@
 <ion-view view-title="Settings">
 
-  <!-- Search bar   -->
-  <div class="bar bar-subheader 
-    item-input-inset bar-light bar-custom">
-    <label class="item-input-wrapper">
-      <i class="icon ion-search placeholder-icon"></i>
-      <input type="search" ng-model="query" placeholder="Search">
-    </label>
-  </div>
+  <ion-content >
+    <ion-list>
 
-  <ion-content 
-    class="has-subheader">
-    <div class="padding">
-      <button class="button button-primary button-block" ng-click="checkForUpdates()" >
+    <ion-item class="item-divider">New content</ion-item>
+      <ion-item ng-show="!hasUpdate" ng-click="checkForUpdates()" class="item item-icon-left">
+        <i class="icon ion-loop"></i>
         Check for updates
-      </button>
-      <button class="button button-balanced button-block button-pulse" ng-if="hasUpdate" ng-click="doUpdate()">
+      </ion-item>
+      <ion-item ng-if="hasUpdate" ng-click="doUpdate()" class="item-balanced item item-icon-left">
+        <i class="icon ion-arrow-up-c"></i>
         Update!
-      </button>
-    </div>
+        <span class="badge badge-energized">1</span>
+      </ion-item>
+
+    <ion-item class="item-divider">Media</ion-item>
+      <ion-item ng-click="showPopup()" class="item item-icon-left">
+        <i class="icon ion-drag"></i>
+        Sort Media By
+        <span class="item-note">{{sortByDisplay}}</span>
+      </ion-item>
+
+      <ion-item class="item-icon-left item-toggle">
+        <i class="icon ion-film-marker"></i>
+        Movies
+        <label class="toggle toggle-energized">
+          <input type="checkbox" ng-model="typeFilters.Movie" ng-change="makeToggle()"><div class="track"><div class="handle"></div></div>
+        </label>
+      </ion-item>
+      <ion-item class="item-icon-left item-toggle">
+        <i class="icon ion-ios-monitor"></i>
+        TV
+        <label class="toggle toggle-energized">
+          <input type="checkbox" ng-model="typeFilters.TV" ng-change="makeToggle()"><div class="track"><div class="handle"></div></div>
+        </label>
+      </ion-item>
+      <ion-item class="item-icon-left item-toggle">
+        <i class="icon ion-ios-book"></i>
+        Books
+        <label class="toggle toggle-energized">
+          <input type="checkbox" ng-model="typeFilters.Book" ng-change="makeToggle()"><div class="track"><div class="handle"></div></div>
+        </label>
+      </ion-item>
+      <ion-item class="item-icon-left item-toggle">
+        <i class="icon ion-social-windows"></i>
+        Comics
+        <label class="toggle toggle-energized">
+          <input type="checkbox" ng-model="typeFilters.Comic" ng-change="makeToggle()"><div class="track"><div class="handle"></div></div>
+        </label>
+      </ion-item>
+
+
+    </ion-list>
   </ion-content>
 </ion-view>

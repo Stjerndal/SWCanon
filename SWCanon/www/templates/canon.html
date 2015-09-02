@@ -12,7 +12,7 @@
   <ion-content 
     class="has-subheader">
     <ion-list>
-      <ion-item ng-repeat="item in media | filter: query | orderBy: 'canon_date_begin'" class="item"
+      <ion-item ng-repeat="item in media | filter: query | mediaTypesFilter: typeFilters | orderBy: sortBy" class="item"
        href="#/tab/canon/{{item.id}}" transitiontype="slide" direction="left" go-native>
         <media-list-item media-item="item" today="today" yesterday="yesterday" class="big-list"></media-list-item>
       </ion-item>

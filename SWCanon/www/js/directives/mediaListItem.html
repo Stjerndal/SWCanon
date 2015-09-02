@@ -1,5 +1,4 @@
-<div ng-class="{'unpublished': (today | date) > (mediaItem.release_date | date)}"
-  class="media-list-item no-padding" back-img="{{mediaItem.img_cover}}">
+<div class="media-list-item no-padding" back-img="{{mediaItem.img_cover}}">
   <div class="row row-center no-padding">
     <div class="col thumbnail-col">
         <img ng-src="{{mediaItem.img_poster}}"
@@ -9,7 +8,8 @@
     <div class="col no-padding"></div>
     <div class = "content col padding item-text-wrap">
         <h2>{{mediaItem.title}}</h2>
-        <h3>{{mediaItem.type}}</h3>
+        <!-- <h3>{{mediaItem.type}}</h3> -->
+        <h3 ng-class="{'unpublished': today < mediaItem.release_date}">{{mediaItem.release_date | date}}</h3>
         <d class="media-type-icon bottom-right icon"
         ng-class="{'ion-film-marker': mediaItem.type == 'Movie',
                   'ion-social-windows': mediaItem.type == 'Comic',

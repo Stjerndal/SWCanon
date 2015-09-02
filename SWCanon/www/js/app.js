@@ -3,7 +3,7 @@
 // angular.module is a global place for creating, registering and retrieving Angular modules
 // 'starter' is the name of this angular module example (also set in a <body> attribute in index.html)
 // the 2nd parameter is an array of 'requires'
-angular.module('starter', ['ionic','ionic.service.core','ionic.service.deploy', 'starter.controllers', 'starter.directives', 'starter.filters', 'ionic-toast'])
+angular.module('starter', ['ionic','ionic.service.core','ionic.service.deploy', 'starter.controllers', 'starter.directives', 'starter.filters', 'ionic-toast', 'ionic.utils'])
 
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
@@ -22,7 +22,8 @@ angular.module('starter', ['ionic','ionic.service.core','ionic.service.deploy', 
     window.plugins.nativepagetransitions.globalOptions.iosdelay = 100; //350
     window.plugins.nativepagetransitions.globalOptions.androiddelay = 150; //350
     window.plugins.nativepagetransitions.globalOptions.winphonedelay = 250; //350
-    window.plugins.nativepagetransitions.globalOptions.slowdownfactor = 3; //4
+    //This same effect can be achieved by passing in a 'slowdownfactor' of more than 1. The higher the number, the less pixels the old page slides out of view:
+    window.plugins.nativepagetransitions.globalOptions.slowdownfactor = 6; //4
     // these are used for slide left/right only currently
     window.plugins.nativepagetransitions.globalOptions.fixedPixelsTop = 43; //0
     window.plugins.nativepagetransitions.globalOptions.fixedPixelsBottom = 49; //0

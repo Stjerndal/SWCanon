@@ -2,7 +2,13 @@ angular.module('starter.controllers')
 
 
 
-.controller('SettingsController', function($scope, $ionicDeploy, ionicToast, $ionicHistory) {
+.controller('SettingsController', function($scope, $ionicDeploy, ionicToast, $ionicHistory, $localstorage, $ionicPopup) {
+
+	$scope.$on('$ionicView.enter', function(){
+    	$scope.sortBy = $localstorage.get('sortBy');
+    	$scope.sortByDisplay = $localstorage.get('sortByDisplay');
+    	$scope.typeFilters = $localstorage.getObject('typeFilters');
+  	});
 
 	// ionic-toast bower component
 	function showToast(msg){
@@ -16,6 +22,7 @@ angular.module('starter.controllers')
 		//ionicToast.show('This is a toast at the top.', 'top', true, 2500);
 		ionicToast.show(msg, 'top', true, 2500);
 	};
+
 
 	$scope.doUpdate = function() {
 	    $ionicDeploy.update().then(function(res) {
@@ -45,4 +52,51 @@ angular.module('starter.controllers')
 	    console.log('Title inc...');
 	    console.log('View title: ' + $ionicHistory.currentTitle());
 	}
+
+
+	// Triggered on a button click, or some other target
+	$scope.showPopup = function() {
+		//$scope.data = {}
+
+		// An elaborate, custom popup
+	    sortPopup = $ionicPopup.show({
+		    templateUrl: 'templates/sortPopup.html',
+		    title: 'Sort media by',
+		    scope: $scope
+    	});
+
+	    $scope.closePopup = function (sortChoice, display) {
+	    	$localstorage.set('sortBy', sortChoice);
+	    	$scope.sortBy = sortChoice;
+	    	$localstorage.set('sortByDisplay', display);
+	    	$scope.sortByDisplay = display;
+			sortPopup.close();
+		};
+
+
+		sortPopup.then(function(res) {
+			console.log('Chose: ' + $localstorage.get('sortBy'));
+		});
+	};
+
+	$scope.closePopup = function () {
+		sortPopup.close();
+	};
+
+	$scope.makeToggle = function() {
+		console.log('toggling...' + $scope.typeFilters.Movie);
+		console.log('toggling...' + $scope.typeFilters.TV);
+		console.log('toggling...' + $scope.typeFilters.Book);
+		console.log('toggling...' + $scope.typeFilters.Comic);
+
+		$localstorage.setObject('typeFilters', {
+    		Movie: $scope.typeFilters.Movie,
+    		TV: $scope.typeFilters.TV,
+    		Book: $scope.typeFilters.Book,
+    		Comic: $scope.typeFilters.Comic
+  		});
+
+	}
+
+
 });
