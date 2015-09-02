@@ -51,7 +51,6 @@ angular.module('starter.controllers')
       } else {
         $scope.routeFix = null;
       }
-       $scope.updateBadge = 2;
     });
 
     function showToast(msg){
@@ -86,7 +85,10 @@ angular.module('starter.controllers')
     }
 
     $ionicPlatform.ready(function() {
-      $scope.checkForUpdates();
+      var curState = $ionicHistory.currentStateName();
+      if(curState === 'tab.canon') {
+        $scope.checkForUpdates();
+      }
     });
 
     // $scope.$on('$ionicView.loaded', function(){
