@@ -16,6 +16,7 @@ angular.module('starter', ['ionic','ionic.service.core','ionic.service.deploy', 
       StatusBar.styleDefault();
     }
 
+
     // "wait for deviceready" before configuring nativetransitions
     // Native transition configuration, override any default you want
     window.plugins.nativepagetransitions.globalOptions.duration = 500; //500
@@ -123,6 +124,23 @@ angular.module('starter', ['ionic','ionic.service.core','ionic.service.deploy', 
   $ionicConfigProvider.tabs.position('bottom'); // other values: top
 
   $ionicConfigProvider.scrolling.jsScrolling(false);
+
+  // Optionally you can configure the options here:
+  // admobSvcProvider.setOptions({
+  //   publisherId:          "ca-app-pub-5464445636613782/3723271963",  // Required
+  //   interstitialAdId:     "ca-app-pub-5464445636613782/6838188760",  // Optional
+  //   // tappxIdiOs:           "/XXXXXXXXX/Pub-XXXX-iOS-IIII",
+  //   // tappxIdAndroid:       "/XXXXXXXXX/Pub-XXXX-Android-AAAA",
+  //   // tappxShare:           0.5,
+  //   adSize:               admob.AD_SIZE.SMART_BANNER,
+  //   bannerAtTop:          true,
+  //   // overlap:              false,
+  //   // offsetStatusBar:      false,
+  //   isTesting:            true,
+  //   // adExtras :            {},
+  //   // autoShowBanner:       true,
+  //   // autoShowInterstitial: true
+  // });
 
 });
 

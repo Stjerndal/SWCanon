@@ -81,6 +81,38 @@
       "music_by": "John Williams"
     },
     {
+      "type": "Movie",
+      "id": "episode_viii",
+      "title": "Episode VIII",
+      "release_date": "2017-05-26T19:02",
+      "canon_date_begin": 36,
+      "img_poster": "http://thesecondtake.com/wp-content/uploads/2013/02/star-wars-7-poster.jpg",
+      "img_cover": "http://i.ytimg.com/vi/eKbFuqvWi8k/maxresdefault.jpg",
+      "synopsis_short": "Episode VIII.",
+      "synopsis_long": "Star Wars - Episode VIII",
+      "director": "Rian Johnson",
+      "writers": [
+        "Rian Johnson"
+      ],
+      "music_by": "John Williams"
+    },
+    {
+      "type": "Movie",
+      "id": "episode_ix",
+      "title": "Episode IX",
+      "release_date": "2019-12-31T19:02",
+      "canon_date_begin": 38,
+      "img_poster": "http://thesecondtake.com/wp-content/uploads/2013/02/star-wars-7-poster.jpg",
+      "img_cover": "http://i.ytimg.com/vi/eKbFuqvWi8k/maxresdefault.jpg",
+      "synopsis_short": "Episode IX.",
+      "synopsis_long": "Star Wars - Episode IX",
+      "director": "Colin Trevorrow",
+      "writers": [
+        "Rian Johnson"
+      ],
+      "music_by": "John Williams"
+    },
+    {
       "type": "Comic",
       "id": "shattered_empire",
       "title": "Shattered Empire",
@@ -331,6 +363,18 @@
       "synopsis_short": "He defeated the Empire's ultimate weapon and gave the Rebel Alliance new hope. But Luke Skywalker's battles—and the galaxy's fight for freedom—have only just begun.",
       "synopsis_long": "Luke Skywalker’s game-changing destruction of the Death Star has made him not only a hero of the Rebel Alliance but a valuable asset in the ongoing battle against the Empire. Though he’s a long way from mastering the power of the Force, there’s no denying his phenomenal skills as a pilot—and in the eyes of Rebel leaders Princess Leia Organa and Admiral Ackbar, there’s no one better qualified to carry out a daring rescue mission crucial to the Alliance cause.\n\nA brilliant alien cryptographer renowned for her ability to breach even the most advanced communications systems is being detained by Imperial agents determined to exploit her exceptional talents for the Empire’s purposes. But the prospective spy’s sympathies lie with the Rebels, and she’s willing to join their effort in exchange for being reunited with her family.\n\n It’s an opportunity to gain a critical edge against the Empire that’s too precious to pass up. It’s also a job that demands the element of surprise. So Luke and the ever-resourceful droid R2-D2 swap their trusty X-wing fighter for a sleek space yacht piloted by brash recruit Nakari Kelen, daughter of a biotech mogul, who’s got a score of her own to settle with the Empire.",
       "author": "Kevin Hearne"
+    },
+    {
+      "type": "Book",
+      "id": "twilight_company",
+      "title": "Battlefront: Twilight Company",
+      "release_date": "2015-11-03T19:02",
+      "canon_date_begin": 1,
+      "img_poster": "http://vignette1.wikia.nocookie.net/starwars/images/9/91/Battlefront_Twilight_Company_cover.jpg",
+      "img_cover": "http://static1.gamespot.com/uploads/original/536/5360430/2879025-1617629_855655004521144_717228328356741042_o.jpg",
+      "synopsis_short": "The bravest soldiers. The toughest warriors. The ultimate survivors.",
+      "synopsis_long": "The bravest soldiers. The toughest warriors. The ultimate survivors.\n\nAmong the stars and across the vast expanses of space, the Galactic Civil War rages. On the battlefields of multiple worlds in the Mid Rim, legions of ruthless stormtroopers—bent on crushing resistance to the Empire wherever it arises—are waging close and brutal combat against an armada of freedom fighters.\n\nIn the streets and alleys of ravaged cities, the front-line forces of the Rebel Alliance are taking the fight to the enemy, pushing deeper into Imperial territory and grappling with the savage flesh-and-blood realities of war on the ground.",
+      "author": "Alexander Freed"
     },
     {
       "type": "Movie",
