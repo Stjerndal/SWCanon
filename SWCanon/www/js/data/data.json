@@ -11,7 +11,8 @@
       "img_cover": "http://a.dilcdn.com/bl/wp-content/uploads/sites/6/2015/07/ventress_header-2400x1200-996929412987.jpeg",
       "characters": [
         "asajj_ventress",
-        "quinlan_vos"
+        "quinlan_vos",
+        "boba_fett"
       ],
       "synopsis_short": "The only way to bring down the dark side's most dangerous warrior may be for Jedi and Sith to join forces.",
       "synopsis_long": "The only way to bring down the dark side's most dangerous warrior may be for Jedi and Sith to join forces.\n\n In the war for control of the galaxy between the armies of the dark side and the Republic, former Jedi Master turned ruthless Sith Lord Count Dooku has grown ever more brutal in his tactics. Despite the powers of the Jedi and the military prowess of their clone army, the sheer number of fatalities is taking a terrible toll. And when Dooku orders the massacre of a flotilla of helpless refugees, the Jedi Council feels it has no choice but to take drastic action: targeting the man responsible for so many war atrocities, Count Dooku himself.\n\nBut the ever-elusive Dooku is dangerous prey for even the most skilled hunter. So the Council makes the bold decision to bring both sides of the Force's power to bear—pairing brash Jedi Knight Quinlan Vos with infamous one-time Sith acolyte Asajj Ventress. Though Jedi distrust for the cunning killer who once served at Dooku's side still runs deep, Ventress's hatred for her former master runs deeper. She's more than willing to lend her copious talents as a bounty hunter—and assassin—to Vos's quest.\n\nTogether, Ventress and Vos are the best hope for eliminating Dooku—as long as the emerging feelings between them don't compromise their mission. But Ventress is determined to have her retribution and at last let go of her dark Sith past. Balancing the complicated emotions she feels for Vos with the fury of her warrior's spirit, she resolves to claim victory on all fronts—a vow that will be mercilessly tested by her deadly enemy . . . and her own doubt.",
@@ -88,13 +89,12 @@
       "img_poster": "http://img1.wikia.nocookie.net/__cb20150823103548/starwars/images/b/bc/SWShatteredEmpire1Mayhew.png",
       "img_cover": "http://img2.wikia.nocookie.net/__cb20150828043502/starwars/images/1/13/Shattered_Empire_1_textless_cover.jpg",
       "characters": [
+        "shara_bey",
+        "kes_dameron",
+        "han_solo",
         "luke_skywalker",
         "leia_organa",
-        "han_solo",
-        "obi_wan_kenobi",
-        "darth_vader",
         "r2_d2",
-        "lando_calrissian",
         "c_3po"
       ],
       "synopsis_short": "The heroes of the Rebel Alliance will soon discover that a wounded and fractious Empire may be more dangerous than any threat they faced before!",
@@ -155,6 +155,29 @@
       "music_by": "John Williams"
     },
     {
+      "type": "TV",
+      "id": "the_clone_wars",
+      "title": "The Clone Wars",
+      "release_date": "2008-08-15T19:02",
+      "canon_date_begin": -22,
+      "canon_date_end": -20,
+      "img_poster": "http://img05.deviantart.net/c72e/i/2012/159/b/5/clone_wars_4_poster_by_denisogloblin-d52peeo.jpg",
+      "img_cover": "http://www.mattgaser.com/wp-content/uploads/2014/01/StarWars-630x316.jpg",
+      "characters": [
+        "ahsoka_tano",
+        "obi_wan_kenobi",
+        "darth_vader",
+        "count_dooku",
+        "mace_windu",
+        "yoda"
+      ],
+      "synopsis_short": "The Grand Army of the Republic, led by Yoda, Mace Windu, Obi-Wan Kenobi, Anakin Skywalker and other Jedi Knights, fights the New Droid Army of the Separatists.",
+      "synopsis_long": "As the Clone Wars sweep through the galaxy, the heroic Jedi Knights struggle to maintain order and restore peace. More and more systems are falling prey to the forces of the dark side as the Galactic Republic slips further and further under the sway of the Separatists and their never-ending droid army.",
+      "creators": [
+        "George Lucas"
+      ]
+    },
+    {
       "type": "Movie",
       "id": "attack_of_the_clones",
       "title": "Episode II - Attack of the Clones",
@@ -181,29 +204,6 @@
       "music_by": "John Williams"
     },
     {
-      "type": "TV",
-      "id": "the_clone_wars",
-      "title": "The Clone Wars",
-      "release_date": "2008-08-15T19:02",
-      "canon_date_begin": -22,
-      "canon_date_end": -20,
-      "img_poster": "http://img05.deviantart.net/c72e/i/2012/159/b/5/clone_wars_4_poster_by_denisogloblin-d52peeo.jpg",
-      "img_cover": "http://www.mattgaser.com/wp-content/uploads/2014/01/StarWars-630x316.jpg",
-      "characters": [
-        "ahsoka_tano",
-        "obi_wan_kenobi",
-        "darth_vader",
-        "count_dooku",
-        "mace_windu",
-        "yoda"
-      ],
-      "synopsis_short": "The Grand Army of the Republic, led by Yoda, Mace Windu, Obi-Wan Kenobi, Anakin Skywalker and other Jedi Knights, fights the New Droid Army of the Separatists.",
-      "synopsis_long": "As the Clone Wars sweep through the galaxy, the heroic Jedi Knights struggle to maintain order and restore peace. More and more systems are falling prey to the forces of the dark side as the Galactic Republic slips further and further under the sway of the Separatists and their never-ending droid army.",
-      "creators": [
-        "George Lucas"
-      ]
-    },
-    {
       "type": "Book",
       "id": "a_new_dawn",
       "title": "A New Dawn",
@@ -218,6 +218,23 @@
       "synopsis_short": "The brutal death of a friend at the Empire's hands forces an ex-Jedi to make a choice: bow down to fear, or stand up and fight.",
       "synopsis_long": "Ever since the Jedi were marked for death and forced to flee Coruscant, Kanan Jarrus has devoted himself to staying alive rather than serving the Force. Wandering the galaxy alone, from one anonymous job to another, he avoids trouble--especially with the Empire--at all costs. So when he discovers a deadly conflict brewing between ruthless Imperial forces and desperate revolutionaries, he's not about to get caught in the crossfire. Then the brutal death of a friend at the Empire's hands forces the ex-Jedi to make a choice: bow down to fear, or stand up and fight. \n\nBut Jarrus won't be fighting alone. Unlikely allies, including a bomb-throwing radical, a former Imperial surveillance agent, a vengeful security officer, and the mysterious Hera Syndulla--an agent provocateur with motives of her own--team up with Jarrus to challenge the Empire. As a crisis of apocalyptic proportions unfolds on the planet Gorse, they must stand together against one of the Emperor's most fearsome enforcers--for the sake of a world and its people",
       "author": "John Jackson Miller"
+    },
+    {
+      "type": "Book",
+      "id": "lost_stars",
+      "title": "Lost Stars",
+      "release_date": "2015-09-04T19:02",
+      "canon_date_begin": -11,
+      "canon_date_end": 5,
+      "img_poster": "http://vignette1.wikia.nocookie.net/starwars/images/2/25/Lost_Stars.png",
+      "img_cover": "http://i.kinja-img.com/gawker-media/image/upload/s--iQV55xCU--/c_scale,fl_progressive,q_80,w_800/18dy2l4y8mfo4jpg.jpg",
+      "characters": [
+        "thane_kyrell",
+        "ciena_ree"
+      ],
+      "synopsis_short": "Star Wars meets Romeo and Juliet in this epic novel that follows two best friends who find themselves on opposite sides of the war between the Empire and the Rebellion.",
+      "synopsis_long": "Star Wars meets Romeo and Juliet in this epic YA novel that follows two best friends who find themselves on opposite sides of the war between the Empire and the Rebellion.\n\nThis thrilling YA novel gives readers a macro view of some of the most important events in the Star Wars universe: from the purge of the Jedi in Episode III, to the beginnings of the rebellion in Star Wars Rebels, and through the fall of the Empire in Episodes IV-IV. Readers will experience these major moments through the eyes of two best friends who grow up in these troubling times, and find themselves on opposite sides of the war.",
+      "author": "Claudia Gray"
     },
     {
       "type": "Book",
@@ -252,22 +269,6 @@
       "synopsis_short": "Governor Wilhuff Tarkin rises through the Imperial ranks, enforcing his authority ever more mercilessly . . . and zealously pursuing his destiny as the architect of absolute dominion.",
       "synopsis_long": "He’s the scion of an honorable and revered family. A dedicated soldier and distinguished legislator. Loyal proponent of the Republic and trusted ally of the Jedi Order. Groomed by the ruthless politician and Sith Lord who would be Emperor, Governor Wilhuff Tarkin rises through the Imperial ranks, enforcing his authority ever more mercilessly . . . and zealously pursuing his destiny as the architect of absolute dominion. \n\nEscalating guerrilla attacks by resistance forces and newfound evidence of a growing Separatist conspiracy are an immediate danger the Empire must meet with swift and brutal action. And to bring down a band of elusive freedom fighters, the Emperor turns to his most formidable agents: Darth Vader, the fearsome new Sith enforcer as remorseless as he is mysterious; and Tarkin—whose tactical cunning and cold-blooded efficiency will pave the way for the Empire’s supremacy . . . and its enemies’ extinction.",
       "author": "James Luceno"
-    },
-    {
-      "type": "Book",
-      "id": "aftermath",
-      "title": "Aftermath",
-      "release_date": "2015-09-04T19:02",
-      "canon_date_begin": 5,
-      "img_poster": "http://img4.wikia.nocookie.net/__cb20150317200932/starwars/images/thumb/7/7f/Aftermath-Cover.png/400px-Aftermath-Cover.png",
-      "img_cover": "http://cdn.desktopwallpapers4.me/wallpapers/movies/1920x1080/3/29143-star-wars-imperial-star-destroyer-1920x1080-movie-wallpaper.jpg",
-      "characters": [
-        "wedge_antilles",
-        "norra_wexley"
-      ],
-      "synopsis_short": "The second Death Star is destroyed. The Emperor and his powerful enforcer, Darth Vader, are rumored to be dead. The Galactic Empire is in chaos.",
-      "synopsis_long": "As the Empire reels from its critical defeats at the Battle of Endor, the Rebel Alliance—now a fledgling New Republic—presses its advantage by hunting down the enemy's scattered forces before they can regroup and retaliate. But above the remote planet Akiva, an ominous show of the enemy's strength is unfolding. Out on a lone reconnaissance mission, pilot Wedge Antilles watches Imperial Star Destroyers gather like birds of prey circling for a kill, but is taken captive before he can report back to the New Republic leaders.\n\nMeanwhile, on the planet's surface, former Rebel fighter Norra Wexley has returned to her native world—war weary, ready to reunite with her estranged son, and eager to build a new life in some distant place. But when Norra intercepts Wedge Antilles's urgent distress call, she realizes her time as a freedom fighter is not yet over. What she doesn't know is just how close the enemy is—or how decisive and dangerous her new mission will be.",
-      "author": "Chuck Wendig"
     },
     {
       "type": "Movie",
@@ -305,33 +306,13 @@
       "img_cover": "http://cdn.hitfix.com/photos/5954179/Star-Wars-countdown--PRINCESS-LEIA-1_article_story_large.jpg",
       "characters": [
         "leia_organa",
-        "wedge_antilles",
         "r2_d2",
-        "ackbar",
-        "luke_skywalker",
-        "han_solo"
+        "evaan_verlaine"
       ],
       "synopsis_short": "The rebel Princess leads her people against the Empire! The conclusion to Leia's most personal mission!",
       "synopsis_long": "Having proven themselves a formidable enemy to the Empire, the rebels are in more danger now than ever, leaving them with little time to celebrate their triumph, or lament their loss....",
       "writers": [
         "Mark Waid"
-      ]
-    },
-    {
-      "type": "Comic",
-      "id": "chewbacca_comic",
-      "title": "Chewbacca",
-      "release_date": "2015-10-14T19:02",
-      "canon_date_begin": 1,
-      "img_poster": "http://img2.wikia.nocookie.net/__cb20150710162021/starwars/images/thumb/4/44/Star_Wars_Chewbacca_1_Cover.jpg/400px-Star_Wars_Chewbacca_1_Cover.jpg",
-      "img_cover": "http://www.dadsbigplan.com/wp-content/uploads/2014/06/star-wars-rebel-heist-3-gamorians.jpg",
-      "characters": [
-        "chewbacca"
-      ],
-      "synopsis_short": "Known as the skilled co-pilot of the infamous Millennium Falcon, the legendary Wookiee warrior Chewbacca will star in his very own limited comic series!",
-      "synopsis_long": "Known as the skilled co-pilot of the infamous Millennium Falcon, the legendary Wookiee warrior CHEWBACCA will star in his very own limited comic series! After the battle of Yavin, Chewbacca is on his own when he crash lands his ship on an Imperial occupied planet. Now stranded, Chewie finds himself caught in the middle of trying to return to the rebellion and helping a young and feisty girl in need. ",
-      "writers": [
-        "Gerry Duggan"
       ]
     },
     {
@@ -345,9 +326,7 @@
       "characters": [
         "luke_skywalker",
         "nakari_kelen",
-        "r2_d2",
-        "leia_organa",
-        "ackbar"
+        "r2_d2"
       ],
       "synopsis_short": "He defeated the Empire's ultimate weapon and gave the Rebel Alliance new hope. But Luke Skywalker's battles—and the galaxy's fight for freedom—have only just begun.",
       "synopsis_long": "Luke Skywalker’s game-changing destruction of the Death Star has made him not only a hero of the Rebel Alliance but a valuable asset in the ongoing battle against the Empire. Though he’s a long way from mastering the power of the Force, there’s no denying his phenomenal skills as a pilot—and in the eyes of Rebel leaders Princess Leia Organa and Admiral Ackbar, there’s no one better qualified to carry out a daring rescue mission crucial to the Alliance cause.\n\nA brilliant alien cryptographer renowned for her ability to breach even the most advanced communications systems is being detained by Imperial agents determined to exploit her exceptional talents for the Empire’s purposes. But the prospective spy’s sympathies lie with the Rebels, and she’s willing to join their effort in exchange for being reunited with her family.\n\n It’s an opportunity to gain a critical edge against the Empire that’s too precious to pass up. It’s also a job that demands the element of surprise. So Luke and the ever-resourceful droid R2-D2 swap their trusty X-wing fighter for a sleek space yacht piloted by brash recruit Nakari Kelen, daughter of a biotech mogul, who’s got a score of her own to settle with the Empire.",
@@ -382,6 +361,22 @@
         "Lawrence Kasdan"
       ],
       "music_by": "John Williams"
+    },
+    {
+      "type": "Book",
+      "id": "aftermath",
+      "title": "Aftermath",
+      "release_date": "2015-09-04T19:02",
+      "canon_date_begin": 4,
+      "img_poster": "http://img4.wikia.nocookie.net/__cb20150317200932/starwars/images/thumb/7/7f/Aftermath-Cover.png/400px-Aftermath-Cover.png",
+      "img_cover": "http://cdn.desktopwallpapers4.me/wallpapers/movies/1920x1080/3/29143-star-wars-imperial-star-destroyer-1920x1080-movie-wallpaper.jpg",
+      "characters": [
+        "wedge_antilles",
+        "norra_wexley"
+      ],
+      "synopsis_short": "The second Death Star is destroyed. The Emperor and his powerful enforcer, Darth Vader, are rumored to be dead. The Galactic Empire is in chaos.",
+      "synopsis_long": "As the Empire reels from its critical defeats at the Battle of Endor, the Rebel Alliance—now a fledgling New Republic—presses its advantage by hunting down the enemy's scattered forces before they can regroup and retaliate. But above the remote planet Akiva, an ominous show of the enemy's strength is unfolding. Out on a lone reconnaissance mission, pilot Wedge Antilles watches Imperial Star Destroyers gather like birds of prey circling for a kill, but is taken captive before he can report back to the New Republic leaders.\n\nMeanwhile, on the planet's surface, former Rebel fighter Norra Wexley has returned to her native world—war weary, ready to reunite with her estranged son, and eager to build a new life in some distant place. But when Norra intercepts Wedge Antilles's urgent distress call, she realizes her time as a freedom fighter is not yet over. What she doesn't know is just how close the enemy is—or how decisive and dangerous her new mission will be.",
+      "author": "Chuck Wendig"
     },
     {
       "type": "Comic",
@@ -446,6 +441,99 @@
       ]
     },
     {
+      "type": "Comic",
+      "id": "lando_comic",
+      "title": "Lando",
+      "release_date": "2015-06-08T19:02",
+      "canon_date_begin": 2,
+      "img_poster": "https://d.gr-assets.com/books/1439395524l/25861681.jpg",
+      "img_cover": "http://nerdist.com/wp-content/uploads/2015/04/Lando-Header-970x545.jpg",
+      "characters": [
+        "lando_calrissian",
+        "lobot"
+      ],
+      "synopsis_short": "You know him...you love him...now, join him for his biggest caper as master of charm Lando Calrissian gets his very own book!",
+      "synopsis_long": "It is a period of scarce opportunity. In a galaxy overrun by an oppressive and evil Galactic Empire, there is little hope for a future free from the Emperor's iron rule.\n\nBut with the Imperials distracted by a growing alliance of rebels, smugglers and pirates travel the galaxy for fortunes found only by those daring enough to grasp them.\n\nLANDO CALRISSIAN, a man trying to make his way through an uncaring universe, is willing to bet all he has for a single score – and it begins with the deal of a lifetime....",
+      "writers": [
+        "Charles Soule"
+      ]
+    },
+    {
+      "type": "Comic",
+      "id": "darth_vader_comic",
+      "title": "Darth Vader",
+      "release_date": "2015-02-11T19:02",
+      "canon_date_begin": 1,
+      "img_poster": "http://vignette2.wikia.nocookie.net/starwars/images/f/f0/Star_Wars_Darth_Vader_Vol_1_1.jpg",
+      "img_cover": "http://cdn0.dailydot.com/cache/5a/b1/5ab12844a55a6712a5a89b1ee686e0b4.jpg",
+      "characters": [
+        "darth_vader",
+        "boba_fett"
+      ],
+      "synopsis_short": "Follow Vader straight from the ending of 'Star Wars: A New Hope' into his own series, showing the Empire's war with the Rebel Alliance from the other side.",
+      "synopsis_long": "It is a period of insurgence. Rebel spaceships, striking from a hidden base on a moon of Yavin, have won a shocking surprise victory against the rightful reign of the Galactic Empire.\n\n The Empire's ultimate peacekeeping force, THE DEATH STAR, was destroyed due to an unforeseen design flaw. Without this deterrent, the rule of law is in danger. Chaos looms!\n\n For the nineteen years after the vanquishing of the Jedi and his painful rebirth on volcanic Mustafar, Sith Lord DARTH VADER has faithfully served his master. But now, he has failed the Emperor and must pay the price....",
+      "writers": [
+        "Kieron Gillen"
+      ]
+    },
+    {
+      "type": "Comic",
+      "id": "star_wars_comic",
+      "title": "Star Wars Comic",
+      "release_date": "2015-01-14T19:02",
+      "canon_date_begin": 1,
+      "img_poster": "http://vignette4.wikia.nocookie.net/starwars/images/b/bc/Star_Wars_Vol_2_1.jpg",
+      "img_cover": "http://i.imgur.com/VOb6cgg.png",
+      "characters": [
+        "luke_skywalker",
+        "han_solo",
+        "leia_organa",
+        "darth_vader",
+        "chewbacca",
+        "r2_d2",
+        "c_3po"
+      ],
+      "synopsis_short": "Luke Skywalker and the ragtag rebels opposing the Galactic Empire are fresh off their biggest victory so far — the destruction of the massive Death Star.",
+      "synopsis_long": "Luke Skywalker and the ragtag rebels opposing the Galactic Empire are fresh off their biggest victory so far — the destruction of the massive Death Star. But the Empire’s not toppled yet! Join Luke, Princess Leia, Han Solo, Chewbacca, C-3PO, R2-D2 and the rest of the Rebel Alliance as they fight for freedom against Darth Vader and his evil master, the Emperor!\n\nBut when a Rebel assault goes wrong, Han and Leia must think fast to make their escape — while Luke comes face-to-face with Darth Vader! In the explosive aftermath, a humbled Luke returns to Tatooine to learn more about his mentor, Obi-Wan Kenobi. Meanwhile, Leia and Han undertake a vital — and dangerous — secret mission. But can they succeed without Luke?",
+      "writers": [
+        "Jason Aaron"
+      ]
+    },
+    {
+      "type": "Comic",
+      "id": "chewbacca_comic",
+      "title": "Chewbacca",
+      "release_date": "2015-10-14T19:02",
+      "canon_date_begin": 1,
+      "img_poster": "http://img2.wikia.nocookie.net/__cb20150710162021/starwars/images/thumb/4/44/Star_Wars_Chewbacca_1_Cover.jpg/400px-Star_Wars_Chewbacca_1_Cover.jpg",
+      "img_cover": "http://www.dadsbigplan.com/wp-content/uploads/2014/06/star-wars-rebel-heist-3-gamorians.jpg",
+      "characters": [
+        "chewbacca"
+      ],
+      "synopsis_short": "Known as the skilled co-pilot of the infamous Millennium Falcon, the legendary Wookiee warrior Chewbacca will star in his very own limited comic series!",
+      "synopsis_long": "Known as the skilled co-pilot of the infamous Millennium Falcon, the legendary Wookiee warrior CHEWBACCA will star in his very own limited comic series! After the battle of Yavin, Chewbacca is on his own when he crash lands his ship on an Imperial occupied planet. Now stranded, Chewie finds himself caught in the middle of trying to return to the rebellion and helping a young and feisty girl in need.",
+      "writers": [
+        "Gerry Duggan"
+      ]
+    },
+    {
+      "type": "Comic",
+      "id": "c_3po_comic",
+      "title": "C-3PO Comic",
+      "release_date": "2015-12-01T19:02",
+      "canon_date_begin": 4,
+      "img_poster": "http://vignette2.wikia.nocookie.net/starwars/images/e/e6/Star_Wars_Special_C-3PO_cover.jpg",
+      "img_cover": "http://3.bp.blogspot.com/-FQjmw118biM/Uhvrw2zFalI/AAAAAAAAOvU/sySS1vyayT0/s1600/tatooine-concept-mcquarrie.jpg",
+      "characters": [
+        "c_3po"
+      ],
+      "synopsis_short": "The story of how C-3PO received a red-colored arm.",
+      "synopsis_long": "The story of how C-3PO received a red-colored arm, as seen in the film Star Wars: Episode VII The Force Awakens.",
+      "writers": [
+        "James Robinson"
+      ]
+    },
+    {
       "type": "Movie",
       "id": "han_solo_anthology",
       "title": "Anthology - Han Solo",
@@ -495,10 +583,11 @@
       "img": "http://img3.wikia.nocookie.net/__cb20091030151422/starwars/images/d/d9/Luke-rotjpromo.jpg",
       "media": [
         "a_new_hope",
-        "princess_leia_comic",
         "heir_to_the_jedi",
+        "star_wars_comic",
         "the_empire_strikes_back",
         "return_of_the_jedi",
+        "shattered_empire",
         "the_force_awakens"
       ]
     },
@@ -508,8 +597,10 @@
       "img": "http://img1.wikia.nocookie.net/__cb20100129155042/starwars/images/0/01/Hansoloprofile.jpg",
       "media": [
         "a_new_hope",
+        "star_wars_comic",
         "the_empire_strikes_back",
         "return_of_the_jedi",
+        "shattered_empire",
         "the_force_awakens"
       ]
     },
@@ -521,10 +612,11 @@
       "media": [
         "a_new_hope",
         "princess_leia_comic",
-        "heir_to_the_jedi",
+        "star_wars_comic",
         "the_empire_strikes_back",
         "moving_target",
         "return_of_the_jedi",
+        "shattered_empire",
         "the_force_awakens"
       ]
     },
@@ -535,9 +627,11 @@
       "media": [
         "revenge_of_the_sith",
         "a_new_hope",
+        "star_wars_comic",
         "chewbacca_comic",
         "the_empire_strikes_back",
         "return_of_the_jedi",
+        "shattered_empire",
         "the_force_awakens"
       ]
     },
@@ -553,6 +647,8 @@
         "rebels",
         "lords_of_the_sith",
         "a_new_hope",
+        "star_wars_comic",
+        "darth_vader_comic",
         "the_empire_strikes_back",
         "return_of_the_jedi"
       ]
@@ -566,8 +662,11 @@
         "attack_of_the_clones",
         "revenge_of_the_sith",
         "a_new_hope",
+        "star_wars_comic",
         "the_empire_strikes_back",
         "return_of_the_jedi",
+        "shattered_empire",
+        "c_3po_comic",
         "the_force_awakens"
       ]
     },
@@ -582,8 +681,10 @@
         "a_new_hope",
         "princess_leia_comic",
         "heir_to_the_jedi",
+        "star_wars_comic",
         "the_empire_strikes_back",
         "return_of_the_jedi",
+        "shattered_empire",
         "the_force_awakens"
       ]
     },
@@ -620,10 +721,9 @@
       "img": "http://img1.wikia.nocookie.net/__cb20080715214753/starwars/images/7/7d/Lando_WoSW.jpg",
       "media": [
         "rebels",
+        "lando_comic",
         "the_empire_strikes_back",
-        "return_of_the_jedi",
-        "shattered_empire",
-        "lando_comic"
+        "return_of_the_jedi"
       ]
     },
     {
@@ -631,6 +731,7 @@
       "name": "Asajj Ventress",
       "img": "http://img1.wikia.nocookie.net/__cb20150724125609/starwars/images/c/c7/Asajj_Ventress_Kindred_Spirits.png",
       "media": [
+        "the_clone_wars",
         "dark_disciple"
       ]
     },
@@ -842,6 +943,20 @@
       ]
     },
     {
+      "id": "boba_fett",
+      "name": "Boba Fett",
+      "img": "http://www.empireonline.com/images/features/100greatestcharacters/photos/79.jpg",
+      "media": [
+        "attack_of_the_clones",
+        "the_clone_wars",
+        "dark_disciple",
+        "star_wars_comic",
+        "darth_vader_comic",
+        "the_empire_strikes_back",
+        "return_of_the_jedi"
+      ]
+    },
+    {
       "id": "ahsoka_tano",
       "name": "Ahsoka Tano",
       "img": "http://img4.wikia.nocookie.net/__cb20150313020047/starwars/images/5/5b/Ahsoka_Tano_Rebels_Profile.png",
@@ -876,7 +991,6 @@
       "img": "http://img3.wikia.nocookie.net/__cb20111008205416/starwars/images/5/51/Wedge_Antilles.jpg",
       "media": [
         "a_new_hope",
-        "princess_leia_comic",
         "the_weapon_of_a_jedi",
         "the_empire_strikes_back",
         "return_of_the_jedi",
@@ -889,6 +1003,22 @@
       "img": "http://www.empireonline.com/images/uploaded/star-wars-question-mark.gif",
       "media": [
         "aftermath"
+      ]
+    },
+    {
+      "id": "ciena_ree",
+      "name": "Ciena Ree",
+      "img": "http://www.empireonline.com/images/uploaded/star-wars-question-mark.gif",
+      "media": [
+        "lost_stars"
+      ]
+    },
+    {
+      "id": "thane_kyrell",
+      "name": "Thane Kyrell",
+      "img": "http://www.empireonline.com/images/uploaded/star-wars-question-mark.gif",
+      "media": [
+        "lost_stars"
       ]
     },
     {
@@ -905,8 +1035,6 @@
       "title": "Admiral",
       "img": "http://img1.wikia.nocookie.net/__cb20081118162020/starwars/images/f/fb/Ackbar_HS.jpg",
       "media": [
-        "princess_leia_comic",
-        "heir_to_the_jedi",
         "moving_target",
         "return_of_the_jedi",
         "aftermath"
@@ -931,6 +1059,47 @@
         "the_phantom_menace",
         "attack_of_the_clones",
         "kanan_comic"
+      ]
+    },
+    {
+      "id": "evaan_verlaine",
+      "name": "Evaan Verlaine",
+      "img": "http://vignette1.wikia.nocookie.net/starwars/images/0/06/Evaan_Verlaine.png",
+      "media": [
+        "princess_leia_comic"
+      ]
+    },
+    {
+      "id": "sana_solo",
+      "name": "Sana Solo",
+      "img": "http://vignette2.wikia.nocookie.net/starwars/images/2/23/Sana_Solo.png",
+      "media": [
+        "star_wars_comic"
+      ]
+    },
+    {
+      "id": "kes_dameron",
+      "name": "Kes Dameron",
+      "img": "http://vignette4.wikia.nocookie.net/starwars/images/b/b3/Kes_Dameron.png",
+      "media": [
+        "shattered_empire"
+      ]
+    },
+    {
+      "id": "shara_bey",
+      "name": "Shara Bey",
+      "img": "http://vignette3.wikia.nocookie.net/starwars/images/7/74/Shara_Bey.png",
+      "media": [
+        "shattered_empire"
+      ]
+    },
+    {
+      "id": "lobot",
+      "name": "Lobot",
+      "img": "http://vignette3.wikia.nocookie.net/starwars/images/e/e0/Lobot_SWSB.png",
+      "media": [
+        "the_empire_strikes_back",
+        "lando_comic"
       ]
     }
   ]
