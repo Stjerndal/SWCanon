@@ -10,6 +10,7 @@ com.telerik.plugins.nativepagetransitions
 com.admob.google
 
 Steps:
+
 $ ionic add ionic-service-core
 
 $ ionic add ionic-service-deploy
