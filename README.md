@@ -5,6 +5,8 @@ Ionic plugins:
 
 ionic-plugin-deploy
 
+cordova-plugin-whitelist
+
 com.telerik.plugins.nativepagetransitions
 
 com.admob.google
@@ -20,6 +22,8 @@ $ ionic add ionic-service-core
 $ ionic add ionic-service-deploy
 
 $ ionic plugin add https://github.com/driftyco/ionic-plugins-deploy
+
+$ ionic plugin add https://github.com/apache/cordova-plugin-whitelist.git
 
 $ ionic plugin add https://github.com/Telerik-Verified-Plugins/NativePageTransitions
 
