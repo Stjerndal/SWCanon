@@ -11,6 +11,10 @@ com.admob.google
 
 Steps:
 
+$ ionic platform add android
+
+$ ionic platform add ios
+
 $ ionic add ionic-service-core
 
 $ ionic add ionic-service-deploy
