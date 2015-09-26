@@ -66,14 +66,14 @@ angular.module('starter.controllers')
       console.log('Ionic Deploy: Checking for updates');
       $ionicDeploy.check().then(function(hasUpdate) {
         console.log('Ionic Deploy: Update available: ' + hasUpdate);
-        showToast('Update available: ' + hasUpdate);
+        // showToast('Update available: ' + hasUpdate);
           $scope.$parent.updates.hasUpdate = hasUpdate;
           if($scope.$parent.updates.hasUpdate) {
             $scope.$parent.updates.num = 1;
           };
       }, function(err) {
         console.error('Ionic Deploy: Unable to check for updates', err);
-        showToast('Unable to check for updates' + err);
+        // showToast('Unable to check for updates' + err);
         // var hasUpdate = true;
         // $scope.$parent.updates.hasUpdate = hasUpdate;
         //   if($scope.$parent.updates.hasUpdate) {

@@ -46,7 +46,11 @@ angular.module('starter.controllers')
 		console.log('Ionic Deploy: Checking for updates');
 	    $ionicDeploy.check().then(function(hasUpdate) {
 	    	console.log('Ionic Deploy: Update available: ' + hasUpdate);
-	    	showToast('Update available: ' + hasUpdate);
+	    	if(hasUpdate) {
+	    		showToast('New content available!');
+	    	} else {
+	    		showToast('No new updates.');
+	    	}
 	    	$scope.hasUpdate = hasUpdate;
 	    	$scope.$parent.updates.hasUpdate = hasUpdate;
 	    	if($scope.hasUpdate) {
@@ -85,6 +89,8 @@ angular.module('starter.controllers')
 	    	$localstorage.set('sortByDisplay', display);
 	    	$scope.sortByDisplay = display;
 			sortPopup.close();
+			// var launchCount = $localstorage.get('launchCount');
+			// showToast('launchCount: ' + launchCount);
 		};
 
 

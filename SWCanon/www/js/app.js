@@ -3,36 +3,66 @@
 // angular.module is a global place for creating, registering and retrieving Angular modules
 // 'starter' is the name of this angular module example (also set in a <body> attribute in index.html)
 // the 2nd parameter is an array of 'requires'
-angular.module('starter', ['ionic','ionic.service.core','ionic.service.deploy', 'starter.controllers', 'starter.directives', 'starter.filters', 'ionic-toast', 'ionic.utils'])
+// angular.module('starter', ['ionic','ionic.service.core','ionic.service.analytics','ionic.service.deploy', 'starter.controllers', 'starter.directives', 'starter.filters', 'ionic-toast', 'ionic.utils', 'admobModule'])
+//Web browser / adless:
+angular.module('starter', ['ionic','ionic.service.core','ionic.service.analytics','ionic.service.deploy', 'starter.controllers', 'starter.directives', 'starter.filters', 'ionic-toast', 'ionic.utils'])
 
-.run(function($ionicPlatform) {
+//Web browser / adless:
+.run(function($ionicPlatform/*, admobSvc*/, $localstorage, $ionicAnalytics) {
+// .run(function($ionicPlatform, admobSvc, $localstorage, $ionicAnalytics) {
   $ionicPlatform.ready(function() {
+
+    $ionicAnalytics.register({
+      
+  
+      // Don't send any events to the analytics backend.
+      // (useful during development)
+      dryRun: false
+    });
+    $ionicAnalytics.setGlobalProperties({
+      app_version_number: 'v0.0.6',
+      day_of_week: (new Date()).getDay()
+    });
+
     // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
     // for form inputs)
-    if(window.cordova && window.cordova.plugins.Keyboard) {
-      cordova.plugins.Keyboard.hideKeyboardAccessoryBar(true);
-    }
-    if(window.StatusBar) {
-      StatusBar.styleDefault();
-    }
+    // if(window.cordova && window.cordova.plugins.Keyboard) {
+    //   cordova.plugins.Keyboard.hideKeyboardAccessoryBar(true);
+    // }
+    // if(window.StatusBar) {
+    //   StatusBar.styleDefault();
+    // }
 
 
     // "wait for deviceready" before configuring nativetransitions
     // Native transition configuration, override any default you want
     window.plugins.nativepagetransitions.globalOptions.duration = 500; //500
-    window.plugins.nativepagetransitions.globalOptions.iosdelay = 100; //350
-    window.plugins.nativepagetransitions.globalOptions.androiddelay = 150; //350
-    window.plugins.nativepagetransitions.globalOptions.winphonedelay = 250; //350
+    window.plugins.nativepagetransitions.globalOptions.iosdelay = 250; //350
+    window.plugins.nativepagetransitions.globalOptions.androiddelay = 350; //350
+    window.plugins.nativepagetransitions.globalOptions.winphonedelay = 350; //350
     //This same effect can be achieved by passing in a 'slowdownfactor' of more than 1. The higher the number, the less pixels the old page slides out of view:
     window.plugins.nativepagetransitions.globalOptions.slowdownfactor = 6; //4
     // these are used for slide left/right only currently
     window.plugins.nativepagetransitions.globalOptions.fixedPixelsTop = 43; //0
     window.plugins.nativepagetransitions.globalOptions.fixedPixelsBottom = 49; //0
   });
+
+  var launchCount = parseInt($localstorage.get('launchCount'));
+
+  if(!launchCount) {
+    launchCount = 0;
+  } else if (launchCount > 3) {
+    //web browser / adless remove:
+    // admobSvc.createBannerView();
+  }
+  launchCount += 1;
+  $localstorage.set('launchCount', launchCount);
   
 })
 
-.config(function($stateProvider, $urlRouterProvider, $ionicConfigProvider) {
+//Web browser / adless:
+.config(function($stateProvider, $urlRouterProvider, $ionicConfigProvider/*, admobSvcProvider*/) {
+// .config(function($stateProvider, $urlRouterProvider, $ionicConfigProvider, admobSvcProvider) {
 
   // Disable normal css transitions, in favor of native ones
   // (using telerik plugin and goNative directive.)
@@ -125,22 +155,15 @@ angular.module('starter', ['ionic','ionic.service.core','ionic.service.deploy', 
 
   $ionicConfigProvider.scrolling.jsScrolling(false);
 
-  // Optionally you can configure the options here:
+// Web browser / adless remove:
   // admobSvcProvider.setOptions({
   //   publisherId:          "ca-app-pub-5464445636613782/3723271963",  // Required
   //   interstitialAdId:     "ca-app-pub-5464445636613782/6838188760",  // Optional
-  //   // tappxIdiOs:           "/XXXXXXXXX/Pub-XXXX-iOS-IIII",
-  //   // tappxIdAndroid:       "/XXXXXXXXX/Pub-XXXX-Android-AAAA",
-  //   // tappxShare:           0.5,
-  //   adSize:               admob.AD_SIZE.SMART_BANNER,
-  //   bannerAtTop:          true,
-  //   // overlap:              false,
-  //   // offsetStatusBar:      false,
-  //   isTesting:            true,
-  //   // adExtras :            {},
-  //   // autoShowBanner:       true,
-  //   // autoShowInterstitial: true
+  //   bannerAtTop:          true
   // });
+
+  // // Optionally configure the events prefix (by default set to 'admob:')
+  // admobSvcProvider.setPrefix('myTag~');
 
 });
 

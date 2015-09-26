@@ -42,6 +42,8 @@
 					<span class="col char-col" ng-repeat="charId in item.characters | limitTo: 6">
 						<a ng-repeat="character in characters | filter: {id: charId} | limitTo: 1"
 						href="#/tab{{routeFix}}/charList/{{charId}}" transitiontype="slide" direction="left" go-native>
+						<!-- <a ng-repeat="character in characters | filter: {id: charId} | limitTo: 1"
+						href="#/tab{{routeFix}}/charList/{{charId}}"> -->	
 						<!-- #/tab{{/canon}}/charList/charId if in #/tab/charList/canon/mediaId -->
 						<!-- #/tab{{      }}/charList/charId if in #/tab/canon/mediaId -->
 

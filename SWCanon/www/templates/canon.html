@@ -15,6 +15,8 @@
     <ion-list>
       <ion-item ng-repeat="item in media | filter: query | mediaTypesFilter: typeFilters | orderBy: sortBy" class="item"
        href="#/tab/canon/{{item.id}}" transitiontype="slide" direction="left" go-native>
+      <!-- <ion-item ng-repeat="item in media | filter: query | mediaTypesFilter: typeFilters | orderBy: sortBy" class="item"
+       href="#/tab/canon/{{item.id}}"> -->
         <media-list-item media-item="item" today="today" yesterday="yesterday" class="big-list"></media-list-item>
       </ion-item>
     </ion-list>
