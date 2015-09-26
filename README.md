@@ -23,6 +23,8 @@ $ ionic add ionic-service-deploy
 
 $ ionic plugin add https://github.com/driftyco/ionic-plugins-deploy
 
+$ ionic add ionic-service-analytics
+
 $ ionic plugin add https://github.com/apache/cordova-plugin-whitelist.git
 
 $ ionic plugin add https://github.com/Telerik-Verified-Plugins/NativePageTransitions
