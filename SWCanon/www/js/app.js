@@ -17,10 +17,10 @@ angular.module('starter', ['ionic','ionic.service.core','ionic.service.analytics
   
       // Don't send any events to the analytics backend.
       // (useful during development)
-      dryRun: true
+      dryRun: false
     });
     $ionicAnalytics.setGlobalProperties({
-      app_version_number: 'v0.0.8',
+      app_version_number: 'v0.1.0',
       day_of_week: (new Date()).getDay()
     });
 
@@ -37,9 +37,9 @@ angular.module('starter', ['ionic','ionic.service.core','ionic.service.analytics
     // "wait for deviceready" before configuring nativetransitions
     // Native transition configuration, override any default you want
     window.plugins.nativepagetransitions.globalOptions.duration = 500; //500
-    window.plugins.nativepagetransitions.globalOptions.iosdelay = 250; //350
-    window.plugins.nativepagetransitions.globalOptions.androiddelay = 350; //350
-    window.plugins.nativepagetransitions.globalOptions.winphonedelay = 350; //350
+    window.plugins.nativepagetransitions.globalOptions.iosdelay = 175; //350
+    window.plugins.nativepagetransitions.globalOptions.androiddelay = 225; //350
+    window.plugins.nativepagetransitions.globalOptions.winphonedelay = 275; //350
     //This same effect can be achieved by passing in a 'slowdownfactor' of more than 1. The higher the number, the less pixels the old page slides out of view:
     window.plugins.nativepagetransitions.globalOptions.slowdownfactor = 6; //4
     // these are used for slide left/right only currently

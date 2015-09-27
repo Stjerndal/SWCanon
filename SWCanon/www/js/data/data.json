@@ -8,8 +8,8 @@
       "canon_date_sort": -20.9,
       "canon_date_begin": -20,
       "canon_date_end": -19,
-      "img_poster": "/img/poster/dark_disciple_poster.jpg",
-      "img_cover": "/img/cover/dark_disciple_cover.jpg",
+      "img_poster": "img/poster/dark_disciple_poster.jpg",
+      "img_cover": "img/cover/dark_disciple_cover.jpg",
       "characters": [
         "asajj_ventress",
         "quinlan_vos",
@@ -26,8 +26,8 @@
       "release_date": "1980-05-21T19:02",
       "canon_date_sort": 3,
       "canon_date_begin": 3,
-      "img_poster": "/img/poster/the_empire_strikes_back_poster.jpg",
-      "img_cover": "/img/cover/the_empire_strikes_back_cover.jpg",
+      "img_poster": "img/poster/the_empire_strikes_back_poster.jpg",
+      "img_cover": "img/cover/the_empire_strikes_back_cover.jpg",
       "characters": [
         "luke_skywalker",
         "leia_organa",
@@ -57,8 +57,8 @@
       "release_date": "2015-12-18T19:02",
       "canon_date_sort": 34,
       "canon_date_begin": 34,
-      "img_poster": "/img/poster/the_force_awakens_poster.jpg",
-      "img_cover": "/img/cover/the_force_awakens_cover.jpg",
+      "img_poster": "img/poster/the_force_awakens_poster.jpg",
+      "img_cover": "img/cover/the_force_awakens_cover.jpg",
       "characters": [
         "rey",
         "finn",
@@ -90,8 +90,8 @@
       "release_date": "2017-05-26T19:02",
       "canon_date_sort": 36,
       "canon_date_begin": 36,
-      "img_poster": "/img/poster/episode_viii_poster.jpg",
-      "img_cover": "/img/cover/space_cover.jpg",
+      "img_poster": "img/poster/episode_viii_poster.jpg",
+      "img_cover": "img/cover/space_cover.jpg",
       "synopsis_short": "Episode VIII.",
       "synopsis_long": "Star Wars - Episode VIII",
       "director": "Rian Johnson",
@@ -107,8 +107,8 @@
       "release_date": "2019-12-31T19:02",
       "canon_date_sort": 38,
       "canon_date_begin": 38,
-      "img_poster": "/img/poster/episode_ix_poster.jpg",
-      "img_cover": "/img/cover/space_cover.jpg",
+      "img_poster": "img/poster/episode_ix_poster.jpg",
+      "img_cover": "img/cover/space_cover.jpg",
       "synopsis_short": "Episode IX.",
       "synopsis_long": "Star Wars - Episode IX",
       "director": "Colin Trevorrow",
@@ -124,8 +124,8 @@
       "release_date": "2015-09-09T19:02",
       "canon_date_sort": 4.1,
       "canon_date_begin": 4,
-      "img_poster": "/img/poster/shattered_empire_poster.jpg",
-      "img_cover": "/img/cover/shattered_empire_cover.jpg",
+      "img_poster": "img/poster/shattered_empire_poster.jpg",
+      "img_cover": "img/cover/shattered_empire_cover.jpg",
       "characters": [
         "shara_bey",
         "kes_dameron",
@@ -149,8 +149,8 @@
       "canon_date_sort": -5,
       "canon_date_begin": -5,
       "canon_date_end": -2,
-      "img_poster": "/img/poster/rebels_poster.jpg",
-      "img_cover": "/img/cover/rebels_cover.jpg",
+      "img_poster": "img/poster/rebels_poster.jpg",
+      "img_cover": "img/cover/rebels_cover.jpg",
       "characters": [
         "ezra_bridger",
         "kanan_jarrus",
@@ -174,8 +174,8 @@
       "release_date": "1999-05-19T19:02",
       "canon_date_sort": -32,
       "canon_date_begin": -32,
-      "img_poster": "/img/poster/the_phantom_menace_poster.jpg",
-      "img_cover": "/img/cover/the_phantom_menace_cover.jpg",
+      "img_poster": "img/poster/the_phantom_menace_poster.jpg",
+      "img_cover": "img/cover/the_phantom_menace_cover.jpg",
       "characters": [
         "qui_gon_jinn",
         "obi_wan_kenobi",
@@ -202,8 +202,8 @@
       "canon_date_sort": -22.8,
       "canon_date_begin": -22,
       "canon_date_end": -20,
-      "img_poster": "/img/poster/the_clone_wars_poster.jpg",
-      "img_cover": "/img/cover/the_clone_wars_cover.jpg",
+      "img_poster": "img/poster/the_clone_wars_poster.jpg",
+      "img_cover": "img/cover/the_clone_wars_cover.jpg",
       "characters": [
         "ahsoka_tano",
         "obi_wan_kenobi",
@@ -225,8 +225,8 @@
       "release_date": "2002-05-16T19:02",
       "canon_date_sort": -22.9,
       "canon_date_begin": -22,
-      "img_poster": "/img/poster/attack_of_the_clones_poster.jpg",
-      "img_cover": "/img/cover/attack_of_the_clones_cover.jpg",
+      "img_poster": "img/poster/attack_of_the_clones_poster.jpg",
+      "img_cover": "img/cover/attack_of_the_clones_cover.jpg",
       "characters": [
         "obi_wan_kenobi",
         "darth_vader",
@@ -252,8 +252,8 @@
       "release_date": "2014-09-02T19:02",
       "canon_date_sort": -11.9,
       "canon_date_begin": -11,
-      "img_poster": "/img/poster/a_new_dawn_poster.jpg",
-      "img_cover": "/img/cover/a_new_dawn_cover.jpg",
+      "img_poster": "img/poster/a_new_dawn_poster.jpg",
+      "img_cover": "img/cover/a_new_dawn_cover.jpg",
       "characters": [
         "kanan_jarrus",
         "hera_syndulla",
@@ -271,8 +271,8 @@
       "canon_date_sort": -11.1,
       "canon_date_begin": -11,
       "canon_date_end": 5,
-      "img_poster": "/img/poster/lost_stars_poster.jpg",
-      "img_cover": "/img/cover/lost_stars_cover.jpg",
+      "img_poster": "img/poster/lost_stars_poster.jpg",
+      "img_cover": "img/cover/lost_stars_cover.jpg",
       "characters": [
         "thane_kyrell",
         "ciena_ree"
@@ -288,8 +288,8 @@
       "release_date": "2015-04-28T19:02",
       "canon_date_sort": -14.9,
       "canon_date_begin": -14,
-      "img_poster": "/img/poster/lords_of_the_sith_poster.jpg",
-      "img_cover": "/img/cover/lords_of_the_sith_cover.jpg",
+      "img_poster": "img/poster/lords_of_the_sith_poster.jpg",
+      "img_cover": "img/cover/lords_of_the_sith_cover.jpg",
       "characters": [
         "darth_vader",
         "palpatine",
@@ -306,8 +306,8 @@
       "release_date": "2014-11-04T19:02",
       "canon_date_sort": -14.8,
       "canon_date_begin": -14,
-      "img_poster": "/img/poster/tarkin_book_poster.jpg",
-      "img_cover": "/img/cover/tarkin_book_cover.jpg",
+      "img_poster": "img/poster/tarkin_book_poster.jpg",
+      "img_cover": "img/cover/tarkin_book_cover.jpg",
       "characters": [
         "tarkin",
         "darth_vader",
@@ -324,8 +324,8 @@
       "release_date": "1977-05-25T19:02",
       "canon_date_sort": 0,
       "canon_date_begin": 0,
-      "img_poster": "/img/poster/a_new_hope_poster.jpg",
-      "img_cover": "/img/cover/a_new_hope_cover.jpg",
+      "img_poster": "img/poster/a_new_hope_poster.jpg",
+      "img_cover": "img/cover/a_new_hope_cover.jpg",
       "characters": [
         "luke_skywalker",
         "leia_organa",
@@ -351,8 +351,8 @@
       "release_date": "2015-03-04T19:02",
       "canon_date_sort": 0.1,
       "canon_date_begin": 0,
-      "img_poster": "/img/poster/princess_leia_comic_poster.jpg",
-      "img_cover": "/img/cover/princess_leia_comic_cover.jpg",
+      "img_poster": "img/poster/princess_leia_comic_poster.jpg",
+      "img_cover": "img/cover/princess_leia_comic_cover.jpg",
       "characters": [
         "leia_organa",
         "r2_d2",
@@ -371,8 +371,8 @@
       "release_date": "2015-03-03T19:02",
       "canon_date_sort": 0.4,
       "canon_date_begin": 0,
-      "img_poster": "/img/poster/heir_to_the_jedi_poster.jpg",
-      "img_cover": "/img/cover/heir_to_the_jedi_cover.jpg",
+      "img_poster": "img/poster/heir_to_the_jedi_poster.jpg",
+      "img_cover": "img/cover/heir_to_the_jedi_cover.jpg",
       "characters": [
         "luke_skywalker",
         "nakari_kelen",
@@ -389,8 +389,8 @@
       "release_date": "2015-11-03T19:02",
       "canon_date_sort": 1.1,
       "canon_date_begin": 1,
-      "img_poster": "/img/poster/twilight_company_poster.jpg",
-      "img_cover": "/img/cover/twilight_company_cover.jpg",
+      "img_poster": "img/poster/twilight_company_poster.jpg",
+      "img_cover": "img/cover/twilight_company_cover.jpg",
       "synopsis_short": "The bravest soldiers. The toughest warriors. The ultimate survivors.",
       "synopsis_long": "The bravest soldiers. The toughest warriors. The ultimate survivors.\n\nAmong the stars and across the vast expanses of space, the Galactic Civil War rages. On the battlefields of multiple worlds in the Mid Rim, legions of ruthless stormtroopers—bent on crushing resistance to the Empire wherever it arises—are waging close and brutal combat against an armada of freedom fighters.\n\nIn the streets and alleys of ravaged cities, the front-line forces of the Rebel Alliance are taking the fight to the enemy, pushing deeper into Imperial territory and grappling with the savage flesh-and-blood realities of war on the ground.",
       "author": "Alexander Freed"
@@ -402,8 +402,8 @@
       "release_date": "1983-05-25T19:02",
       "canon_date_sort": 4,
       "canon_date_begin": 4,
-      "img_poster": "/img/poster/return_of_the_jedi_poster.jpg",
-      "img_cover": "/img/cover/return_of_the_jedi_cover.jpg",
+      "img_poster": "img/poster/return_of_the_jedi_poster.jpg",
+      "img_cover": "img/cover/return_of_the_jedi_cover.jpg",
       "characters": [
         "luke_skywalker",
         "leia_organa",
@@ -433,8 +433,8 @@
       "release_date": "2015-09-04T19:02",
       "canon_date_sort": 4.3,
       "canon_date_begin": 4,
-      "img_poster": "/img/poster/aftermath_poster.jpg",
-      "img_cover": "/img/cover/aftermath_cover.jpg",
+      "img_poster": "img/poster/aftermath_poster.jpg",
+      "img_cover": "img/cover/aftermath_cover.jpg",
       "characters": [
         "wedge_antilles",
         "norra_wexley",
@@ -452,8 +452,8 @@
       "release_date": "2015-04-01T19:02",
       "canon_date_sort": -19.8,
       "canon_date_begin": -19,
-      "img_poster": "/img/poster/kanan_comic_poster.jpg",
-      "img_cover": "/img/cover/kanan_comic_cover.jpg",
+      "img_poster": "img/poster/kanan_comic_poster.jpg",
+      "img_cover": "img/cover/kanan_comic_cover.jpg",
       "characters": [
         "kanan_jarrus",
         "depa_billaba"
@@ -471,8 +471,8 @@
       "release_date": "2002-05-19T19:02",
       "canon_date_sort": -19.9,
       "canon_date_begin": -19,
-      "img_poster": "/img/poster/revenge_of_the_sith_poster.jpg",
-      "img_cover": "/img/cover/revenge_of_the_sith_cover.jpg",
+      "img_poster": "img/poster/revenge_of_the_sith_poster.jpg",
+      "img_cover": "img/cover/revenge_of_the_sith_cover.jpg",
       "characters": [
         "obi_wan_kenobi",
         "darth_vader",
@@ -497,8 +497,8 @@
       "release_date": "2014-05-21T19:02",
       "canon_date_sort": -20.1,
       "canon_date_begin": -20,
-      "img_poster": "/img/poster/son_of_dathomir_poster.jpg",
-      "img_cover": "/img/cover/son_of_dathomir_cover.jpg",
+      "img_poster": "img/poster/son_of_dathomir_poster.jpg",
+      "img_cover": "img/cover/son_of_dathomir_cover.jpg",
       "characters": [
         "darth_maul",
         "palpatine",
@@ -517,8 +517,8 @@
       "release_date": "2015-06-08T19:02",
       "canon_date_sort": 1.2,
       "canon_date_begin": 1,
-      "img_poster": "/img/poster/lando_comic_poster.jpg",
-      "img_cover": "/img/cover/lando_comic_cover.jpg",
+      "img_poster": "img/poster/lando_comic_poster.jpg",
+      "img_cover": "img/cover/lando_comic_cover.jpg",
       "characters": [
         "lando_calrissian",
         "lobot"
@@ -536,8 +536,8 @@
       "release_date": "2015-02-11T19:02",
       "canon_date_sort": 0.6,
       "canon_date_begin": 0,
-      "img_poster": "/img/poster/darth_vader_comic_poster.jpg",
-      "img_cover": "/img/cover/darth_vader_comic_cover.jpg",
+      "img_poster": "img/poster/darth_vader_comic_poster.jpg",
+      "img_cover": "img/cover/darth_vader_comic_cover.jpg",
       "characters": [
         "darth_vader",
         "boba_fett"
@@ -555,8 +555,8 @@
       "release_date": "2015-01-14T19:02",
       "canon_date_sort": 0.5,
       "canon_date_begin": 0,
-      "img_poster": "/img/poster/star_wars_comic_poster.jpg",
-      "img_cover": "/img/cover/star_wars_comic_cover.jpg",
+      "img_poster": "img/poster/star_wars_comic_poster.jpg",
+      "img_cover": "img/cover/star_wars_comic_cover.jpg",
       "characters": [
         "luke_skywalker",
         "han_solo",
@@ -579,8 +579,8 @@
       "release_date": "2015-10-14T19:02",
       "canon_date_sort": 0.3,
       "canon_date_begin": 0,
-      "img_poster": "/img/poster/chewbacca_comic_poster.jpg",
-      "img_cover": "/img/cover/chewbacca_comic_cover.jpg",
+      "img_poster": "img/poster/chewbacca_comic_poster.jpg",
+      "img_cover": "img/cover/chewbacca_comic_cover.jpg",
       "characters": [
         "chewbacca"
       ],
@@ -597,8 +597,8 @@
       "release_date": "2015-12-01T19:02",
       "canon_date_sort": 4.5,
       "canon_date_begin": 4,
-      "img_poster": "/img/poster/c_3po_comic_poster.jpg",
-      "img_cover": "/img/cover/c_3po_comic_cover.jpg",
+      "img_poster": "img/poster/c_3po_comic_poster.jpg",
+      "img_cover": "img/cover/c_3po_comic_cover.jpg",
       "characters": [
         "c_3po"
       ],
@@ -615,8 +615,8 @@
       "release_date": "2018-05-25T19:02",
       "canon_date_sort": -10,
       "canon_date_begin": -10,
-      "img_poster": "/img/poster/han_solo_anthology_poster.jpg",
-      "img_cover": "/img/cover/han_solo_anthology_cover.jpg",
+      "img_poster": "img/poster/han_solo_anthology_poster.jpg",
+      "img_cover": "img/cover/han_solo_anthology_cover.jpg",
       "characters": [
         "han_solo"
       ],
@@ -637,8 +637,8 @@
       "release_date": "2016-12-16T19:02",
       "canon_date_sort": -1,
       "canon_date_begin": -1,
-      "img_poster": "/img/poster/rogue_one_poster.jpg",
-      "img_cover": "/img/cover/rogue_one_cover.jpg",
+      "img_poster": "img/poster/rogue_one_poster.jpg",
+      "img_cover": "img/cover/rogue_one_cover.jpg",
       "characters": [
         
       ],
@@ -657,7 +657,7 @@
     {
       "id": "luke_skywalker",
       "name": "Luke Skywalker",
-      "img": "/img/character/luke_skywalker.jpg",
+      "img": "img/character/luke_skywalker.jpg",
       "media": [
         "a_new_hope",
         "heir_to_the_jedi",
@@ -671,7 +671,7 @@
     {
       "id": "han_solo",
       "name": "Han Solo",
-      "img": "/img/character/han_solo.jpg",
+      "img": "img/character/han_solo.jpg",
       "media": [
         "a_new_hope",
         "star_wars_comic",
@@ -685,7 +685,7 @@
       "id": "leia_organa",
       "name": "Leia Organa",
       "title": "Princess",
-      "img": "/img/character/leia_organa.jpg",
+      "img": "img/character/leia_organa.jpg",
       "media": [
         "a_new_hope",
         "princess_leia_comic",
@@ -700,7 +700,7 @@
     {
       "id": "chewbacca",
       "name": "Chewbacca",
-      "img": "/img/character/chewbacca.jpg",
+      "img": "img/character/chewbacca.jpg",
       "media": [
         "revenge_of_the_sith",
         "a_new_hope",
@@ -715,7 +715,7 @@
     {
       "id": "darth_vader",
       "name": "Darth Vader",
-      "img": "/img/character/darth_vader.jpg",
+      "img": "img/character/darth_vader.jpg",
       "media": [
         "the_phantom_menace",
         "attack_of_the_clones",
@@ -733,7 +733,7 @@
     {
       "id": "c_3po",
       "name": "C-3PO",
-      "img": "/img/character/c_3po.jpg",
+      "img": "img/character/c_3po.jpg",
       "media": [
         "the_phantom_menace",
         "attack_of_the_clones",
@@ -750,7 +750,7 @@
     {
       "id": "r2_d2",
       "name": "R2-D2",
-      "img": "/img/character/r2_d2.jpg",
+      "img": "img/character/r2_d2.jpg",
       "media": [
         "the_phantom_menace",
         "attack_of_the_clones",
@@ -768,7 +768,7 @@
     {
       "id": "obi_wan_kenobi",
       "name": "Obi-Wan Kenobi",
-      "img": "/img/character/obi_wan_kenobi.jpg",
+      "img": "img/character/obi_wan_kenobi.jpg",
       "media": [
         "the_phantom_menace",
         "attack_of_the_clones",
@@ -781,7 +781,7 @@
     {
       "id": "yoda",
       "name": "Yoda",
-      "img": "/img/character/yoda.jpg",
+      "img": "img/character/yoda.jpg",
       "media": [
         "the_phantom_menace",
         "attack_of_the_clones",
@@ -795,7 +795,7 @@
     {
       "id": "lando_calrissian",
       "name": "Lando Calrissian",
-      "img": "/img/character/lando_calrissian.jpg",
+      "img": "img/character/lando_calrissian.jpg",
       "media": [
         "rebels",
         "lando_comic",
@@ -806,7 +806,7 @@
     {
       "id": "asajj_ventress",
       "name": "Asajj Ventress",
-      "img": "/img/character/asajj_ventress.jpg",
+      "img": "img/character/asajj_ventress.jpg",
       "media": [
         "the_clone_wars",
         "dark_disciple"
@@ -815,7 +815,7 @@
     {
       "id": "quinlan_vos",
       "name": "Quinlan Vos",
-      "img": "/img/character/quinlan_vos.jpg",
+      "img": "img/character/quinlan_vos.jpg",
       "media": [
         "dark_disciple"
       ]
@@ -823,7 +823,7 @@
     {
       "id": "rey",
       "name": "Rey",
-      "img": "/img/character/rey.jpg",
+      "img": "img/character/rey.jpg",
       "media": [
         "the_force_awakens"
       ]
@@ -831,7 +831,7 @@
     {
       "id": "finn",
       "name": "Finn",
-      "img": "/img/character/finn.jpg",
+      "img": "img/character/finn.jpg",
       "media": [
         "the_force_awakens"
       ]
@@ -839,7 +839,7 @@
     {
       "id": "kylo_ren",
       "name": "Kylo Ren",
-      "img": "/img/character/kylo_ren.jpg",
+      "img": "img/character/kylo_ren.jpg",
       "media": [
         "the_force_awakens"
       ]
@@ -847,7 +847,7 @@
     {
       "id": "poe_dameron",
       "name": "Poe Dameron",
-      "img": "/img/character/poe_dameron.jpg",
+      "img": "img/character/poe_dameron.jpg",
       "media": [
         "the_force_awakens"
       ]
@@ -856,7 +856,7 @@
       "id": "hux",
       "name": "Hux",
       "title": "General",
-      "img": "/img/character/hux.jpg",
+      "img": "img/character/hux.jpg",
       "media": [
         "the_force_awakens"
       ]
@@ -865,7 +865,7 @@
       "id": "phasma",
       "name": "Phasma",
       "title": "Captain",
-      "img": "/img/character/phasma.jpg",
+      "img": "img/character/phasma.jpg",
       "media": [
         "the_force_awakens"
       ]
@@ -874,7 +874,7 @@
       "id": "snoke",
       "name": "Snoke",
       "title": "Supreme Leader",
-      "img": "/img/character/snoke.jpg",
+      "img": "img/character/snoke.jpg",
       "media": [
         "the_force_awakens"
       ]
@@ -882,7 +882,7 @@
     {
       "id": "ezra_bridger",
       "name": "Ezra Bridger",
-      "img": "/img/character/ezra_bridger.jpg",
+      "img": "img/character/ezra_bridger.jpg",
       "media": [
         "rebels"
       ]
@@ -890,7 +890,7 @@
     {
       "id": "kanan_jarrus",
       "name": "Kanan Jarrus",
-      "img": "/img/character/kanan_jarrus.jpg",
+      "img": "img/character/kanan_jarrus.jpg",
       "media": [
         "kanan_comic",
         "rebels",
@@ -900,7 +900,7 @@
     {
       "id": "hera_syndulla",
       "name": "Hera Syndulla",
-      "img": "/img/character/hera_syndulla.jpg",
+      "img": "img/character/hera_syndulla.jpg",
       "media": [
         "rebels",
         "a_new_dawn"
@@ -909,7 +909,7 @@
     {
       "id": "sabine_wren",
       "name": "Sabine Wren",
-      "img": "/img/character/sabine_wren.jpg",
+      "img": "img/character/sabine_wren.jpg",
       "media": [
         "rebels"
       ]
@@ -917,7 +917,7 @@
     {
       "id": "garazeb_orrelios",
       "name": "Garazeb Orrelios",
-      "img": "/img/character/garazeb_orrelios.jpg",
+      "img": "img/character/garazeb_orrelios.jpg",
       "media": [
         "rebels"
       ]
@@ -925,7 +925,7 @@
     {
       "id": "qui_gon_jinn",
       "name": "Qui-Gon Jinn",
-      "img": "/img/character/qui_gon_jinn.jpg",
+      "img": "img/character/qui_gon_jinn.jpg",
       "media": [
         "the_phantom_menace"
       ]
@@ -934,7 +934,7 @@
       "id": "kallus",
       "name": "Kallus",
       "title": "Agent",
-      "img": "/img/character/kallus.jpg",
+      "img": "img/character/kallus.jpg",
       "media": [
         "rebels"
       ]
@@ -943,7 +943,7 @@
       "id": "padme_amidala",
       "name": "Padmé Amidala",
       "title": "Queen",
-      "img": "/img/character/padme_amidala.jpg",
+      "img": "img/character/padme_amidala.jpg",
       "media": [
         "the_phantom_menace",
         "attack_of_the_clones",
@@ -954,7 +954,7 @@
     {
       "id": "darth_maul",
       "name": "Darth Maul",
-      "img": "/img/character/darth_maul.jpg",
+      "img": "img/character/darth_maul.jpg",
       "media": [
         "the_phantom_menace",
         "the_clone_wars",
@@ -965,7 +965,7 @@
       "id": "palpatine",
       "name": "Sheev Palpatine",
       "title": "Emperor",
-      "img": "/img/character/palpatine.jpg",
+      "img": "img/character/palpatine.jpg",
       "media": [
         "the_phantom_menace",
         "attack_of_the_clones",
@@ -981,7 +981,7 @@
     {
       "id": "jar_jar_binks",
       "name": "Jar Jar Binks",
-      "img": "/img/character/jar_jar_binks.jpg",
+      "img": "img/character/jar_jar_binks.jpg",
       "media": [
         "the_phantom_menace",
         "attack_of_the_clones",
@@ -992,7 +992,7 @@
     {
       "id": "mace_windu",
       "name": "Mace Windu",
-      "img": "/img/character/mace_windu.jpg",
+      "img": "img/character/mace_windu.jpg",
       "media": [
         "the_phantom_menace",
         "attack_of_the_clones",
@@ -1004,7 +1004,7 @@
       "id": "count_dooku",
       "name": "Dooku",
       "title": "Count",
-      "img": "/img/character/count_dooku.jpg",
+      "img": "img/character/count_dooku.jpg",
       "media": [
         "attack_of_the_clones",
         "the_clone_wars",
@@ -1014,7 +1014,7 @@
     {
       "id": "jango_fett",
       "name": "Jango Fett",
-      "img": "/img/character/jango_fett.jpg",
+      "img": "img/character/jango_fett.jpg",
       "media": [
         "attack_of_the_clones"
       ]
@@ -1022,7 +1022,7 @@
     {
       "id": "boba_fett",
       "name": "Boba Fett",
-      "img": "/img/character/boba_fett.jpg",
+      "img": "img/character/boba_fett.jpg",
       "media": [
         "attack_of_the_clones",
         "the_clone_wars",
@@ -1036,7 +1036,7 @@
     {
       "id": "ahsoka_tano",
       "name": "Ahsoka Tano",
-      "img": "/img/character/ahsoka_tano.jpg",
+      "img": "img/character/ahsoka_tano.jpg",
       "media": [
         "the_clone_wars",
         "rebels"
@@ -1045,7 +1045,7 @@
     {
       "id": "cham_syndulla",
       "name": "Cham Syndulla",
-      "img": "/img/character/cham_syndulla.jpg",
+      "img": "img/character/cham_syndulla.jpg",
       "media": [
         "the_clone_wars",
         "lords_of_the_sith"
@@ -1055,7 +1055,7 @@
       "id": "tarkin",
       "name": "Wilhuff Tarkin",
       "title": "Grand Moff",
-      "img": "/img/character/tarkin.jpg",
+      "img": "img/character/tarkin.jpg",
       "media": [
         "lords_of_the_sith",
         "tarkin_book",
@@ -1066,7 +1066,7 @@
     {
       "id": "wedge_antilles",
       "name": "Wedge Antilles",
-      "img": "/img/character/wedge_antilles.jpg",
+      "img": "img/character/wedge_antilles.jpg",
       "media": [
         "a_new_hope",
         "the_weapon_of_a_jedi",
@@ -1078,7 +1078,7 @@
     {
       "id": "norra_wexley",
       "name": "Norra Wexley",
-      "img": "/img/character/unknown.jpg",
+      "img": "img/character/unknown.jpg",
       "media": [
         "aftermath"
       ]
@@ -1086,7 +1086,7 @@
     {
       "id": "ciena_ree",
       "name": "Ciena Ree",
-      "img": "/img/character/unknown.jpg",
+      "img": "img/character/unknown.jpg",
       "media": [
         "lost_stars"
       ]
@@ -1094,7 +1094,7 @@
     {
       "id": "thane_kyrell",
       "name": "Thane Kyrell",
-      "img": "/img/character/unknown.jpg",
+      "img": "img/character/unknown.jpg",
       "media": [
         "lost_stars"
       ]
@@ -1102,7 +1102,7 @@
     {
       "id": "nakari_kelen",
       "name": "Nakari Kelen",
-      "img": "/img/character/nakari_kelen.jpg",
+      "img": "img/character/nakari_kelen.jpg",
       "media": [
         "heir_to_the_jedi"
       ]
@@ -1111,7 +1111,7 @@
       "id": "ackbar",
       "name": "Ackbar",
       "title": "Admiral",
-      "img": "/img/character/ackbar.jpg",
+      "img": "img/character/ackbar.jpg",
       "media": [
         "moving_target",
         "return_of_the_jedi",
@@ -1122,7 +1122,7 @@
       "id": "grievous",
       "name": "Grievous",
       "title": "General",
-      "img": "/img/character/grievous.jpg",
+      "img": "img/character/grievous.jpg",
       "media": [
         "revenge_of_the_sith",
         "the_clone_wars",
@@ -1132,7 +1132,7 @@
     {
       "id": "depa_billaba",
       "name": "Depa Billaba",
-      "img": "/img/character/depa_billaba.jpg",
+      "img": "img/character/depa_billaba.jpg",
       "media": [
         "the_phantom_menace",
         "attack_of_the_clones",
@@ -1142,7 +1142,7 @@
     {
       "id": "evaan_verlaine",
       "name": "Evaan Verlaine",
-      "img": "/img/character/evaan_verlaine.jpg",
+      "img": "img/character/evaan_verlaine.jpg",
       "media": [
         "princess_leia_comic"
       ]
@@ -1150,7 +1150,7 @@
     {
       "id": "sana_solo",
       "name": "Sana Solo",
-      "img": "/img/character/sana_solo.jpg",
+      "img": "img/character/sana_solo.jpg",
       "media": [
         "star_wars_comic"
       ]
@@ -1158,7 +1158,7 @@
     {
       "id": "kes_dameron",
       "name": "Kes Dameron",
-      "img": "/img/character/kes_dameron.jpg",
+      "img": "img/character/kes_dameron.jpg",
       "media": [
         "shattered_empire"
       ]
@@ -1166,7 +1166,7 @@
     {
       "id": "shara_bey",
       "name": "Shara Bey",
-      "img": "/img/character/shara_bey.jpg",
+      "img": "img/character/shara_bey.jpg",
       "media": [
         "shattered_empire"
       ]
@@ -1174,7 +1174,7 @@
     {
       "id": "lobot",
       "name": "Lobot",
-      "img": "/img/character/lobot.jpg",
+      "img": "img/character/lobot.jpg",
       "media": [
         "the_empire_strikes_back",
         "lando_comic"
@@ -1183,7 +1183,7 @@
     {
       "id": "rae_sloane",
       "name": "Rae Sloane",
-      "img": "/img/character/rae_sloane.jpg",
+      "img": "img/character/rae_sloane.jpg",
       "media": [
         "a_new_dawn",
         "aftermath"

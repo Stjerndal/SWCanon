@@ -33,6 +33,7 @@ angular.module('starter.controllers')
       $scope.typeFilters.Movie = true;
       $scope.typeFilters.TV = true;
       $scope.typeFilters.Book = true;
+      $scope.typeFilters.Comic = false;
       $localstorage.setObject('typeFilters', {
         Movie: $scope.typeFilters.Movie,
         TV: $scope.typeFilters.TV,
@@ -41,7 +42,7 @@ angular.module('starter.controllers')
       });
     }
     if(!$scope.sortBy) {
-      $localstorage.set('sortBy', 'canon_date_begin');
+      $localstorage.set('sortBy', 'canon_date_sort');
       $localstorage.set('sortByDisplay', 'Chronological order');
     }
 
@@ -69,7 +70,9 @@ angular.module('starter.controllers')
 
     // Check Ionic Deploy for new code
     $scope.checkForUpdates = function() {
-
+      //PUBLISH COMPILE
+      // $ionicDeploy.setChannel("dev");
+      
       console.log('Ionic Deploy: Checking for updates');
       $ionicDeploy.check().then(function(hasUpdate) {
         console.log('Ionic Deploy: Update available: ' + hasUpdate);

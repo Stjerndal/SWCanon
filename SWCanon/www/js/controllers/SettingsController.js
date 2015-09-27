@@ -28,6 +28,9 @@ angular.module('starter.controllers')
 
 
 	$scope.doUpdate = function() {
+		//PUBLISH COMPILE
+      	// $ionicDeploy.setChannel("dev");
+
 	    $ionicDeploy.update().then(function(res) {
 	      console.log('Ionic Deploy: Update Success! ', res);
 	      showToast('Update Success!'); 
@@ -44,6 +47,9 @@ angular.module('starter.controllers')
 
 	// Check Ionic Deploy for new code
 	$scope.checkForUpdates = function() {
+		//PUBLISH COMPILE
+      	//$ionicDeploy.setChannel("dev");
+
 		console.log('Ionic Deploy: Checking for updates');
 	    $ionicDeploy.check().then(function(hasUpdate) {
 	    	console.log('Ionic Deploy: Update available: ' + hasUpdate);
