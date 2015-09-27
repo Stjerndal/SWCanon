@@ -17,7 +17,7 @@ angular.module('starter', ['ionic','ionic.service.core','ionic.service.analytics
   
       // Don't send any events to the analytics backend.
       // (useful during development)
-      dryRun: false
+      dryRun: true
     });
     $ionicAnalytics.setGlobalProperties({
       app_version_number: 'v0.0.8',
