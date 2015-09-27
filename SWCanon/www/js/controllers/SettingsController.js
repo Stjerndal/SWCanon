@@ -2,7 +2,7 @@ angular.module('starter.controllers')
 
 
 
-.controller('SettingsController', function($scope, $ionicDeploy, ionicToast, $ionicHistory, $localstorage, $ionicPopup) {
+.controller('SettingsController', function($scope, $ionicDeploy, ionicToast, $ionicHistory, $localstorage, $ionicPopup, $ionicAnalytics) {
 
 	$scope.$on('$ionicView.enter', function(){
 		console.log('hasupdate: ' + $scope.$parent.updates.hasUpdate);
@@ -11,7 +11,6 @@ angular.module('starter.controllers')
     	$scope.sortByDisplay = $localstorage.get('sortByDisplay');
     	$scope.typeFilters = $localstorage.getObject('typeFilters');
     	$scope.hasUpdate = $scope.$parent.updates.hasUpdate;
-
   	});
 
 	// ionic-toast bower component
@@ -31,10 +30,12 @@ angular.module('starter.controllers')
 	$scope.doUpdate = function() {
 	    $ionicDeploy.update().then(function(res) {
 	      console.log('Ionic Deploy: Update Success! ', res);
-	      showToast('Update Success! ' + res);
+	      showToast('Update Success!');
+	      //$ionicAnalytics.track('updateSuccess', { updateResult: res });
 	    }, function(err) {
 	      console.log('Ionic Deploy: Update error! ', err);
-	      showToast('Update error! ' + err);
+	      showToast('Update error: ' + err);
+	      $ionicAnalytics.track('updateError', { errorMsg: err });
 	    }, function(prog) {
 	      console.log('Ionic Deploy: Progress... ', prog);
 	      showToast('Update in progress... ' + prog + '%', prog);
@@ -51,14 +52,16 @@ angular.module('starter.controllers')
 	    	} else {
 	    		showToast('No new updates.');
 	    	}
+	    	$ionicAnalytics.track('updateCheck', { result: hasUpdate });
 	    	$scope.hasUpdate = hasUpdate;
 	    	$scope.$parent.updates.hasUpdate = hasUpdate;
 	    	if($scope.hasUpdate) {
 	    		$scope.$parent.updates.num = 1;
 	    	};
 	    }, function(err) {
-	    	console.error('Ionic Deploy: Unable to check for updates', err);
-	    	showToast('Unable to check for updates' + err);
+	    	console.error('Ionic Deploy: Unable to check for updates: ', err);
+	    	showToast('Unable to check for updates: ' + err);
+	    	$ionicAnalytics.track('updateCheck', { result: err });
 	    	// var hasUpdate = true;
 	    	// $scope.hasUpdate = hasUpdate;
 	    	// $scope.$parent.updates.hasUpdate = hasUpdate;
@@ -89,6 +92,7 @@ angular.module('starter.controllers')
 	    	$localstorage.set('sortByDisplay', display);
 	    	$scope.sortByDisplay = display;
 			sortPopup.close();
+			$ionicAnalytics.track('sortBySelect', { sortBy: sortChoice });
 			// var launchCount = $localstorage.get('launchCount');
 			// showToast('launchCount: ' + launchCount);
 		};
@@ -115,7 +119,6 @@ angular.module('starter.controllers')
     		Book: $scope.typeFilters.Book,
     		Comic: $scope.typeFilters.Comic
   		});
-
 	}
 
 

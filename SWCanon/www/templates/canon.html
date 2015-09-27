@@ -6,7 +6,7 @@
     <label class="item-input-wrapper">
       <i class="icon ion-search placeholder-icon"></i>
       <input type="search" ng-model="query" placeholder="Search">
-    </label>
+    </label ion-track-tap="SearchTap" ion-track-data="{ sourceTab: 'canon'}">
   </div>
 
 
@@ -14,7 +14,13 @@
     class="has-subheader">
     <ion-list>
       <ion-item ng-repeat="item in media | filter: query | mediaTypesFilter: typeFilters | orderBy: sortBy" class="item"
-       href="#/tab/canon/{{item.id}}" transitiontype="slide" direction="left" go-native>
+       href="#/tab/canon/{{item.id}}" transitiontype="slide" direction="left" go-native
+       ion-track-tap="MediaItemClick" ion-track-data="{
+                                            mediaItemId: item.id,
+                                            mediaItemTitle: item.title,
+                                            listIndex: $index,
+                                            query: query
+                                          }">
       <!-- <ion-item ng-repeat="item in media | filter: query | mediaTypesFilter: typeFilters | orderBy: sortBy" class="item"
        href="#/tab/canon/{{item.id}}"> -->
         <media-list-item media-item="item" today="today" yesterday="yesterday" class="big-list"></media-list-item>

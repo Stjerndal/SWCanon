@@ -6,7 +6,7 @@
     <label class="item-input-wrapper">
       <i class="icon ion-search placeholder-icon"></i>
       <input type="search" ng-model="query" placeholder="Search">
-    </label>
+    </label ion-track-tap="SearchTap" ion-track-data="{ sourceTab: 'charList'}">
   </div>
 
   <ion-content 
@@ -15,7 +15,8 @@
       <ion-item class="item charListItem"
       ng-repeat="char in characters | filter: query | orderBy: 'name'"
       href="#/tab/charList/{{char.id}}"
-      transitiontype="slide" direction="left" go-native>
+      transitiontype="slide" direction="left" go-native
+      ion-track-tap="CharClick" ion-track-data="{ characterId: char.id, characterName: char.name, listIndex: $index, sourceTab: 'charList', query: query}">
         <div class="row row-center charListRow">
           <div class="col thumbnail-col">
             <img ng-src="{{char.img}}" class="avatar">

@@ -1,6 +1,6 @@
 angular.module('starter.controllers')
 
-.controller('CanonController', function($scope, $http, $state, $ionicHistory, $localstorage, $ionicDeploy, ionicToast, $ionicPlatform) {
+.controller('CanonController', function($scope, $http, $state, $ionicHistory, $localstorage, $ionicDeploy, ionicToast, $ionicPlatform, $ionicAnalytics) {
     $http.get('js/data/data.json').success(function(data) {
       $scope.media = data.media;
       $scope.characters = data.characters;
@@ -24,10 +24,14 @@ angular.module('starter.controllers')
     $scope.typeFilters = $localstorage.getObject('typeFilters');
     $scope.sortBy = $localstorage.get('sortBy');
 
+    $ionicAnalytics.track('typeFiltersOnLoad', { typeFilters: $scope.typeFilters });
+    $ionicAnalytics.track('sortByOnLoad', { sortBy: $scope.sortBy });
+
     //If locally saved typeFilters not found/or everything is hidden:
     if(!$scope.typeFilters || (!$scope.typeFilters.Movie && !$scope.typeFilters.TV && !$scope.typeFilters.Book && !$scope.typeFilters.Comic)) {
       console.log("empty")
       $scope.typeFilters.Movie = true;
+      $scope.typeFilters.TV = true;
       $scope.typeFilters.Book = true;
       $localstorage.setObject('typeFilters', {
         Movie: $scope.typeFilters.Movie,
@@ -44,6 +48,9 @@ angular.module('starter.controllers')
     $scope.$on('$ionicView.enter', function(){
       $scope.sortBy = $localstorage.get('sortBy');
       $scope.typeFilters = $localstorage.getObject('typeFilters');
+
+      $ionicAnalytics.track('typeFiltersOnEnter', { typeFilters: $scope.typeFilters });
+    $ionicAnalytics.track('sortByOnEnter', { sortBy: $scope.sortBy });
 
       var curState = $ionicHistory.currentStateName();
       if(curState === 'tab.mediaDetail') {

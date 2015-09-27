@@ -10,7 +10,8 @@
 			<div class="char-content padding">
 				<div class="row row-center responsive-sm no-padding char-detail-row">
 					<div class="col avatar-wrapper no-padding">
-						<img ng-src="{{char.img}}" alt="{{ char.name }} Photo" class="avatar">
+						<img ng-src="{{char.img}}" alt="{{ char.name }} Photo" class="avatar"
+						ion-track-tap="PictureTap" ion-track-doubletap="PictureDoubleTap" ion-track-data="{ characterId: char.id, characterName: char.name }">
 					</div>
 					
 	        		<div class="col name">
@@ -26,7 +27,13 @@
         		<div class="mini-media-list"
         		ng-repeat="charMedia in char.media">
         			<ion-item ng-repeat="item in media | filter: {id: charMedia}"
-        			href="#/tab{{routeFix}}/canon/{{item.id}}" transitiontype="slide" direction="left" go-native>
+        			href="#/tab{{routeFix}}/canon/{{item.id}}" transitiontype="slide" direction="left" go-native
+        			ion-track-tap="MediaItemClick" ion-track-data="{
+																		sourceCharacterId: char.id,
+    																	sourceCharacterName: char.name,
+																		listIndex: $parent.$parent.$index,
+																		mediaItemId: charMedia
+																	}">
         				<media-list-item media-item="item" today="today" yesterday="yesterday" mini="true"></media-list-item>
         			</ion-item>
     			</div>
