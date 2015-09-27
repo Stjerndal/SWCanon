@@ -287,7 +287,7 @@
     },
     {
       "type": "Book",
-      "id": "tarkin",
+      "id": "tarkin_book",
       "title": "Tarkin",
       "release_date": "2014-11-04T19:02",
       "canon_date_begin": -14,
@@ -1025,6 +1025,7 @@
       "img": "http://img1.wikia.nocookie.net/__cb20100620213033/starwars/images/thumb/c/c1/Tarkininfobox.jpg/400px-Tarkininfobox.jpg",
       "media": [
         "lords_of_the_sith",
+        "tarkin_book",
         "rebels",
         "a_new_hope"
       ]

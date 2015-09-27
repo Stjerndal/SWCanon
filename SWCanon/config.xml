@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <widget id="se.stjerndal.swcanon" version="0.0.8" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
   <name>SWCanon</name>
-  <description>
-        The Canon of Star Wars
+  <description>&#xD;
+        The Canon of Star Wars&#xD;
     </description>
-  <author email="anden42@gmail.com" href="http://stjerndal.se">
-      Andreas Stjerndal
+  <author email="anden42@gmail.com" href="http://stjerndal.se">&#xD;
+      Andreas Stjerndal&#xD;
     </author>
   <content src="index.html"/>
   <access origin="*"/>
@@ -67,5 +67,5 @@
     <splash src="resources/ios/splash/Default@2x~iphone.png" height="960" width="640"/>
     <splash src="resources/ios/splash/Default~iphone.png" height="480" width="320"/>
   </platform>
-  <allow-navigation href="*" />
+  <allow-navigation href="*"/>
 </widget>

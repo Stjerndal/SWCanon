@@ -30,7 +30,7 @@ angular.module('starter.controllers')
 	$scope.doUpdate = function() {
 	    $ionicDeploy.update().then(function(res) {
 	      console.log('Ionic Deploy: Update Success! ', res);
-	      showToast('Update Success!');
+	      showToast('Update Success!'); 
 	      //$ionicAnalytics.track('updateSuccess', { updateResult: res });
 	    }, function(err) {
 	      console.log('Ionic Deploy: Update error! ', err);

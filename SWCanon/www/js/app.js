@@ -3,13 +3,13 @@
 // angular.module is a global place for creating, registering and retrieving Angular modules
 // 'starter' is the name of this angular module example (also set in a <body> attribute in index.html)
 // the 2nd parameter is an array of 'requires'
-angular.module('starter', ['ionic','ionic.service.core','ionic.service.analytics','ionic.service.deploy', 'starter.controllers', 'starter.directives', 'starter.filters', 'ionic-toast', 'ionic.utils', 'admobModule'])
-//Web browser / adless:
-// angular.module('starter', ['ionic','ionic.service.core','ionic.service.analytics','ionic.service.deploy', 'starter.controllers', 'starter.directives', 'starter.filters', 'ionic-toast', 'ionic.utils'])
+// angular.module('starter', ['ionic','ionic.service.core','ionic.service.analytics','ionic.service.deploy', 'starter.controllers', 'starter.directives', 'starter.filters', 'ionic-toast', 'ionic.utils', 'admobModule'])
+//Adless:
+angular.module('starter', ['ionic','ionic.service.core','ionic.service.analytics','ionic.service.deploy', 'starter.controllers', 'starter.directives', 'starter.filters', 'ionic-toast', 'ionic.utils'])
 
-//Web browser / adless:
-// .run(function($ionicPlatform/*, admobSvc*/, $localstorage, $ionicAnalytics) {
-.run(function($ionicPlatform, admobSvc, $localstorage, $ionicAnalytics) {
+//Adless:
+.run(function($ionicPlatform/*, admobSvc*/, $localstorage, $ionicAnalytics) {
+// .run(function($ionicPlatform, admobSvc, $localstorage, $ionicAnalytics) {
   $ionicPlatform.ready(function() {
 
     $ionicAnalytics.register({
@@ -52,7 +52,7 @@ angular.module('starter', ['ionic','ionic.service.core','ionic.service.analytics
   if(!launchCount) {
     launchCount = 0;
   } else if (launchCount > 3) {
-    //web browser / adless remove:
+    //Adless remove:
     // admobSvc.createBannerView();
   }
   launchCount += 1;
@@ -60,9 +60,9 @@ angular.module('starter', ['ionic','ionic.service.core','ionic.service.analytics
   
 })
 
-//Web browser / adless:
-// .config(function($stateProvider, $urlRouterProvider, $ionicConfigProvider/*, admobSvcProvider*/) {
-.config(function($stateProvider, $urlRouterProvider, $ionicConfigProvider, admobSvcProvider) {
+//Adless:
+.config(function($stateProvider, $urlRouterProvider, $ionicConfigProvider/*, admobSvcProvider*/) {
+// .config(function($stateProvider, $urlRouterProvider, $ionicConfigProvider, admobSvcProvider) {
 
   // Disable normal css transitions, in favor of native ones
   // (using telerik plugin and goNative directive.)
@@ -156,14 +156,14 @@ angular.module('starter', ['ionic','ionic.service.core','ionic.service.analytics
   $ionicConfigProvider.scrolling.jsScrolling(false);
 
 // Web browser / adless remove:
-  admobSvcProvider.setOptions({
-    publisherId:          "ca-app-pub-5464445636613782/3723271963",  // Required
-    interstitialAdId:     "ca-app-pub-5464445636613782/6838188760",  // Optional
-    bannerAtTop:          true
-  });
+  // admobSvcProvider.setOptions({
+  //   publisherId:          "ca-app-pub-5464445636613782/3723271963",  // Required
+  //   interstitialAdId:     "ca-app-pub-5464445636613782/6838188760",  // Optional
+  //   bannerAtTop:          true
+  // });
 
-  // Optionally configure the events prefix (by default set to 'admob:')
-  admobSvcProvider.setPrefix('myTag~');
+  // // Optionally configure the events prefix (by default set to 'admob:')
+  // admobSvcProvider.setPrefix('myTag~');
 
 });
 
