@@ -32,15 +32,15 @@ angular.module('starter.controllers')
       	// $ionicDeploy.setChannel("dev");
 
 	    $ionicDeploy.update().then(function(res) {
-	      console.log('Ionic Deploy: Update Success! ', res);
+	      // console.log('Ionic Deploy: Update Success! ', res);
 	      showToast('Update Success!'); 
 	      //$ionicAnalytics.track('updateSuccess', { updateResult: res });
 	    }, function(err) {
-	      console.log('Ionic Deploy: Update error! ', err);
+	      // console.log('Ionic Deploy: Update error! ', err);
 	      showToast('Update error: ' + err);
 	      $ionicAnalytics.track('updateError', { errorMsg: err });
 	    }, function(prog) {
-	      console.log('Ionic Deploy: Progress... ', prog);
+	      // console.log('Ionic Deploy: Progress... ', prog);
 	      showToast('Update in progress... ' + prog + '%', prog);
 	    });
 	};
@@ -50,9 +50,9 @@ angular.module('starter.controllers')
 		//PUBLISH COMPILE
       	//$ionicDeploy.setChannel("dev");
 
-		console.log('Ionic Deploy: Checking for updates');
+		// console.log('Ionic Deploy: Checking for updates');
 	    $ionicDeploy.check().then(function(hasUpdate) {
-	    	console.log('Ionic Deploy: Update available: ' + hasUpdate);
+	    	// console.log('Ionic Deploy: Update available: ' + hasUpdate);
 	    	if(hasUpdate) {
 	    		showToast('New content available!');
 	    	} else {
@@ -76,8 +76,8 @@ angular.module('starter.controllers')
 	    	// };
 	    });
 
-	    console.log('Title inc...');
-	    console.log('View title: ' + $ionicHistory.currentTitle());
+	    // console.log('Title inc...');
+	    // console.log('View title: ' + $ionicHistory.currentTitle());
 	}
 
 
@@ -105,7 +105,7 @@ angular.module('starter.controllers')
 
 
 		sortPopup.then(function(res) {
-			console.log('Chose: ' + $localstorage.get('sortBy'));
+			// console.log('Chose: ' + $localstorage.get('sortBy'));
 		});
 	};
 
@@ -114,10 +114,10 @@ angular.module('starter.controllers')
 	};
 
 	$scope.makeToggle = function() {
-		console.log('toggling...' + $scope.typeFilters.Movie);
-		console.log('toggling...' + $scope.typeFilters.TV);
-		console.log('toggling...' + $scope.typeFilters.Book);
-		console.log('toggling...' + $scope.typeFilters.Comic);
+		// console.log('toggling...' + $scope.typeFilters.Movie);
+		// console.log('toggling...' + $scope.typeFilters.TV);
+		// console.log('toggling...' + $scope.typeFilters.Book);
+		// console.log('toggling...' + $scope.typeFilters.Comic);
 
 		$localstorage.setObject('typeFilters', {
     		Movie: $scope.typeFilters.Movie,

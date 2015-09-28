@@ -19,7 +19,7 @@ angular.module('starter.directives')
                   "direction": direction
                 },
                 function(msg) {
-                  console.log("success: " + msg)
+                  // console.log("success: " + msg)
                 },
                 function(msg) {
                   alert("error: " + msg)
@@ -31,7 +31,7 @@ angular.module('starter.directives')
                   "direction": direction
                 },
                 function(msg) {
-                  console.log("success: " + msg)
+                  // console.log("success: " + msg)
                 },
                 function(msg) {
                   alert("error: " + msg)
@@ -44,7 +44,7 @@ angular.module('starter.directives')
                    
                 },
                 function(msg) {
-                  console.log("success: " + msg)
+                  // console.log("success: " + msg)
                 },
                 function(msg) {
                   alert("error: " + msg)
@@ -58,7 +58,7 @@ angular.module('starter.directives')
                   "action"         : "open"
                 },
                 function(msg) {
-                  console.log("success: " + msg)
+                  // console.log("success: " + msg)
                 },
                 function(msg) {
                   alert("error: " + msg)
@@ -71,7 +71,7 @@ angular.module('starter.directives')
                   "direction": direction
                 },
                 function(msg) {
-                  console.log("success: " + msg)
+                  // console.log("success: " + msg)
                 },
                 function(msg) {
                   alert("error: " + msg)
@@ -84,7 +84,7 @@ angular.module('starter.directives')
                   "direction": direction
                 },
                 function(msg) {
-                  console.log("success: " + msg)
+                  // console.log("success: " + msg)
                 },
                 function(msg) {
                   alert("error: " + msg)

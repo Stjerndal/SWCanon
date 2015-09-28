@@ -29,7 +29,7 @@ angular.module('starter.controllers')
 
     //If locally saved typeFilters not found/or everything is hidden:
     if(!$scope.typeFilters || (!$scope.typeFilters.Movie && !$scope.typeFilters.TV && !$scope.typeFilters.Book && !$scope.typeFilters.Comic)) {
-      console.log("empty")
+      // console.log("empty")
       $scope.typeFilters.Movie = true;
       $scope.typeFilters.TV = true;
       $scope.typeFilters.Book = true;
@@ -73,16 +73,16 @@ angular.module('starter.controllers')
       //PUBLISH COMPILE
       // $ionicDeploy.setChannel("dev");
       
-      console.log('Ionic Deploy: Checking for updates');
+      // console.log('Ionic Deploy: Checking for updates');
       $ionicDeploy.check().then(function(hasUpdate) {
-        console.log('Ionic Deploy: Update available: ' + hasUpdate);
+        // console.log('Ionic Deploy: Update available: ' + hasUpdate);
         // showToast('Update available: ' + hasUpdate);
           $scope.$parent.updates.hasUpdate = hasUpdate;
           if($scope.$parent.updates.hasUpdate) {
             $scope.$parent.updates.num = 1;
           };
       }, function(err) {
-        console.error('Ionic Deploy: Unable to check for updates', err);
+        // console.error('Ionic Deploy: Unable to check for updates', err);
         // showToast('Unable to check for updates' + err);
         // var hasUpdate = true;
         // $scope.$parent.updates.hasUpdate = hasUpdate;
