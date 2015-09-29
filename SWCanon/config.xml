@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<widget id="se.stjerndal.swcanon" version="0.1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="se.stjerndal.swcanon" version="0.1.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
   <name>Canon: Star Wars</name>
-  <description>&#xD;
-        The Canon of Star Wars&#xD;
-    </description>
-  <author email="anden42@gmail.com" href="http://stjerndal.se">&#xD;
-      Andreas Stjerndal&#xD;
-    </author>
+  <description>The Canon of Star Wars</description>
+  <author email="anden42@gmail.com" href="http://stjerndal.se">Andreas Stjerndal</author>
   <content src="index.html"/>
   <access origin="*"/>
   <preference name="webviewbounce" value="false"/>

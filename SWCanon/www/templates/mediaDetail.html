@@ -20,11 +20,11 @@
 				    	<div class="specs">
 					    	<div><b>Timeline: </b>
 				    		{{item.canon_date_begin | abs}}
-				    		<span ng-if="(item.canon_date_begin > 0) && ((!item.canon_date_end) || (item.canon_date_end < 0))"> ABY</span>
+				    		<span ng-if="(item.canon_date_begin >= 0) && ((!item.canon_date_end) || (item.canon_date_end < 0))"> ABY</span>
     						<span ng-if="(item.canon_date_begin < 0) && ((!item.canon_date_end) || (item.canon_date_end > 0))"> BBY</span>
         					<span ng-if="item.canon_date_end"> - {{item.canon_date_end | abs}}</span>
     						<span ng-if="item.canon_date_end > 0"> ABY</span>
-    						<span ng-if="item.canon_date_end < 0"> BBY</span>
+    						<span ng-if="item.canon_date_end <= 0"> BBY</span>
         					</div>
         					<div ng-if="item.author"><b>Author: </b> {{item.author}}</div>
         					<div ng-if="item.director"><b>Director: </b> {{item.director}}</div>

@@ -48,7 +48,7 @@ angular.module('starter.controllers')
 	// Check Ionic Deploy for new code
 	$scope.checkForUpdates = function() {
 		//PUBLISH COMPILE
-      	//$ionicDeploy.setChannel("dev");
+      	// $ionicDeploy.setChannel("dev");
 
 		// console.log('Ionic Deploy: Checking for updates');
 	    $ionicDeploy.check().then(function(hasUpdate) {

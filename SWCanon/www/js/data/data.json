@@ -122,7 +122,7 @@
       "id": "shattered_empire",
       "title": "Shattered Empire",
       "release_date": "2015-09-09T19:02",
-      "canon_date_sort": 4.1,
+      "canon_date_sort": 4.3,
       "canon_date_begin": 4,
       "img_poster": "img/poster/shattered_empire_poster.jpg",
       "img_cover": "img/cover/shattered_empire_cover.jpg",
@@ -356,7 +356,8 @@
       "characters": [
         "leia_organa",
         "r2_d2",
-        "evaan_verlaine"
+        "evaan_verlaine",
+        "nien_nunb"
       ],
       "synopsis_short": "The rebel Princess leads her people against the Empire! The conclusion to Leia's most personal mission!",
       "synopsis_long": "Having proven themselves a formidable enemy to the Empire, the rebels are in more danger now than ever, leaving them with little time to celebrate their triumph, or lament their loss....",
@@ -400,7 +401,7 @@
       "id": "return_of_the_jedi",
       "title": "Episode VI - Return of the Jedi",
       "release_date": "1983-05-25T19:02",
-      "canon_date_sort": 4,
+      "canon_date_sort": 4.2,
       "canon_date_begin": 4,
       "img_poster": "img/poster/return_of_the_jedi_poster.jpg",
       "img_cover": "img/cover/return_of_the_jedi_cover.jpg",
@@ -431,7 +432,7 @@
       "id": "aftermath",
       "title": "Aftermath",
       "release_date": "2015-09-04T19:02",
-      "canon_date_sort": 4.3,
+      "canon_date_sort": 4.4,
       "canon_date_begin": 4,
       "img_poster": "img/poster/aftermath_poster.jpg",
       "img_cover": "img/cover/aftermath_cover.jpg",
@@ -651,6 +652,63 @@
         "Gary Whitta"
       ],
       "music_by": "John Williams"
+    },
+    {
+      "type": "Book",
+      "id": "the_weapon_of_a_jedi",
+      "title": "The Weapon of a Jedi",
+      "release_date": "2015-09-04T19:02",
+      "canon_date_sort": 0.45,
+      "canon_date_begin": 0,
+      "img_poster": "img/poster/the_weapon_of_a_jedi_poster.jpg",
+      "img_cover": "img/cover/the_weapon_of_a_jedi_cover.jpg",
+      "characters": [
+        "luke_skywalker",
+        "r2_d2",
+        "c_3po",
+        "sarco_plank",
+        "wedge_antilles"
+      ],
+      "synopsis_short": "Luke Skywalker returns for an all-new adventure in this thrilling upper middle grade novel.",
+      "synopsis_long": "Luke Skywalker returns for an all-new adventure in this thrilling upper middle grade novel. Set between Star Wars: A New Hope and Star Wars: The Empire Strikes Back, the story finds Luke Skywalker, C-3PO, and R2-D2 stranded on a mysterious planet, and explores Luke's first-ever duel with a lightsaber.\n\nHidden in the story are also clues and hints about the upcoming film Star Wars: The Force Awakens, making this a must-read for fans old and new!",
+      "author": "Jason Fry"
+    },
+    {
+      "type": "Book",
+      "id": "smugglers_run",
+      "title": "Smuggler's Run",
+      "release_date": "2015-09-04T19:02",
+      "canon_date_sort": 0.2,
+      "canon_date_begin": 0,
+      "img_poster": "img/poster/smugglers_run_poster.jpg",
+      "img_cover": "img/cover/smugglers_run_cover.jpg",
+      "characters": [
+        "han_solo",
+        "chewbacca",
+        "kallon_ematt"
+      ],
+      "synopsis_short": "Han Solo and Chewbacca the Wookiee team-up for an all-new adventure in this thrilling upper middle grade novel.",
+      "synopsis_long": "Han Solo and Chewbacca the Wookiee team-up for an all-new adventure in this thrilling upper middle grade novel. Set between Star Wars: A New Hope and Star Wars: The Empire Strikes Back, the story follows everyone's favorite pair of smugglers as they fly the Millennium Falcon on a top-secret mission for the Rebellion.\n\nHidden in the story are also hints and clues about the upcoming film, Star Wars: The Force Awakens, making this a must-read for fans old and new!",
+      "author": "Greg Rucka"
+    },
+    {
+      "type": "Book",
+      "id": "moving_target",
+      "title": "Moving Target",
+      "release_date": "2015-09-04T19:02",
+      "canon_date_sort": 4.1,
+      "canon_date_begin": 4,
+      "img_poster": "img/poster/moving_target_poster.jpg",
+      "img_cover": "img/cover/moving_target_cover.jpg",
+      "characters": [
+        "leia_organa",
+        "nien_nunb",
+        "c_3po",
+        "kallon_ematt"
+      ],
+      "synopsis_short": "Princess Leia returns for an all-new adventure in this thrilling upper middle grade novel.",
+      "synopsis_long": "Princess Leia returns for an all-new adventure in this thrilling upper middle grade novel. Set between Star Wars: The Empire Strikes Back and Star Wars: The Return of the Jedi, the story follows the warrior princess as she leads a ragtag group of rebels on a dangerous mission against the evil Galactic Empire.\n\n Hidden in the story are also hints and clues about the upcoming film Star Wars: The Force Awakens, making this a must-read for fans old and new!",
+      "author": "Cecil Castellucci"
     }
   ],
   "characters": [
@@ -661,6 +719,7 @@
       "media": [
         "a_new_hope",
         "heir_to_the_jedi",
+        "the_weapon_of_a_jedi",
         "star_wars_comic",
         "the_empire_strikes_back",
         "return_of_the_jedi",
@@ -674,6 +733,7 @@
       "img": "img/character/han_solo.jpg",
       "media": [
         "a_new_hope",
+        "smugglers_run",
         "star_wars_comic",
         "the_empire_strikes_back",
         "return_of_the_jedi",
@@ -704,6 +764,7 @@
       "media": [
         "revenge_of_the_sith",
         "a_new_hope",
+        "smugglers_run",
         "star_wars_comic",
         "chewbacca_comic",
         "the_empire_strikes_back",
@@ -739,8 +800,10 @@
         "attack_of_the_clones",
         "revenge_of_the_sith",
         "a_new_hope",
+        "the_weapon_of_a_jedi",
         "star_wars_comic",
         "the_empire_strikes_back",
+        "moving_target",
         "return_of_the_jedi",
         "shattered_empire",
         "c_3po_comic",
@@ -758,6 +821,7 @@
         "a_new_hope",
         "princess_leia_comic",
         "heir_to_the_jedi",
+        "the_weapon_of_a_jedi",
         "star_wars_comic",
         "the_empire_strikes_back",
         "return_of_the_jedi",
@@ -1187,6 +1251,34 @@
       "media": [
         "a_new_dawn",
         "aftermath"
+      ]
+    },
+    {
+      "id": "sarco_plank",
+      "name": "Sarco Plank",
+      "img": "img/character/sarco_plank.jpg",
+      "media": [
+        "the_weapon_of_a_jedi",
+        "the_force_awakens"
+      ]
+    },
+    {
+      "id": "kallon_ematt",
+      "name": "Kallon Ematt",
+      "img": "img/character/kallon_ematt.jpg",
+      "media": [
+        "smugglers_run",
+        "moving_target"
+      ]
+    },
+    {
+      "id": "nien_nunb",
+      "name": "Nien Nunb",
+      "img": "img/character/nien_nunb.jpg",
+      "media": [
+        "princess_leia_comic",
+        "moving_target",
+        "return_of_the_jedi"
       ]
     }
   ]
