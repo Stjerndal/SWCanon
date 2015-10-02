@@ -48,6 +48,7 @@ body{
 	background-position: center;
 }
 
+/* text */
 .media-list-item h2 {
 	font-size: 1em;
 }
@@ -88,6 +89,16 @@ body{
 .media-list-item .canon-date-col {
 	padding-right: 0px !important;
 	min-width: 20%;
+}
+
+@media screen and (max-width: 350px) {
+
+	/* text */
+	.big-list .media-list-item .canon-date{
+		font-size: 90%;
+		line-height: 90%;
+	}
+
 }
 
 @media screen and (min-width: 545px) {
