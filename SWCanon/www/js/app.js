@@ -45,7 +45,10 @@ angular.module('starter', ['ionic','ionic.service.core','ionic.service.analytics
     //This same effect can be achieved by passing in a 'slowdownfactor' of more than 1. The higher the number, the less pixels the old page slides out of view:
     window.plugins.nativepagetransitions.globalOptions.slowdownfactor = 6; //4
     // these are used for slide left/right only currently
-    window.plugins.nativepagetransitions.globalOptions.fixedPixelsTop = 43; //0
+    //Android:
+    //window.plugins.nativepagetransitions.globalOptions.fixedPixelsTop = 43; //0
+    //iOS
+    //window.plugins.nativepagetransitions.globalOptions.fixedPixelsTop = 85; //0
     window.plugins.nativepagetransitions.globalOptions.fixedPixelsBottom = 49; //0
   });
 
