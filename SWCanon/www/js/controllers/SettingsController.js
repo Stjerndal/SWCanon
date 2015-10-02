@@ -30,6 +30,10 @@ angular.module('starter.controllers')
 	$scope.doUpdate = function() {
 		//PUBLISH COMPILE
       	// $ionicDeploy.setChannel("dev");
+      	//iOS:
+      	$ionicDeploy.setChannel("prodios");
+      	//Android:
+      	//$ionicDeploy.setChannel("prodandroid");
 
 	    $ionicDeploy.update().then(function(res) {
 	      // console.log('Ionic Deploy: Update Success! ', res);
@@ -49,6 +53,10 @@ angular.module('starter.controllers')
 	$scope.checkForUpdates = function() {
 		//PUBLISH COMPILE
       	// $ionicDeploy.setChannel("dev");
+      	//iOS:
+      	$ionicDeploy.setChannel("prodios");
+      	//Android:
+      	//$ionicDeploy.setChannel("prodandroid");
 
 		// console.log('Ionic Deploy: Checking for updates');
 	    $ionicDeploy.check().then(function(hasUpdate) {

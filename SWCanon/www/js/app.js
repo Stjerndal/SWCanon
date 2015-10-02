@@ -8,7 +8,7 @@
 angular.module('starter', ['ionic','ionic.service.core','ionic.service.analytics','ionic.service.deploy', 'starter.controllers', 'starter.directives', 'starter.filters', 'ionic-toast', 'ionic.utils'])
 
 //Adless:
-.run(function($ionicPlatform/*, admobSvc*/, $localstorage, $ionicAnalytics) {
+.run(function($ionicPlatform/*, admobbSvc*/, $localstorage, $ionicAnalytics) {
 // .run(function($ionicPlatform, admobSvc, $localstorage, $ionicAnalytics) {
   $ionicPlatform.ready(function() {
 
@@ -21,6 +21,8 @@ angular.module('starter', ['ionic','ionic.service.core','ionic.service.analytics
     });
     $ionicAnalytics.setGlobalProperties({
       app_version_number: 'v0.1.1',
+      //platform: 'android',
+      platform: 'ios',
       day_of_week: (new Date()).getDay()
     });
 
@@ -37,7 +39,7 @@ angular.module('starter', ['ionic','ionic.service.core','ionic.service.analytics
     // "wait for deviceready" before configuring nativetransitions
     // Native transition configuration, override any default you want
     window.plugins.nativepagetransitions.globalOptions.duration = 500; //500
-    window.plugins.nativepagetransitions.globalOptions.iosdelay = 175; //350
+    window.plugins.nativepagetransitions.globalOptions.iosdelay = 125; //350
     window.plugins.nativepagetransitions.globalOptions.androiddelay = 225; //350
     window.plugins.nativepagetransitions.globalOptions.winphonedelay = 275; //350
     //This same effect can be achieved by passing in a 'slowdownfactor' of more than 1. The higher the number, the less pixels the old page slides out of view:
@@ -153,6 +155,7 @@ angular.module('starter', ['ionic','ionic.service.core','ionic.service.analytics
 
   $ionicConfigProvider.tabs.position('bottom'); // other values: top
 
+  //iOS remove:
   $ionicConfigProvider.scrolling.jsScrolling(false);
 
 // Web browser / adless remove:
