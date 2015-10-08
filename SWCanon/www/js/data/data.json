@@ -1150,7 +1150,7 @@
     {
       "id": "ciena_ree",
       "name": "Ciena Ree",
-      "img": "img/character/unknown.jpg",
+      "img": "img/character/ciena_ree.jpg",
       "media": [
         "lost_stars"
       ]
@@ -1158,7 +1158,7 @@
     {
       "id": "thane_kyrell",
       "name": "Thane Kyrell",
-      "img": "img/character/unknown.jpg",
+      "img": "img/character/thane_kyrell.jpg",
       "media": [
         "lost_stars"
       ]
