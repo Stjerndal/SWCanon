@@ -666,8 +666,7 @@
         "luke_skywalker",
         "r2_d2",
         "c_3po",
-        "sarco_plank",
-        "wedge_antilles"
+        "sarco_plank"
       ],
       "synopsis_short": "Luke Skywalker returns for an all-new adventure in this thrilling upper middle grade novel.",
       "synopsis_long": "Luke Skywalker returns for an all-new adventure in this thrilling upper middle grade novel. Set between Star Wars: A New Hope and Star Wars: The Empire Strikes Back, the story finds Luke Skywalker, C-3PO, and R2-D2 stranded on a mysterious planet, and explores Luke's first-ever duel with a lightsaber.\n\nHidden in the story are also clues and hints about the upcoming film Star Wars: The Force Awakens, making this a must-read for fans old and new!",
@@ -1132,7 +1131,6 @@
       "img": "img/character/wedge_antilles.jpg",
       "media": [
         "a_new_hope",
-        "the_weapon_of_a_jedi",
         "the_empire_strikes_back",
         "return_of_the_jedi",
         "aftermath"
