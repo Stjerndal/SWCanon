@@ -31,9 +31,9 @@ angular.module('starter.controllers')
 		//PUBLISH COMPILE
       	// $ionicDeploy.setChannel("dev");
       	//iOS:
-      	$ionicDeploy.setChannel("prodios");
+      	//$ionicDeploy.setChannel("prodios");
       	//Android:
-      	//$ionicDeploy.setChannel("prodandroid");
+      	$ionicDeploy.setChannel("prodandroid");
 
 	    $ionicDeploy.update().then(function(res) {
 	      // console.log('Ionic Deploy: Update Success! ', res);
@@ -54,9 +54,9 @@ angular.module('starter.controllers')
 		//PUBLISH COMPILE
       	// $ionicDeploy.setChannel("dev");
       	//iOS:
-      	$ionicDeploy.setChannel("prodios");
+      	//$ionicDeploy.setChannel("prodios");
       	//Android:
-      	//$ionicDeploy.setChannel("prodandroid");
+      	$ionicDeploy.setChannel("prodandroid");
 
 		// console.log('Ionic Deploy: Checking for updates');
 	    $ionicDeploy.check().then(function(hasUpdate) {

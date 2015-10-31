@@ -20,9 +20,9 @@ angular.module('starter', ['ionic','ionic.service.core','ionic.service.analytics
       dryRun: false
     });
     $ionicAnalytics.setGlobalProperties({
-      app_version_number: 'v0.1.1',
-      //platform: 'android',
-      platform: 'ios',
+      app_version_number: 'v0.1.2',
+      platform: 'android',
+      //platform: 'ios',
       day_of_week: (new Date()).getDay()
     });
 
