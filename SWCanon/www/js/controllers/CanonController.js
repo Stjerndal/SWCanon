@@ -71,11 +71,11 @@ angular.module('starter.controllers')
     // Check Ionic Deploy for new code
     $scope.checkForUpdates = function() {
       //PUBLISH COMPILE
-      // $ionicDeploy.setChannel("dev");
+      $ionicDeploy.setChannel("dev");
       //iOS:
       //$ionicDeploy.setChannel("prodios");
       //Android:
-      $ionicDeploy.setChannel("prodandroid");
+      //$ionicDeploy.setChannel("prodandroid");
       
       // console.log('Ionic Deploy: Checking for updates');
       $ionicDeploy.check().then(function(hasUpdate) {
