@@ -55,7 +55,7 @@
       "id": "the_force_awakens",
       "title": "Episode VII - The Force Awakens",
       "release_date": "2015-12-18T19:02",
-      "canon_date_sort": 34,
+      "canon_date_sort": 34.9,
       "canon_date_begin": 34,
       "img_poster": "img/poster/the_force_awakens_poster.jpg",
       "img_cover": "img/cover/the_force_awakens_cover.jpg",
@@ -708,6 +708,90 @@
       "synopsis_short": "Princess Leia returns for an all-new adventure in this thrilling upper middle grade novel.",
       "synopsis_long": "Princess Leia returns for an all-new adventure in this thrilling upper middle grade novel. Set between Star Wars: The Empire Strikes Back and Star Wars: The Return of the Jedi, the story follows the warrior princess as she leads a ragtag group of rebels on a dangerous mission against the evil Galactic Empire.\n\n Hidden in the story are also hints and clues about the upcoming film Star Wars: The Force Awakens, making this a must-read for fans old and new!",
       "author": "Cecil Castellucci"
+    },
+    {
+      "type": "Book",
+      "id": "before_the_awakening",
+      "title": "Before The Awakening",
+      "release_date": "2015-12-18T19:02",
+      "canon_date_sort": 34.8,
+      "canon_date_begin": 34,
+      "img_poster": "img/poster/before_the_awakening_poster.jpg",
+      "img_cover": "img/cover/before_the_awakening_cover.jpg",
+      "characters": [
+        "rey",
+        "finn",
+        "poe_dameron",
+        "bb_8"
+      ],
+      "synopsis_short": "An anthology book that focuses on the lives of Rey, Finn, and Poe before the events of the Star Wars: The Force Awakens.",
+      "synopsis_long": "An anthology book that focuses on the lives of Rey, Finn, and Poe before the events of the Star Wars: The Force Awakens. A companion piece to the “Journey to Star Wars: The Force Awakens” character novels.",
+      "author": "Greg Rucka"
+    },
+    {
+      "type": "Book",
+      "id": "aftermath_life_debt",
+      "title": "Aftermath: Life Dept",
+      "release_date": "2016-05-31T19:02",
+      "canon_date_sort": 5,
+      "canon_date_begin": 5,
+      "img_poster": "img/poster/aftermath_life_debt_poster.jpg",
+      "img_cover": "img/cover/space_cover.jpg",
+      "characters": [
+      ],
+      "synopsis_short": "It is the second book in The Aftermath Trilogy.",
+      "synopsis_long": "It is the second book in The Aftermath Trilogy. Written by Chuck Wendig.",
+      "author": "Chuck Wendig"
+    },
+    {
+      "type": "Book",
+      "id": "new_republic_bloodline",
+      "title": "New Republic: Bloodline",
+      "release_date": "2016-03-29T19:02",
+      "canon_date_sort": 28,
+      "canon_date_begin": 28,
+      "img_poster": "img/poster/new_republic_bloodline_poster.jpg",
+      "img_cover": "img/cover/space_cover.jpg",
+      "characters": [
+      ],
+      "synopsis_short": "From the New York Times bestselling author of Star Wars: Lost Stars comes a thrilling prequel to Star Wars: The Force Awakens.",
+      "synopsis_long": "From the New York Times bestselling author of Star Wars: Lost Stars comes a thrilling prequel to Star Wars: The Force Awakens, set roughly six years before the events of the film.",
+      "author": "Claudia Gray"
+    },
+    {
+      "type": "Book",
+      "id": "the_perfect_weapon",
+      "title": "The Perfect Weapon",
+      "release_date": "2015-11-24T19:02",
+      "canon_date_sort": 30,
+      "canon_date_begin": 30,
+      "img_poster": "img/poster/the_perfect_weapon_poster.jpg",
+      "img_cover": "img/cover/the_perfect_weapon_cover.jpg",
+      "characters": [
+        "bazine_netal"
+      ],
+      "synopsis_short": "An anonymous client has hired Bazine to track down an ex-stormtrooper and recover the mysterious package he’s safeguarding.",
+      "synopsis_long": "An anonymous client has hired Bazine to track down an ex-stormtrooper and recover the mysterious package he’s safeguarding. Payment for the mission promises to be astronomical, but the obstacles facing Bazine will prove to be formidable.\n\nAnd though her eager new sidekick has cyber skills crucial to the mission, only Bazine’s razor-sharp talents will mean the difference between success or failure—and life or death.",
+      "author": "Delilah S. Dawson"
+    },
+    {
+      "type": "Comic",
+      "id": "obi_wan_and_anakin",
+      "title": "Obi-Wan and Anakin",
+      "release_date": "2016-01-06T19:02",
+      "canon_date_sort": -29,
+      "canon_date_begin": -29,
+      "img_poster": "img/poster/obi_wan_and_anakin_poster.jpg",
+      "img_cover": "img/cover/obi_wan_and_anakin_cover.jpg",
+      "characters": [
+        "obi_wan_kenobi",
+        "darth_vader"
+      ],
+      "synopsis_short": "It's been a few years since Obi-Wan pledged to train the young 'chosen one,' but even as they have grown closer through training, it has been a difficult road.",
+      "synopsis_long": "It's been a few years since Obi-Wan pledged to train the young 'chosen one,' but even as they have grown closer through training, it has been a difficult road.\n\nNow, called to a remote planet for assistance, Master and Padawan may be pushed to the breaking point. The author bring us a tale of the Jedi at the height of their power.",
+      "writers": [
+        "Charles Soule"
+      ]
     }
   ],
   "characters": [
@@ -778,6 +862,7 @@
       "img": "img/character/darth_vader.jpg",
       "media": [
         "the_phantom_menace",
+        "obi_wan_and_anakin",
         "attack_of_the_clones",
         "the_clone_wars",
         "revenge_of_the_sith",
@@ -834,6 +919,7 @@
       "img": "img/character/obi_wan_kenobi.jpg",
       "media": [
         "the_phantom_menace",
+        "obi_wan_and_anakin",
         "attack_of_the_clones",
         "revenge_of_the_sith",
         "a_new_hope",
@@ -887,6 +973,7 @@
       "name": "Rey",
       "img": "img/character/rey.jpg",
       "media": [
+        "before_the_awakening",
         "the_force_awakens"
       ]
     },
@@ -895,6 +982,7 @@
       "name": "Finn",
       "img": "img/character/finn.jpg",
       "media": [
+        "before_the_awakening",
         "the_force_awakens"
       ]
     },
@@ -911,6 +999,7 @@
       "name": "Poe Dameron",
       "img": "img/character/poe_dameron.jpg",
       "media": [
+        "before_the_awakening",
         "the_force_awakens"
       ]
     },
@@ -1276,6 +1365,24 @@
         "princess_leia_comic",
         "moving_target",
         "return_of_the_jedi"
+      ]
+    },
+    {
+      "id": "bb_8",
+      "name": "BB-8",
+      "img": "img/character/bb_8.jpg",
+      "media": [
+        "before_the_awakening",
+        "the_force_awakens"
+      ]
+    },
+    {
+      "id": "bazine_netal",
+      "name": "Bazine Netal",
+      "img": "img/character/bazine_netal.jpg",
+      "media": [
+        "the_perfect_weapon",
+        "the_force_awakens"
       ]
     }
   ]
