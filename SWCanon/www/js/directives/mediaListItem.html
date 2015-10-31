@@ -17,8 +17,8 @@
     <div class="col no-padding"></div>
     <div class = "canon-date-col padding-left col">
       <div class="canon-date padding-top padding-bottom">
-        <h2 class="canon-date" ng-if="mediaItem.canon_date_begin >= 0">{{mediaItem.canon_date_begin}} ABY</h2>
-        <h2 class="canon-date" ng-if="mediaItem.canon_date_begin < 0">{{mediaItem.canon_date_begin | abs}} BBY</h2>
+        <h2 ng-if="mediaItem.canon_date_begin >= 0">{{mediaItem.canon_date_begin}} ABY</h2>
+        <h2 ng-if="mediaItem.canon_date_begin < 0">{{mediaItem.canon_date_begin | abs}} BBY</h2>
       </div>
     </div>
   </div>
